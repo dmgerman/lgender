@@ -8,7 +8,7 @@
 #+CATEGORY: 
 #+PROPERTY: header-args:sql             :engine postgresql  :exports both :cmdline csc370
 #+PROPERTY: header-args:sqlite          :db data/data-4.19.db  :colnames yes
-#+PROPERTY: header-args:C++             :results output :flags -std=c++14 -Wall --pedantic -Werror
+#+PROPERTY: header-args:C++             :results output :flags -std=c++14 -Wall --pedantic -Werror :exports both
 #+PROPERTY: header-args:R               :results output  :colnames yes
 #+OPTIONS: ^:nil
 
