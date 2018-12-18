@@ -1,0 +1,182 @@
+#+STARTUP: showall
+#+STARTUP: lognotestate
+#+TAGS: research(r) uvic(u) today(y) todo(t) cooking(c)
+#+SEQ_TODO: TODO(t) STARTED(s) DEFERRED(r) CANCELLED(c) | WAITING(w) DELEGATED(d) APPT(a) DONE(d) 
+#+DRAWERS: HIDDEN STATE
+#+ARCHIVE: %s_done::
+#+TITLE: 
+#+CATEGORY: 
+#+PROPERTY: header-args:sql             :engine postgresql  :exports both :cmdline csc370
+#+PROPERTY: header-args:sqlite          :db data/data-4.19.db  :colnames yes
+#+PROPERTY: header-args:C++             :results output :flags -std=c++14 -Wall --pedantic -Werror
+#+PROPERTY: header-args:R               :results output  :colnames yes
+#+OPTIONS: ^:nil
+
+* Intro
+
+These are the persons up to 4.19. 
+
+There are two files: emails and persons. 
+
+This is an example of the data (top 10 developers by commits authored)
+
+#+BEGIN_SRC sqlite
+select * from persons order by ncommitsaut desc limit 10 ;
+#+END_SRC
+
+#+RESULTS:
+| personid           | personname         | ncommitsaut | ncommitscom | ntokens | nlines | firstused           | lastused            | dateadded | gender |
+|--------------------+--------------------+-------------+-------------+---------+--------+---------------------+---------------------+-----------+--------|
+| linus torvalds     | Linus Torvalds     |       30234 |      100154 |  995338 | 224980 | 2002-02-04 17:40:40 | 2018-10-22 17:54:44 |           | male   |
+| david s. miller    | David S. Miller    |       14018 |       82430 |  538146 | 115927 | 2002-02-05 00:36:40 | 2018-10-20 22:25:01 |           | male   |
+| al viro            | Al Viro            |        8167 |        6354 |  287990 |  81892 | 2002-02-05 18:46:24 | 2018-10-17 07:23:26 |           | male   |
+| andrew morton      | Andrew Morton      |        7930 |           0 |  664892 | 123024 | 2002-02-17 16:44:37 | 2018-09-04 15:45:55 |           | male   |
+| mark brown         | Mark Brown         |        7212 |       23194 |  634591 | 150276 | 2006-02-01 16:00:01 | 2018-10-21 09:00:17 |           | male   |
+| greg kroah-hartman | Greg Kroah-Hartman |        7078 |       78350 |  318269 |  77716 | 2002-02-05 01:16:58 | 2018-10-21 23:37:37 |           | male   |
+| takashi iwai       | Takashi Iwai       |        6620 |       10286 |  388630 | 101765 | 2002-06-13 19:45:04 | 2018-10-03 22:50:48 |           | male   |
+| russell king       | Russell King       |        6215 |       11535 |  364218 |  90095 | 2002-02-20 03:25:45 | 2018-09-20 09:13:23 |           | male   |
+| arnd bergmann      | Arnd Bergmann      |        6105 |        4012 |  120065 |  34409 | 2002-06-19 23:41:41 | 2018-10-11 04:06:17 |           | male   |
+| h hartley sweeten  | H Hartley Sweeten  |        6045 |           0 |  225375 |  58377 | 2008-09-05 09:14:35 | 2017-09-03 10:43:47 |           | male   |
+
+
+The names of the fields are straightforward:
+
+
+| personid    | unique id of the person, referenced in emails    |
+| personname  | name of the person                               |
+| ncommitsaut | number of commits authored                       |
+| ncommitscom | number of commits committed                      |
+| ntokens     | number of tokens inserted by this person (blame) |
+| nlines      | number of lines inserted by this person (blame)  |
+| firstused   | time this person was first seen                  |
+| lastused    | time this person was last seen                   |
+| dateadded   | this is internal use (when I add the field)      |
+| gender      | gender                                           |
+
+The counts are a summary from the email counts.
+
+
+Here is an example of reading the data using R from the database (it is easier than using CSV):
+
+data$emailname = as.factor(data$emailname)
+data$emailaddr = as.factor(data$emailaddr)
+data$domain = as.factor(data$domain)
+
+#+BEGIN_SRC R R  
+library("RSQLite")
+# connect to the sqlite file
+
+con = dbConnect(SQLite(), dbname='data/data-4.19.db')
+# get a list of all tables
+# Run query to get results as dataframe
+data = dbGetQuery(con, "select * from persons;")
+data$personid = as.factor(data$personid)
+data$personname = as.factor(data$personname)
+data$firstused = as.Date(data$firstused)
+data$lastused = as.Date(data$lastused)
+data$dateadded = as.Date(data$dateadded)
+summary(data)
+#+end_src
+
+#+RESULTS:
+#+begin_example
+                  personid                  personname     ncommitsaut     ncommitscom        ntokens            nlines          firstused         
+                      :    1    CV Dong          :    1   Min.   :    0   Min.   :     0   Min.   :      0   Min.   :      0   Min.   :1969-12-31  
+ ?                    :    1    Yoshihito Takada :    1   1st Qu.:    1   1st Qu.:     0   1st Qu.:      4   1st Qu.:      1   1st Qu.:2008-04-22  
+ 050035w at acadiau.ca:    1   ?                 :    1   Median :    3   Median :     0   Median :     58   Median :     18   Median :2012-03-14  
+ a e lawrence         :    1   “Cosmin           :    1   Mean   :   48   Mean   :    48   Mean   :   5570   Mean   :   1313   Mean   :2011-10-01  
+ a fong               :    1   050035w@acadiau.ca:    1   3rd Qu.:   12   3rd Qu.:     0   3rd Qu.:   1029   3rd Qu.:    266   3rd Qu.:2015-07-14  
+ a gilmore            :    1   A E Lawrence      :    1   Max.   :30234   Max.   :100154   Max.   :4578656   Max.   :1178457   Max.   :2018-10-17  
+ (Other)              :17562   (Other)           :17562   NA's   :6       NA's   :6        NA's   :6         NA's   :6         NA's   :7           
+    lastused            dateadded             gender         
+ Min.   :2002-02-12   Min.   :2018-10-23   Length:17568      
+ 1st Qu.:2010-07-15   1st Qu.:2018-10-23   Class :character  
+ Median :2014-09-29   Median :2018-10-23   Mode  :character  
+ Mean   :2013-09-17   Mean   :2018-10-23                     
+ 3rd Qu.:2017-07-13   3rd Qu.:2018-10-23                     
+ Max.   :2037-04-25   Max.   :2018-10-23                     
+ NA's   :7            NA's   :17306                          
+#+end_example
+
+*  Emails
+
+This is an example of the data (top 10 email addresses by commits authored)
+
+#+BEGIN_SRC sqlite
+select * from emails order by ncommitsaut desc limit 10 ;
+#+END_SRC
+
+#+RESULTS:
+| recordid | personid          | emailname         | emailaddr                           | domain                      | ncommitsaut | ncommitscom | ntokens | nlines | firstused           | lastused            |  dateadded |
+|----------+-------------------+-------------------+-------------------------------------+-----------------------------+-------------+-------------+---------+--------+---------------------+---------------------+------------|
+|    13877 | linus torvalds    | Linus Torvalds    | torvalds@linux-foundation.org       | linux-foundation.org        |       22390 |       49843 |   28400 |   9853 | 2007-06-18 09:34:40 | 2018-10-22 17:54:44 | 2018-08-19 |
+|     5785 | david s. miller   | David S. Miller   | davem@davemloft.net                 | davemloft.net               |        9570 |       71491 |  249991 |  54820 | 2004-09-16 09:13:40 | 2018-10-20 22:25:01 | 2018-08-19 |
+|    22827 | takashi iwai      | Takashi Iwai      | tiwai@suse.de                       | suse.de                     |        6608 |       10286 |  387296 | 101411 | 2002-06-13 19:45:04 | 2018-10-03 22:50:48 | 2018-08-19 |
+|     2370 | arnd bergmann     | Arnd Bergmann     | arnd@arndb.de                       | arndb.de                    |        6045 |        3895 |  115338 |  33314 | 2003-03-05 06:07:18 | 2018-10-11 04:06:17 | 2018-08-19 |
+|     1691 | andrew morton     | Andrew Morton     | akpm@osdl.org                       | osdl.org                    |        5103 |           0 |  601008 | 107075 | 2003-07-02 08:47:23 | 2008-01-30 14:27:57 | 2018-08-19 |
+|      419 | al viro           | Al Viro           | viro@zeniv.linux.org.uk             | zeniv.linux.org.uk          |        5016 |        6354 |  190073 |  51772 | 2005-09-02 12:18:03 | 2018-10-17 07:23:26 | 2018-08-19 |
+|    23131 | thomas gleixner   | Thomas Gleixner   | tglx@linutronix.de                  | linutronix.de               |        4200 |        6614 |  137536 |  44225 | 2004-10-20 16:55:08 | 2018-10-14 02:11:23 | 2018-08-19 |
+|     8600 | h hartley sweeten | H Hartley Sweeten | hsweeten@visionengravers.com        | visionengravers.com         |        4196 |           0 |  156494 |  45869 | 2009-03-31 15:23:48 | 2017-09-03 10:43:47 | 2018-08-19 |
+|     4312 | chris wilson      | Chris Wilson      | chris@chris-wilson.co.uk            | chris-wilson.co.uk          |        4010 |        3249 |  227031 |  58563 | 2009-01-30 13:10:22 | 2018-10-03 01:24:22 | 2018-08-19 |
+|    14878 | mark brown        | Mark Brown        | broonie@opensource.wolfsonmicro.com | opensource.wolfsonmicro.com |        3948 |        7462 |  574381 | 134975 | 2008-01-10 05:33:07 | 2013-11-19 08:04:01 | 2018-08-19 |
+
+The schema of the data is:
+
+| recordid    | unique, ignore                                                                                                                     |
+| personid    | unique id of the person, referenced in emails                                                                                      |
+| personname  | name of the person (it is a foreign key to the persons table)                                                                      |
+| emailname   | name used in the email address                                                                                                     |
+| emailaddr   | address used by the person                                                                                                         |
+| domain      | extracted domain from the email address                                                                                            |
+| ncommitsaut | the rest have the same meaning as in the table persons (the data in the persons table is an aggregate of these fields by personid) |
+| ncommitscom |                                                                                                                                    |
+| ntokens     |                                                                                                                                    |
+| nlines      |                                                                                                                                    |
+| firstused   |                                                                                                                                    |
+| lastused    |                                                                                                                                    |
+| dateadded   |                                                                                                                                    |
+
+
+here is how to extract the data with R:
+
+#+BEGIN_SRC R R  
+library("RSQLite")
+# connect to the sqlite file
+
+con = dbConnect(SQLite(), dbname='data/data-4.19.db')
+# get a list of all tables
+# Run query to get results as dataframe
+data = dbGetQuery(con, "select * from emails;")
+data$personid = as.factor(data$personid)
+data$emailname = as.factor(data$emailname)
+data$emailaddr = as.factor(data$emailaddr)
+data$domain = as.factor(data$domain)
+data$firstused = as.Date(data$firstused)
+data$lastused = as.Date(data$lastused)
+data$dateadded = as.Date(data$dateadded)
+summary(data)
+#+end_src
+
+#+RESULTS:
+#+begin_example
+    recordid                   personid               emailname                          emailaddr                    domain       ncommitsaut   
+ Min.   :    2   james bottomley   :   34   David S. Miller:   29   fernando@oss.ntt.co.jp    :    9   gmail.com         : 4784   Min.   :    0  
+ 1st Qu.: 6722   david s. miller   :   32   Steve French   :   28   daniel.marjamaki@comhem.se:    8   intel.com         : 1351   1st Qu.:    1  
+ Median :13441   steve french      :   30   James Bottomley:   27   juha.yrjola@solidboot.com :    7   redhat.com        :  514   Median :    2  
+ Mean   :13441   linus torvalds    :   22                  :   22   lorenzo@gnu.org           :    7   ti.com            :  376   Mean   :   32  
+ 3rd Qu.:20160   christoph hellwig :   20   Linus Torvalds :   22   rafalbilski@interia.pl    :    7   google.com        :  351   3rd Qu.:    9  
+ Max.   :26880   greg kroah-hartman:   20   Kyle McMartin  :   18   dmonakhov@openvz.org      :    6   linux.vnet.ibm.com:  317   Max.   :22390  
+                 (Other)           :26721   (Other)        :26733   (Other)                   :26835   (Other)           :19186                  
+  ncommitscom       ntokens            nlines          firstused             lastused            dateadded         
+ Min.   :    0   Min.   :      0   Min.   :      0   Min.   :1969-12-31   Min.   :2000-12-31   Min.   :2018-08-19  
+ 1st Qu.:    0   1st Qu.:      2   1st Qu.:      1   1st Qu.:2008-03-21   1st Qu.:2009-06-09   1st Qu.:2018-08-19  
+ Median :    0   Median :     41   Median :     13   Median :2012-02-02   Median :2013-08-14   Median :2018-08-19  
+ Mean   :   32   Mean   :   3640   Mean   :    858   Mean   :2011-09-17   Mean   :2012-11-21   Mean   :2018-08-19  
+ 3rd Qu.:    0   3rd Qu.:    665   3rd Qu.:    174   3rd Qu.:2015-07-08   3rd Qu.:2016-11-30   3rd Qu.:2018-08-19  
+ Max.   :71491   Max.   :4473927   Max.   :1152332   Max.   :2018-10-18   Max.   :2037-04-25   Max.   :2018-10-23  
+                                                     NA's   :105          NA's   :105                              
+#+end_example
+
+
+#+END_SRC
+
