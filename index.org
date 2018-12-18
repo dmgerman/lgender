@@ -179,5 +179,3 @@ summary(data)
 
 
 #+END_SRC
-
-something else after fixes the bug?
