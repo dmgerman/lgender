@@ -139,7 +139,7 @@ The schema of the data is:
 
 here is how to extract the data with R:
 
-#+BEGIN_SRC R R  
+#+BEGIN_SRC R R   :exports both
 library("RSQLite")
 # connect to the sqlite file
 
