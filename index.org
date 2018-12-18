@@ -193,3 +193,63 @@ select gender, count(*) as npersons, sum(ncommitsaut) as ncommitsaut, sum(ntoken
 |--------+----------+-------------+----------+----------|
 | female |     1011 |       27891 |  2992186 |   731596 |
 | male   |    16557 |      820926 | 94835521 | 22327928 |
+
+top 20 committers who are female (you might know Julia). MMm, some names might be male :(
+
+#+BEGIN_SRC sqlite
+select * from persons where gender = 'female' order by ncommitsaut desc limit 20;
+#+END_SRC
+
+#+RESULTS:
+| personid        | personname         | ncommitsaut | ncommitscom | ntokens | nlines | firstused           | lastused            | dateadded | gender |
+|-----------------+--------------------+-------------+-------------+---------+--------+---------------------+---------------------+-----------+--------|
+| julia lawall    | Julia Lawall       |        2137 |           0 |    9795 |   5117 | 2007-11-14 00:15:16 | 2018-08-03 09:32:11 |           | female |
+| aneesh kumar    | Aneesh Kumar K.V   |         806 |           0 |   74155 |  18545 | 2004-07-10 19:34:53 | 2018-09-04 15:45:59 |           | female |
+| li zefan        | Li Zefan           |         786 |          44 |   23846 |   6538 | 2007-10-18 05:12:21 | 2017-04-18 19:15:59 |           | female |
+| sage weil       | Sage Weil          |         719 |        1271 |   97236 |  19407 | 2008-05-02 11:43:14 | 2015-07-09 08:47:37 |           | female |
+| vivien didelot  | Vivien Didelot     |         573 |           0 |   44020 |  11279 | 2011-03-21 09:59:35 | 2018-05-11 14:16:36 |           | female |
+| bhumika goyal   | Bhumika Goyal      |         513 |           0 |    2535 |   1665 | 2015-12-21 10:41:11 | 2017-11-06 05:15:40 |           | female |
+| lucien xin      | Xin Long           |         436 |           0 |   39406 |  10034 | 2014-03-03 04:18:36 | 2018-10-17 06:11:27 |           | female |
+| shuah khan      | Shuah Khan         |         427 |         505 |   13425 |   3792 | 2012-01-27 10:40:10 | 2018-10-05 15:17:44 |           | female |
+| liu bo          | Liu Bo             |         419 |           0 |   19746 |   5336 | 2011-01-06 03:30:25 | 2018-08-20 14:21:15 |           | female |
+| sarah sharp     | Sarah Sharp        |         388 |         512 |   41084 |  10021 | 2006-11-18 22:30:16 | 2014-05-08 09:25:59 |           | female |
+| lai jiangshan   | Lai Jiangshan      |         384 |           0 |    7181 |   2150 | 2008-03-26 04:01:28 | 2018-03-20 02:24:32 |           | female |
+| ming lei        | Ming Lei           |         363 |           0 |   16923 |   4640 | 2011-03-01 23:00:08 | 2018-10-12 00:53:10 |           | female |
+| miao xie        | Miao Xie           |         344 |          10 |   33662 |   7722 | 2007-08-10 13:01:09 | 2017-08-05 22:00:49 |           | female |
+| cornelia huck   | Cornelia Huck      |         334 |          64 |   29582 |   7151 | 2004-08-07 00:55:13 | 2018-10-02 00:45:05 |           | female |
+| mika kuoppala   | Mika Kuoppala      |         310 |         183 |   14553 |   3735 | 2009-12-06 08:06:22 | 2018-07-30 05:06:36 |           | female |
+| hante meuleman  | Hante Meuleman     |         303 |           0 |   59307 |  12640 | 2012-08-30 01:05:35 | 2016-09-19 04:09:59 |           | female |
+| sara sharon     | Sara Sharon        |         290 |           0 |   35569 |   9245 | 2015-03-31 02:24:05 | 2018-08-28 23:57:02 |           | female |
+| yi zhu          | Yi Zhu             |         282 |           0 |   25362 |   5654 | 2004-10-27 18:21:34 | 2010-06-09 18:44:29 |           | female |
+| kim milo        | Kim (Woogyom) Milo |         255 |           0 |   43873 |  10997 | 2011-09-07 01:56:14 | 2017-02-27 23:50:41 |           | female |
+| himangi saraogi | Himangi Saraogi    |         242 |           0 |    2125 |    919 | 2013-10-23 13:40:11 | 2014-10-13 15:53:18 |           | female |
+
+top 10 contributors to tokens who are female:
+
+#+BEGIN_SRC sqlite
+select * from persons where gender = 'female' order by ntokens desc limit 20;
+#+END_SRC
+
+#+RESULTS:
+| personid            | personname          | ncommitsaut | ncommitscom | ntokens | nlines | firstused           | lastused            | dateadded | gender |
+|---------------------+---------------------+-------------+-------------+---------+--------+---------------------+---------------------+-----------+--------|
+| feifei xu           | Feifei Xu           |          77 |           0 |  201247 |  64796 | 2016-06-01 04:18:23 | 2018-07-16 23:54:23 |           | female |
+| sage weil           | Sage Weil           |         719 |        1271 |   97236 |  19407 | 2008-05-02 11:43:14 | 2015-07-09 08:47:37 |           | female |
+| moni shoua          | Moni Shoua          |         107 |           0 |   76484 |  15525 | 2007-07-23 00:07:42 | 2018-02-25 03:39:54 |           | female |
+| aneesh kumar        | Aneesh Kumar K.V    |         806 |           0 |   74155 |  18545 | 2004-07-10 19:34:53 | 2018-09-04 15:45:59 |           | female |
+| li yang             | Li Yang             |         122 |          32 |   70127 |  15420 | 2006-07-14 04:58:14 | 2018-10-01 15:47:43 |           | female |
+| hante meuleman      | Hante Meuleman      |         303 |           0 |   59307 |  12640 | 2012-08-30 01:05:35 | 2016-09-19 04:09:59 |           | female |
+| jing huang          | Jing Huang          |          54 |           0 |   51347 |  12315 | 2009-09-23 17:46:15 | 2012-04-03 22:44:31 |           | female |
+| sri deevi           | Sri Deevi           |           9 |           0 |   44298 |   8033 | 2008-06-21 07:06:44 | 2009-03-21 18:00:20 |           | female |
+| vivien didelot      | Vivien Didelot      |         573 |           0 |   44020 |  11279 | 2011-03-21 09:59:35 | 2018-05-11 14:16:36 |           | female |
+| kim milo            | Kim (Woogyom) Milo  |         255 |           0 |   43873 |  10997 | 2011-09-07 01:56:14 | 2017-02-27 23:50:41 |           | female |
+| lijun ou            | Lijun Ou            |         117 |           0 |   43592 |  10137 | 2016-07-21 04:06:37 | 2018-07-30 05:20:30 |           | female |
+| ursula braun        | Ursula Braun        |         211 |           0 |   42289 |   8361 | 2008-07-18 06:24:58 | 2018-07-23 04:53:12 |           | female |
+| sarah sharp         | Sarah Sharp         |         388 |         512 |   41084 |  10021 | 2006-11-18 22:30:16 | 2014-05-08 09:25:59 |           | female |
+| sathya perla        | Sathya Perla        |         229 |           0 |   40437 |   9133 | 2008-11-10 21:27:37 | 2018-01-17 00:21:16 |           | female |
+| lucien xin          | Xin Long            |         436 |           0 |   39406 |  10034 | 2014-03-03 04:18:36 | 2018-10-17 06:11:27 |           | female |
+| tiffany lin         | Tiffany Lin         |          33 |           0 |   39402 |   9596 | 2015-09-24 02:02:36 | 2017-07-19 02:22:52 |           | female |
+| elaine zhang        | Elaine Zhang        |          95 |           0 |   38081 |   5835 | 2016-01-11 02:36:38 | 2018-06-14 19:16:51 |           | female |
+| sara sharon         | Sara Sharon         |         290 |           0 |   35569 |   9245 | 2015-03-31 02:24:05 | 2018-08-28 23:57:02 |           | female |
+| anjali singhai jain | Anjali Singhai Jain |         180 |           0 |   34421 |   7975 | 2010-04-27 04:31:25 | 2017-09-01 13:42:49 |           | female |
+| miao xie            | Miao Xie            |         344 |          10 |   33662 |   7722 | 2007-08-10 13:01:09 | 2017-08-05 22:00:49 |           | female |
