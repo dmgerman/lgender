@@ -179,3 +179,17 @@ summary(data)
 
 
 #+END_SRC
+
+* Some examples of queries
+
+Summaries by gender:
+
+#+BEGIN_SRC sqlite
+select gender, count(*) as npersons, sum(ncommitsaut) as ncommitsaut, sum(ntokens) as ntokens, sum(nlines) as nlines from persons group by gender;
+#+END_SRC
+
+#+RESULTS:
+| gender | npersons | ncommitsaut |  ntokens |   nlines |
+|--------+----------+-------------+----------+----------|
+| female |     1011 |       27891 |  2992186 |   731596 |
+| male   |    16557 |      820926 | 94835521 | 22327928 |
