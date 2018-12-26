@@ -654,10 +654,10 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 654,"alex frid","Alex Frid",afrid@nvidia.com,nvidia.com,10,0,157,57,"2012-01-29 11:39:25","2017-07-25 03:34:15",2018-08-19
 655,"alex gal","Alex Gal",a.gal@motsai.com,motsai.com,1,0,48,10,"2014-01-10 12:21:13","2014-01-10 12:21:13",2018-08-19
 656,"alex gartrell","Alex Gartrell",agartrell@fb.com,fb.com,34,0,3266,801,"2014-05-20 13:07:56","2015-09-14 23:23:05",2018-08-19
-657,"alex gershgorin",Alex,alex.g@adaptrum.com,adaptrum.com,2,0,112,34,"2016-11-16 01:02:33","2016-12-06 10:56:51",2018-08-19
+657,"alexandru gagniuc",Alex,alex.g@adaptrum.com,adaptrum.com,2,0,112,34,"2016-11-16 01:02:33","2016-12-06 10:56:51",2018-08-19
 658,"alex gershgorin",Alex,alexg@meprolight.com,meprolight.com,1,0,0,0,"2012-03-05 11:08:35","2012-03-05 11:08:35",2018-08-19
 659,"alex gershgorin","Alex Gershgorin",alexg@meprolight.com,meprolight.com,6,0,1008,219,"2012-03-13 08:05:29","2012-09-01 23:27:20",2018-08-19
-660,"alex gershgorin","Alexandru Gagniuc",alex.g@adaptrum.com,adaptrum.com,3,0,636,152,"2017-08-04 12:58:33","2017-08-04 13:08:52",2018-08-19
+660,"alexandru gagniuc","Alexandru Gagniuc",alex.g@adaptrum.com,adaptrum.com,3,0,636,152,"2017-08-04 12:58:33","2017-08-04 13:08:52",2018-08-19
 661,"alex goins","Alex Goins",agoins@nvidia.com,nvidia.com,2,0,3,1,"2015-11-25 18:43:38","2015-11-25 18:43:39",2018-08-19
 662,"alex grad","Alex Grad",alex.grad@gmail.com,gmail.com,1,0,0,0,"2013-03-09 19:06:19","2013-03-09 19:06:19",2018-08-19
 663,"alex hacker","Alex Hacker",hacker@epn.ru,epn.ru,3,0,9,2,"2011-08-03 04:41:54","2011-08-16 03:41:40",2018-08-19
@@ -811,8 +811,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 811,"alexander levin","Levin, Alexander (Sasha Levin)",alexander.levin@verizon.com,verizon.com,14,0,1215,395,"2017-05-25 05:58:42","2017-11-15 17:36:02",2018-08-19
 812,"alexander levin","Levin, Alexander",alexander.levin@verizon.com,verizon.com,1,0,0,0,"2017-07-17 21:23:16","2017-07-17 21:23:16",2018-08-19
 813,"alexander levin","Alexander Levin",alexander.levin@verizon.com,verizon.com,2,0,25,8,"2017-04-10 11:46:51","2017-06-02 20:39:13",2018-08-19
-814,"alexander lyakas","Alex Lyakas",alex.bolshoy@gmail.com,gmail.com,2,0,28,17,"2016-03-10 03:09:46","2016-03-10 03:10:15",2018-08-19
-815,"alexander lyakas","Alexander Lyakas",alex.bolshoy@gmail.com,gmail.com,2,0,94,21,"2012-07-17 03:17:55","2012-10-10 19:50:12",2018-08-19
+814,"alex lyakas","Alex Lyakas",alex.bolshoy@gmail.com,gmail.com,2,0,28,17,"2016-03-10 03:09:46","2016-03-10 03:10:15",2018-08-19
+815,"alex lyakas","Alexander Lyakas",alex.bolshoy@gmail.com,gmail.com,2,0,94,21,"2012-07-17 03:17:55","2012-10-10 19:50:12",2018-08-19
 816,"alexander malysh","Alexander Malysh",amalysh@web.de,web.de,2,0,137,27,"2003-10-10 00:11:04","2004-08-02 02:10:33",2018-08-19
 817,"alexander mazyrin","Alexander Mazyrin",algoritmist1618@gmail.com,gmail.com,1,0,0,0,"2017-05-13 09:48:35","2017-05-13 09:48:35",2018-08-19
 818,"alexander mezin","Alexander Mezin",mezin.alexander@gmail.com,gmail.com,6,0,201,54,"2014-01-03 18:07:59","2014-06-03 12:01:23",2018-08-19
@@ -908,8 +908,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 908,"alexandre becholey","Alexandre Becholey",alexandre.becholey@epfl.ch,epfl.ch,1,0,0,0,"2009-05-19 08:52:56","2009-05-19 08:52:56",2018-08-19
 909,"alexandre belloni","Alexandre Belloni",alexandre.belloni@bootlin.com,bootlin.com,215,281,32232,7381,"2018-02-06 14:05:34","2018-09-12 03:38:04",2018-08-19
 910,"alexandre belloni","Alexandre Belloni",alexandre.belloni@free-electrons.com,free-electrons.com,701,1011,30688,7241,"2013-03-28 15:04:00","2018-01-19 00:59:32",2018-08-19
-911,"alexandre bounine","Alexandre Bounine",Alexandre.Bounine@tundra.com,tundra.com,1,0,184,36,"2007-02-10 01:46:47","2007-02-10 01:46:47",2018-08-19
-912,"alexandre bounine","Alexandre Bounine",alexandre.bounine@idt.com,idt.com,138,0,65376,15584,"2010-05-26 14:43:57","2016-10-11 13:53:49",2018-08-19
+911,"alex bounine","Alexandre Bounine",Alexandre.Bounine@tundra.com,tundra.com,1,0,184,36,"2007-02-10 01:46:47","2007-02-10 01:46:47",2018-08-19
+912,"alex bounine","Alexandre Bounine",alexandre.bounine@idt.com,idt.com,138,0,65376,15584,"2010-05-26 14:43:57","2016-10-11 13:53:49",2018-08-19
 913,"alexandre cassen","Alexandre Cassen",acassen@freebox.fr,freebox.fr,1,0,0,0,"2009-10-07 14:50:30","2009-10-07 14:50:30",2018-08-19
 914,"alexandre courbot","Alexandre Courbot",acourbot@chromium.org,chromium.org,7,0,105,24,"2017-04-24 23:19:43","2018-06-04 21:50:46",2018-08-19
 915,"alexandre courbot","Alexandre Courbot",acourbot@nvidia.com,nvidia.com,401,19,50291,13222,"2012-06-28 21:57:58","2017-03-30 02:28:28",2018-08-19
@@ -1077,8 +1077,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 1077,"allan w. nielsen","Allan W. Nielsen",allan.nielsen@microsemi.com,microsemi.com,1,0,209,61,"2016-10-12 06:47:51","2016-10-12 06:47:51",2018-08-19
 1078,"allan willcox","Allan Willcox",allanwillcox@ozemail.com.au,ozemail.com.au,1,0,1724,723,"2009-02-18 15:27:06","2009-02-18 15:27:06",2018-08-19
 1079,"allen andrews","Allen Andrews",allen.andrews@emulex.com,emulex.com,1,0,8,2,"2014-05-28 07:32:09","2014-05-28 07:32:09",2018-08-19
-1080,"allen at <allen.lkml@gmail.com>",Allen,allen.lkml@gmail.com,gmail.com,5,0,17,1,"2017-09-13 00:32:11","2017-09-22 05:07:26",2018-08-19
-1081,"allen at <allen.lkml@gmail.com>","Allen Pais",allen.lkml@gmail.com,gmail.com,104,0,393,22,"2017-09-13 00:32:12","2018-06-12 04:48:25",2018-08-19
+1080,"allen pais",Allen,allen.lkml@gmail.com,gmail.com,5,0,17,1,"2017-09-13 00:32:11","2017-09-22 05:07:26",2018-08-19
+1081,"allen pais","Allen Pais",allen.lkml@gmail.com,gmail.com,104,0,393,22,"2017-09-13 00:32:12","2018-06-12 04:48:25",2018-08-19
 1082,"allen curtis","Allen Curtis",acurtis@onz.com,onz.com,2,0,0,0,"2003-03-23 15:19:28","2003-03-23 19:03:14",2018-08-19
 1083,"allen hubbe","Allen Hubbe",Allen.Hubbe@dell.com,dell.com,5,0,5,8,"2016-12-27 14:57:04","2017-12-12 18:27:52",2018-08-19
 1084,"allen hubbe","Allen Hubbe",Allen.Hubbe@emc.com,emc.com,28,1,11593,3395,"2015-04-09 07:33:20","2016-07-22 06:38:23",2018-08-19
@@ -1682,7 +1682,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 1682,"andrew mcnabb","Andrew McNabb",amcnabb@mcnabbs.org,mcnabbs.org,1,0,140,37,"2007-10-10 21:49:43","2007-10-10 21:49:43",2018-08-19
 1683,"andrew milkovich","Andrew Milkovich",amilkovich@gmail.com,gmail.com,2,0,38,10,"2015-01-18 10:41:30","2015-08-14 09:43:56",2018-08-19
 1684,"andrew miller","Andrew Miller",amiller@amilx.com,amilx.com,19,0,0,3,"2012-02-29 14:10:08","2012-03-16 15:47:40",2018-08-19
-1685,"andrew morgan","Andrew Morgan",andrew@nagrom.org,nagrom.org,1,0,0,0,"2008-02-04 22:29:43","2008-02-04 22:29:43",2018-08-19
+1685,"andrew g. morgan","Andrew Morgan",andrew@nagrom.org,nagrom.org,1,0,0,0,"2008-02-04 22:29:43","2008-02-04 22:29:43",2018-08-19
 1686,"andrew morton","Andrew Morton",akm@osdl.org,osdl.org,1,0,0,0,"2004-06-20 19:32:44","2004-06-20 19:32:44",2018-08-19
 1687,"andrew morton","Andrew Morton",akpm@digeo.com,digeo.com,1512,0,34904,7886,"2002-09-07 22:21:35","2003-06-28 00:11:05",2018-08-19
 1688,"andrew morton","Andrew Morton",akpm@google.com,google.com,1,0,0,0,"2011-10-31 21:53:33","2011-10-31 21:53:33",2018-08-19
@@ -2282,7 +2282,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 2282,"arik nemtsov","Arik Nemtsov",arikx.nemtsov@intel.com,intel.com,3,0,75,17,"2014-06-10 01:25:35","2014-12-27 23:23:16",2018-08-19
 2283,"arika chen","Arika Chen",arika.chen@huawei.com,huawei.com,1,0,0,0,"2016-04-06 21:02:11","2016-04-06 21:02:11",2018-08-19
 2284,"arindam nath","Arindam Nath",arindam.nath@amd.com,amd.com,26,0,3062,664,"2011-05-04 23:48:57","2018-09-18 03:10:58",2018-08-19
-2285,"aristeu rozanski","Aristeu Rozanski",arozansk@redhat.com,redhat.com,21,0,1660,343,"2007-05-09 22:47:18","2016-10-27 17:46:35",2018-08-19
+2285,"aristeu sergio rozanski filho","Aristeu Rozanski",arozansk@redhat.com,redhat.com,21,0,1660,343,"2007-05-09 22:47:18","2016-10-27 17:46:35",2018-08-19
 2286,"aristeu sergio rozanski filho","Aristeu Rozanski",aris@redhat.com,redhat.com,51,0,6274,1204,"2008-09-22 10:13:59","2015-09-08 15:02:06",2018-08-19
 2287,"aristeu sergio rozanski filho","Aristeu Rozanski",aris@ruivo.org,ruivo.org,8,0,104,32,"2007-07-16 13:53:09","2008-06-23 07:47:53",2018-08-19
 2288,"aristeu sergio rozanski filho","Aristeu Sergio Rozanski Filho",aris@cathedrallabs.org,cathedrallabs.org,40,0,3814,918,"2002-11-13 09:35:45","2005-12-29 13:18:49",2018-08-19
@@ -2913,7 +2913,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 2913,"bela lubkin","Bela Lubkin",blubkin@vmware.com,vmware.com,1,0,0,0,"2010-03-10 15:23:07","2010-03-10 15:23:07",2018-08-19
 2914,"belen sarabia","Belen Sarabia",belensarabia@gmail.com,gmail.com,2,0,0,0,"2017-02-27 13:41:18","2017-03-25 11:26:47",2018-08-19
 2915,"belinda thompson","Belinda Thompson",belindat@us.ibm.com,us.ibm.com,1,0,69,11,"2012-03-06 18:06:27","2012-03-06 18:06:27",2018-08-19
-2916,"bellido nicolas","Bellido Nicolas",nb-ml@be.rmk.(none),be.rmk.(none),1,0,0,0,"2005-06-20 10:51:05","2005-06-20 10:51:05",2018-08-19
+2916,"nicolas bellido","Bellido Nicolas",nb-ml@be.rmk.(none),be.rmk.(none),1,0,0,0,"2005-06-20 10:51:05","2005-06-20 10:51:05",2018-08-19
 2917,"ben backx","Ben Backx",ben@bbackx.com,bbackx.com,2,0,9,0,"2008-06-22 07:00:53","2008-08-09 05:35:55",2018-08-19
 2918,"ben blum","Ben Blum",bblum@andrew.cmu.edu,andrew.cmu.edu,11,0,121,29,"2010-03-10 15:22:07","2011-11-02 13:38:07",2018-08-19
 2919,"ben blum","Ben Blum",bblum@google.com,google.com,5,0,119,4,"2009-09-23 15:56:26","2009-09-23 15:56:31",2018-08-19
@@ -4759,7 +4759,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 4759,"cong ding","Cong Ding",dinggnu@gmail.com,gmail.com,40,0,236,88,"2012-12-03 02:24:54","2013-10-25 00:25:53",2018-08-19
 4760,"cong meng","Cong Meng",mc@linux.vnet.ibm.com,linux.vnet.ibm.com,1,0,569,113,"2012-07-05 02:06:43","2012-07-05 02:06:43",2018-08-19
 4761,"cong meng",mengcong,mc@linux.vnet.ibm.com,linux.vnet.ibm.com,1,0,0,0,"2012-05-16 20:14:46","2012-05-16 20:14:46",2018-08-19
-4762,"cong wang","Cong Wang",cwang@twopensource.com,twopensource.com,20,0,553,135,"2014-02-06 15:00:52","2015-03-06 11:47:59",2018-08-19
+4762,"americo wang","Cong Wang",cwang@twopensource.com,twopensource.com,20,0,553,135,"2014-02-06 15:00:52","2015-03-06 11:47:59",2018-08-19
 4763,"conke hu","Conke Hu",conke.hu@amd.com,amd.com,4,0,80,6,"2007-01-09 02:32:51","2007-01-27 04:46:40",2018-08-19
 4764,"conke hu","Conke Hu",conke.hu@gmail.com,gmail.com,3,0,25,13,"2006-12-19 13:11:37","2007-04-11 03:23:14",2018-08-19
 4765,"conke hu","Conke Hu",conke@maxwit.com,maxwit.com,1,0,0,0,"2010-07-12 21:56:30","2010-07-12 21:56:30",2018-08-19
@@ -5389,14 +5389,14 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 5389,"dave anderson","Dave Anderson",danderson@google.com,google.com,1,0,0,0,"2016-03-28 14:56:47","2016-03-28 14:56:47",2018-08-19
 5390,"dave andrews","Dave Andrews",jetdog330@hotmail.com,hotmail.com,1,0,89,21,"2009-09-03 17:21:27","2009-09-03 17:21:27",2018-08-19
 5391,"dave blaschke","Dave Blaschke",blaschke@blaschke3.austin.ibm.com,blaschke3.austin.ibm.com,1,0,0,6,"2003-03-12 19:16:22","2003-03-12 19:16:22",2018-08-19
-5392,"dave boutcher","Dave Boutcher",boutcher@us.ibm.com,us.ibm.com,1,0,4055,1006,"2004-07-28 06:33:44","2004-07-28 06:33:44",2018-08-19
+5392,"dave c boutcher","Dave Boutcher",boutcher@us.ibm.com,us.ibm.com,1,0,4055,1006,"2004-07-28 06:33:44","2004-07-28 06:33:44",2018-08-19
 5393,"dave c boutcher","Dave Boutcher",sleddog@us.ibm.com,us.ibm.com,6,0,327,57,"2004-08-22 22:35:19","2004-12-31 00:54:38",2018-08-19
 5394,"dave c boutcher","Dave C Boutcher",boutcher@cs.umn.edu,cs.umn.edu,8,0,241,50,"2006-02-02 23:18:36","2006-07-06 20:08:49",2018-08-19
 5395,"dave c boutcher","Dave C Boutcher",sleddog@us.ibm.com,us.ibm.com,11,0,900,146,"2005-08-15 14:52:58","2006-01-19 11:34:44",2018-08-19
 5396,"dave carroll","Dave Carroll",david.carroll@microsemi.com,microsemi.com,6,0,128,32,"2016-06-15 10:27:17","2018-04-25 09:24:20",2018-08-19
 5397,"dave carroll","Dave Carroll",dcarroll@astekcorp.com,astekcorp.com,2,0,26,7,"2011-06-18 00:36:39","2011-06-18 00:36:40",2018-08-19
 5398,"dave chiluk","Dave Chiluk",chiluk@canonical.com,canonical.com,2,0,0,0,"2013-05-28 14:06:08","2014-06-24 08:11:26",2018-08-19
-5399,"dave chinner","Dave Chinner",dchinner@redhat.com,redhat.com,950,0,138323,35482,"2010-02-04 21:45:25","2018-10-05 18:44:19",2018-08-19
+5399,"david chinner","Dave Chinner",dchinner@redhat.com,redhat.com,950,0,138323,35482,"2010-02-04 21:45:25","2018-10-05 18:44:19",2018-08-19
 5400,"dave craig","Dave Craig",dwcraig@qualcomm.com,qualcomm.com,1,0,6,0,"2004-10-05 19:10:12","2004-10-05 19:10:12",2018-08-19
 5401,"dave estes","Dave Estes",cestes@quicinc.com,quicinc.com,1,0,0,0,"2009-08-11 14:58:49","2009-08-11 14:58:49",2018-08-19
 5402,"dave gerlach","Dave Gerlach",d-gerlach@ti.com,ti.com,118,0,12902,3639,"2014-02-28 11:43:46","2018-07-09 00:33:16",2018-08-19
@@ -5479,10 +5479,10 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 5479,"dave wysochanski","Dave Wysochanski",dwysocha@redhat.com,redhat.com,10,0,547,98,"2007-10-19 14:47:53","2018-07-31 07:10:51",2018-08-19
 5480,"dave wysochanski","dave wysochanski",davidw@netapp.com,netapp.com,1,0,14,18,"2006-08-09 11:56:32","2006-08-09 11:56:32",2018-08-19
 5481,"dave young","Dave Young",dyoung@redhat.com,redhat.com,63,0,10933,2748,"2011-11-07 21:44:59","2018-04-20 14:56:10",2018-08-19
-5482,"dave young","Dave Young",hidave.darkstar@gmail.com,gmail.com,71,0,2067,578,"2007-06-19 00:14:26","2011-09-06 05:08:08",2018-08-19
-5483,"dave young","Yang Ruirui",hidave.darkstar@gmail.com,gmail.com,1,0,0,0,"2011-09-06 04:08:08","2011-09-06 04:08:08",2018-08-19
+5482,"yang ruirui","Dave Young",hidave.darkstar@gmail.com,gmail.com,71,0,2067,578,"2007-06-19 00:14:26","2011-09-06 05:08:08",2018-08-19
+5483,"yang ruirui","Yang Ruirui",hidave.darkstar@gmail.com,gmail.com,1,0,0,0,"2011-09-06 04:08:08","2011-09-06 04:08:08",2018-08-19
 5484,"dave young",dyoung@redhat.com,dyoung@redhat.com,redhat.com,1,0,14,4,"2013-05-15 23:31:30","2013-05-15 23:31:30",2018-08-19
-5485,"dave young","young dave",hidave.darkstar@gmail.com,gmail.com,1,0,0,1,"2007-07-15 23:40:17","2007-07-15 23:40:17",2018-08-19
+5485,"yang ruirui","young dave",hidave.darkstar@gmail.com,gmail.com,1,0,0,1,"2007-07-15 23:40:17","2007-07-15 23:40:17",2018-08-19
 5486,"davi arnaut","Davi Arnaut",davi.arnaut@gmail.com,gmail.com,10,0,247,68,"2005-10-23 12:57:16","2006-03-24 03:18:43",2018-08-19
 5487,"davi arnaut","Davi Arnaut",davi@haxent.com.br,haxent.com.br,1,0,166,50,"2007-05-23 13:58:04","2007-05-23 13:58:04",2018-08-19
 5488,"david 'digit' turner","David 'Digit' Turner",digit@android.com,android.com,1,0,825,291,"2013-01-21 15:48:21","2013-01-21 15:48:21",2018-08-19
@@ -5757,7 +5757,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 5757,"david paris","David PARIS",david.paris@st.com,st.com,1,0,5,0,"2014-06-25 08:49:04","2014-06-25 08:49:04",2018-08-19
 5758,"david paschal","David Paschal",paschal@rcsis.com,rcsis.com,2,0,1876,201,"2002-03-16 18:07:21","2002-03-18 00:04:00",2018-08-19
 5759,"david peterson","David Peterson",david.peterson@cel.com,cel.com,1,0,21,3,"2015-01-06 07:00:52","2015-01-06 07:00:52",2018-08-19
-5760,"david quigley","David Quigley",dpquigl@davequigley.com,davequigley.com,11,0,3593,826,"2013-05-02 10:19:10","2013-05-22 09:50:45",2018-08-19
+5760,"david p. quigley","David Quigley",dpquigl@davequigley.com,davequigley.com,11,0,3593,826,"2013-05-02 10:19:10","2013-05-22 09:50:45",2018-08-19
 5761,"david r. bild","David R. Bild",drbild@umich.edu,umich.edu,1,0,0,0,"2013-01-12 07:19:19","2013-01-12 07:19:19",2018-08-19
 5762,"david r. piegdon","David R. Piegdon",lkml@p23q.org,p23q.org,1,0,0,0,"2014-06-16 16:42:51","2014-06-16 16:42:51",2018-08-19
 5763,"david ramos","David Ramos",daramos@stanford.edu,stanford.edu,1,0,7,2,"2015-02-13 13:11:51","2015-02-13 13:11:51",2018-08-19
@@ -6290,8 +6290,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 6290,"dmitry bilunov","Dmitry Bilunov",kmeaw@yandex-team.ru,yandex-team.ru,2,0,7,2,"2016-05-31 07:38:24","2017-03-30 08:14:26",2018-08-19
 6291,"dmitry butskoy","Dmitry Butskoy",dmitry@butskoy.name,butskoy.name,1,0,0,0,"2007-07-14 23:53:08","2007-07-14 23:53:08",2018-08-19
 6292,"dmitry dunaev","Dmitry Dunaev",dunaev@tecon.ru,tecon.ru,1,0,0,0,"2017-09-26 07:49:37","2017-09-26 07:49:37",2018-08-19
-6293,"dmitry eremin","Dmitry Eremin",dmiter4ever@gmail.com,gmail.com,4,0,0,0,"2015-05-21 12:32:12","2015-05-30 20:27:05",2018-08-19
-6294,"dmitry eremin","Dmitry Eremin",dmitry4ever@gmail.com,gmail.com,3,0,0,0,"2015-05-21 12:32:11","2015-05-21 12:32:26",2018-08-19
+6293,"dmitry eremin-solenikov","Dmitry Eremin",dmiter4ever@gmail.com,gmail.com,4,0,0,0,"2015-05-21 12:32:12","2015-05-30 20:27:05",2018-08-19
+6294,"dmitry eremin-solenikov","Dmitry Eremin",dmitry4ever@gmail.com,gmail.com,3,0,0,0,"2015-05-21 12:32:11","2015-05-21 12:32:26",2018-08-19
 6295,"dmitry eremin-solenikov","Dmitry Eremin",dmitry.eremin@intel.com,intel.com,77,0,5,6,"2013-07-22 09:06:28","2018-05-29 07:21:41",2018-08-19
 6296,"dmitry eremin-solenikov","Dmitry Eremin-Solenikov",dmitry_eremin@mentor.com,mentor.com,4,0,12,8,"2012-09-24 23:31:40","2014-10-24 15:34:39",2018-08-19
 6297,"dmitry fink","Dmitry Fink",dmitry.fink@palm.com,palm.com,1,0,0,0,"2011-07-25 17:12:19","2011-07-25 17:12:19",2018-08-19
@@ -6322,7 +6322,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 6322,"dmitry maluka","Dmitry Maluka",D.Maluka@adbglobal.com,adbglobal.com,1,0,6,1,"2012-05-11 10:51:51","2012-05-11 10:51:51",2018-08-19
 6323,"dmitry mastykin","Dmitry Mastykin",mastichi@gmail.com,gmail.com,2,0,31,7,"2017-10-18 07:21:02","2017-12-28 07:19:24",2018-08-19
 6324,"dmitry mishin","Dmitry Mishin",dim@openvz.org,openvz.org,18,0,7567,986,"2006-03-20 22:45:21","2007-06-05 12:56:09",2018-08-19
-6325,"dmitry monakhov","Dmitry Monakhov",rjevskiy@gmail.com,gmail.com,1,0,0,0,"2009-09-19 18:52:25","2009-09-19 18:52:25",2018-08-19
+6325,"dmitriy monakhov","Dmitry Monakhov",rjevskiy@gmail.com,gmail.com,1,0,0,0,"2009-09-19 18:52:25","2009-09-19 18:52:25",2018-08-19
 6326,"dmitry nezhevenko","Dmitry Nezhevenko",dion@dion.org.ua,dion.org.ua,1,0,24,7,"2015-01-12 09:13:01","2015-01-12 09:13:01",2018-08-19
 6327,"dmitry osipenko","Dmitry Osipenko",digetx@gmail.com,gmail.com,132,0,15222,3431,"2013-05-11 09:30:52","2018-08-02 04:11:44",2018-08-19
 6328,"dmitry pervushin","Dmitry Pervushin",dmitry.pervushin@linaro.org,linaro.org,1,0,0,0,"2013-03-29 10:50:02","2013-03-29 10:50:02",2018-08-19
@@ -6527,8 +6527,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 6527,"doug thompson","Douglas Thompson",dougthompson@xmission.com,xmission.com,30,0,7803,2366,"2007-07-19 01:49:31","2007-07-19 01:50:32",2018-08-19
 6528,"doug warzecha","Doug Warzecha",Douglas_Warzecha@dell.com,dell.com,3,0,2071,603,"2005-09-06 15:17:15","2006-10-19 23:29:09",2018-08-19
 6529,"doug wilson","Doug Wilson",doug.lkml@gmail.com,gmail.com,3,0,5,2,"2014-03-07 02:59:03","2017-08-08 04:20:16",2018-08-19
-6530,"douglas anderson","Doug Anderson",dianders@chromium.org,chromium.org,177,0,7302,2029,"2011-08-30 10:46:10","2017-03-01 03:58:32",2018-08-19
-6531,"douglas anderson","Douglas Anderson",dianders@chromium.org,chromium.org,149,0,11856,4197,"2013-06-24 14:03:50","2018-09-06 15:49:06",2018-08-19
+6530,"doug anderson","Doug Anderson",dianders@chromium.org,chromium.org,177,0,7302,2029,"2011-08-30 10:46:10","2017-03-01 03:58:32",2018-08-19
+6531,"doug anderson","Douglas Anderson",dianders@chromium.org,chromium.org,149,0,11856,4197,"2013-06-24 14:03:50","2018-09-06 15:49:06",2018-08-19
 6532,"douglas bagnall","Douglas Bagnall",douglas@paradise.net.nz,paradise.net.nz,1,0,6,0,"2012-07-06 19:27:57","2012-07-06 19:27:57",2018-08-19
 6533,"douglas barbonaglia sathler figueiredo","Douglas Barbonaglia Sathler Figueiredo",eng.douglasfigueiredo@gmail.com,gmail.com,1,0,1,6,"2015-06-01 06:37:11","2015-06-01 06:37:11",2018-08-19
 6534,"douglas caetano dos santos","Douglas Caetano dos Santos",douglascs@taghos.com.br,taghos.com.br,3,0,58,10,"2016-09-22 11:52:04","2017-05-26 10:28:00",2018-08-19
@@ -6667,8 +6667,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 6667,"eddie dong","Eddie Dong",eddie.dong@intel.com,intel.com,24,0,5448,1239,"2007-05-17 08:55:15","2009-11-19 07:54:07",2018-08-19
 6668,"eddie dong","Yaozu Dong",eddie.dong@intel.com,intel.com,2,0,13,3,"2007-04-24 23:17:25","2007-04-25 06:49:19",2018-08-19
 6669,"eddie huang","Eddie Huang",eddie.huang@mediatek.com,mediatek.com,23,0,384,112,"2014-10-22 06:12:00","2016-08-11 19:41:11",2018-08-19
-6670,"eddie james","Eddie James",eajames@linux.vnet.ibm.com,linux.vnet.ibm.com,15,0,3227,783,"2018-01-08 13:10:09","2018-07-17 08:31:06",2018-08-19
-6671,"eddie james",eajames@linux.vnet.ibm.com,eajames@linux.vnet.ibm.com,linux.vnet.ibm.com,1,0,380,88,"2018-01-11 09:20:10","2018-01-11 09:20:10",2018-08-19
+6670,"edward a. james","Eddie James",eajames@linux.vnet.ibm.com,linux.vnet.ibm.com,15,0,3227,783,"2018-01-08 13:10:09","2018-07-17 08:31:06",2018-08-19
+6671,"edward a. james",eajames@linux.vnet.ibm.com,eajames@linux.vnet.ibm.com,linux.vnet.ibm.com,1,0,380,88,"2018-01-11 09:20:10","2018-01-11 09:20:10",2018-08-19
 6672,"eddie kovsky","Eddie Kovsky",ewk@edkovsky.org,edkovsky.org,7,0,2,2,"2013-11-18 19:57:45","2015-11-05 22:25:35",2018-08-19
 6673,"eddie wai","Eddie Wai",eddie.wai@broadcom.com,broadcom.com,70,0,7360,1654,"2010-07-01 15:34:50","2018-03-09 20:46:04",2018-08-19
 6674,"eddie wai","Eddie Wai",waie@broadcom.com,broadcom.com,5,0,264,52,"2010-02-24 06:42:04","2010-12-22 23:43:02",2018-08-19
@@ -7312,7 +7312,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 7312,"fabio estevam",fabio.estevam@freescale.com,fabio.estevam@freescale.com,freescale.com,2,0,78,14,"2013-01-07 17:11:06","2013-02-06 13:00:02",2018-08-19
 7313,"fabio falzoi","Fabio Falzoi",fabio.falzoi84@gmail.com,gmail.com,29,0,3711,810,"2014-04-22 14:22:59","2015-08-02 13:30:14",2018-08-19
 7314,"fabio k","Fabio K",healthkit@gmail.com,gmail.com,1,0,0,0,"2014-11-17 18:46:28","2014-11-17 18:46:28",2018-08-19
-7315,"fabio m. di nitto","Fabio M. Di Nitto",fdinitto@redhat.com,redhat.com,1,0,37,14,"2011-03-22 16:34:20","2011-03-22 16:34:20",2018-08-19
+7315,"fabio massimo di nitto","Fabio M. Di Nitto",fdinitto@redhat.com,redhat.com,1,0,37,14,"2011-03-22 16:34:20","2011-03-22 16:34:20",2018-08-19
 7316,"fabio massimo di nitto","Fabio M. Di Nitto",fabbione@ubuntu.com,ubuntu.com,4,0,15,5,"2006-02-18 00:32:31","2008-01-30 08:56:42",2018-08-19
 7317,"fabio massimo di nitto","Fabio Massimo Di Nitto",fabbione@fabbione.net,fabbione.net,2,0,0,0,"2005-02-04 23:10:06","2005-07-12 23:25:49",2018-08-19
 7318,"fabio massimo di nitto","Fabio Massimo Di Nitto",fabbione@ubuntu.com,ubuntu.com,11,0,92,16,"2006-09-18 22:56:29","2007-11-26 21:16:42",2018-08-19
@@ -7361,7 +7361,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 7361,"fan yong","Fan Yong",yong.fan@whamcloud.com,whamcloud.com,3,0,508,101,"2012-03-18 19:44:40","2013-07-22 09:07:01",2018-08-19
 7362,"fan zhang","Fan Zhang",zhangfan@linux.vnet.ibm.com,linux.vnet.ibm.com,4,0,1442,249,"2015-05-13 01:58:41","2016-11-28 22:17:55",2018-08-19
 7363,"fanael linithien","Fanael Linithien",fanael4@gmail.com,gmail.com,1,0,0,0,"2015-05-31 14:15:38","2015-05-31 14:15:38",2018-08-19
-7364,fanchaoting,fanchaoting,fanchaoting@cn.fujitsu.com,cn.fujitsu.com,4,0,16,4,"2013-02-04 05:15:02","2013-04-01 06:07:22",2018-08-19
+7364,"fan chaoting",fanchaoting,fanchaoting@cn.fujitsu.com,cn.fujitsu.com,4,0,16,4,"2013-02-04 05:15:02","2013-04-01 06:07:22",2018-08-19
 7365,"fancy fang","Fancy Fang",chen.fang@freescale.com,freescale.com,2,0,35,13,"2014-09-04 01:33:12","2014-10-09 19:21:22",2018-08-19
 7366,"fang wei","Wei Fang",fangwei1@huawei.com,huawei.com,13,0,79,19,"2015-03-30 08:07:00","2017-01-21 20:21:02",2018-08-19
 7367,"fang wei",fangwei,fangwei1@huawei.com,huawei.com,1,0,0,0,"2015-07-06 19:54:26","2015-07-06 19:54:26",2018-08-19
@@ -7498,7 +7498,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 7498,"fida mohammad","Fida Mohammad",fmthoker@gmail.com,gmail.com,2,0,9,6,"2015-10-16 14:33:03","2015-10-21 03:58:35",2018-08-19
 7499,"figo zhang",Figo.zhang,figo1802@gmail.com,gmail.com,25,0,322,114,"2009-06-02 19:01:04","2010-12-27 06:14:06",2018-08-19
 7500,"figo zhang",Figo.zhang,zhangtianfei@leadcoretech.com,leadcoretech.com,1,0,0,1,"2010-06-07 14:13:22","2010-06-07 14:13:22",2018-08-19
-7501,figo.zhang,figo.zhang,figo.zhang@kolorific.com,kolorific.com,4,0,7,0,"2009-04-16 19:58:48","2009-05-17 19:31:55",2018-08-19
+7501,"figo zhang",figo.zhang,figo.zhang@kolorific.com,kolorific.com,4,0,7,0,"2009-04-16 19:58:48","2009-05-17 19:31:55",2018-08-19
 7502,"filip aben","Filip Aben",f.aben@option.com,option.com,7,0,84,20,"2008-05-08 10:48:12","2010-11-24 19:40:50",2018-08-19
 7503,"filip alac","Filip Alac",filipalac@gmail.com,gmail.com,1,0,38,11,"2018-03-21 09:28:25","2018-03-21 09:28:25",2018-08-19
 7504,"filip ayazi","Filip Ayazi",filipayazi@gmail.com,gmail.com,1,0,0,0,"2015-03-25 15:53:04","2015-03-25 15:53:04",2018-08-19
@@ -7918,8 +7918,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 7918,"ganesh varadarajan","Ganesh Varadarajan",ganesh@veritas.com,veritas.com,2,0,20,0,"2002-03-27 19:16:37","2004-07-30 02:36:42",2018-08-19
 7919,"ganesh varadarajan","Ganesh Varadarajan",ganesh@vxindia.veritas.com,vxindia.veritas.com,6,0,36,9,"2002-04-30 07:44:24","2003-07-13 08:41:37",2018-08-19
 7920,"ganesh venkatesan","Ganesh Venkatesan",ganesh.venkatesan@intel.com,intel.com,91,0,21877,2860,"2003-04-27 13:05:23","2005-03-02 10:48:04",2018-08-19
-7921,"gang chen","Chen Gang",xili_gchen_5257@hotmail.com,hotmail.com,20,0,52,18,"2015-03-03 12:55:06","2016-01-14 15:18:33",2018-08-19
-7922,"gang chen","gchen gchen",xili_gchen_5257@hotmail.com,hotmail.com,1,0,5,1,"2015-03-12 16:26:05","2015-03-12 16:26:05",2018-08-19
+7921,"chen gang","Chen Gang",xili_gchen_5257@hotmail.com,hotmail.com,20,0,52,18,"2015-03-03 12:55:06","2016-01-14 15:18:33",2018-08-19
+7922,"chen gang","gchen gchen",xili_gchen_5257@hotmail.com,hotmail.com,1,0,5,1,"2015-03-12 16:26:05","2015-03-12 16:26:05",2018-08-19
 7923,"gang he","Gang He",ghe@suse.com,suse.com,23,0,5251,1232,"2016-03-22 14:24:20","2018-05-28 20:09:22",2018-08-19
 7924,"gang wei","Wei, Gang",gang.wei@intel.com,intel.com,1,0,0,0,"2015-12-01 23:07:20","2015-12-01 23:07:20",2018-08-19
 7925,"gang wei","Gang Wei",gang.wei@intel.com,intel.com,2,0,14,3,"2012-09-17 14:08:59","2012-10-09 02:35:22",2018-08-19
@@ -8617,7 +8617,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 8617,"haavard skinnemoen","H\xE5vard Skinnemoen",hskinnemoen@atmel.com,atmel.com,0,0,0,0,,,2018-08-19
 8618,"haavard skinnemoen","Haavard Skinnemoen",haavard.skinnemoen@atmel.com,atmel.com,99,181,9738,2355,"2007-05-15 06:06:41","2009-12-28 03:33:00",2018-08-19
 8619,"haavard skinnemoen","Haavard Skinnemoen",hskinnemoen@atmel.com,atmel.com,213,168,19137,3890,"2006-01-04 07:58:49","2008-07-08 11:58:45",2018-08-19
-8620,"haavard skinnemoen","Havard Skinnemoen",hskinnemoen@google.com,google.com,5,0,483,133,"2011-02-18 18:32:08","2012-04-26 11:16:00",2018-08-19
+8620,"havard skinnemoen","Havard Skinnemoen",hskinnemoen@google.com,google.com,5,0,483,133,"2011-02-18 18:32:08","2012-04-26 11:16:00",2018-08-19
 8621,"haavard skinnemoen","Håvard Skinnemoen",haavard.skinnemoen@atmel.com,atmel.com,8,0,0,0,"2008-06-06 09:04:51","2008-06-06 09:04:58",2018-08-19
 8622,"haavard skinnemoen","Håvard Skinnemoen",hskinnemoen@atmel.com,atmel.com,4,0,52,1,"2006-02-27 09:15:04","2007-01-17 11:03:29",2018-08-19
 8623,"haavard skinnemoen","H�vard Skinnemoen",hskinnemoen@atmel.com,atmel.com,0,0,0,0,,,2018-08-19
@@ -8632,8 +8632,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 8632,"hai dong","Hai Dong",hai.dong@polycom.com,polycom.com,1,0,1,1,"2012-02-24 14:03:00","2012-02-24 14:03:00",2018-08-19
 8633,"hai lan","Hai Lan",hai.lan@intel.com,intel.com,1,0,0,0,"2012-02-15 03:07:02","2012-02-15 03:07:02",2018-08-19
 8634,"hai li","Hai Li",hali@codeaurora.org,codeaurora.org,42,0,37716,8217,"2014-06-18 13:55:27","2017-01-07 00:54:38",2018-08-19
-8635,"hai shan","Hai Shan",haishan.bai@gmail.com,gmail.com,1,0,2,1,"2011-01-13 15:45:51","2011-01-13 15:45:51",2018-08-19
-8636,"hai shan","Shan Hai",haishan.bai@gmail.com,gmail.com,2,0,14,14,"2011-08-31 20:32:03","2011-11-28 19:03:56",2018-08-19
+8635,"shan hai","Hai Shan",haishan.bai@gmail.com,gmail.com,1,0,2,1,"2011-01-13 15:45:51","2011-01-13 15:45:51",2018-08-19
+8636,"shan hai","Shan Hai",haishan.bai@gmail.com,gmail.com,2,0,14,14,"2011-08-31 20:32:03","2011-11-28 19:03:56",2018-08-19
 8637,"haibin wang","Haibin Wang",wanghaibin.wang@huawei.com,huawei.com,2,0,0,0,"2014-04-10 05:14:32","2014-04-28 23:49:17",2018-08-19
 8638,"haibin wang",wanghaibin,wanghaibin.wang@huawei.com,huawei.com,4,0,111,39,"2014-11-17 01:27:37","2017-10-26 08:23:08",2018-08-19
 8639,"haibin zhang","haibinzhang(张海斌)",haibinzhang@tencent.com,tencent.com,1,0,12,3,"2018-04-09 00:22:17","2018-04-09 00:22:17",2018-08-19
@@ -8690,7 +8690,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 8690,"han pingtian","Han Pingtian",phan@redhat.com,redhat.com,5,0,0,0,"2011-01-06 01:39:22","2011-07-17 20:13:14",2018-08-19
 8691,"han shen","Han Shen",shenhan@google.com,google.com,2,0,16,2,"2013-04-12 16:26:58","2013-04-22 13:35:07",2018-08-19
 8692,"han tai","han tai",hantai1248@hotmail.com,hotmail.com,1,0,0,13,"2016-04-20 00:23:03","2016-04-20 00:23:03",2018-08-19
-8693,"han xu","Han Xu",han.xu@freescale.com,freescale.com,3,0,271,62,"2015-01-15 11:29:17","2015-08-04 08:25:29",2018-08-19
+8693,"allen xu","Han Xu",han.xu@freescale.com,freescale.com,3,0,271,62,"2015-01-15 11:29:17","2015-08-04 08:25:29",2018-08-19
 8694,"handle x at gmail.com","Handle X",xhandle@gmail.com,gmail.com,1,0,0,0,"2006-08-14 22:37:27","2006-08-14 22:37:27",2018-08-19
 8695,"haneen mohammed","Haneen Mohammed",hamohammed.sa@gmail.com,gmail.com,81,0,1890,920,"2015-02-17 13:21:25","2018-05-24 18:25:55",2018-08-19
 8696,"hang yuan","Hang Yuan",hang.yuan@intel.com,intel.com,1,0,186,49,"2017-12-22 02:06:31","2017-12-22 02:06:31",2018-08-19
@@ -8980,7 +8980,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 8980,"heinz-ado arnolds","Heinz-Ado Arnolds",arnolds@MPA-Garching.MPG.DE,mpa-garching.mpg.de,1,0,27,4,"2008-03-12 08:27:56","2008-03-12 08:27:56",2018-08-19
 8981,"heinz-juergen oertel","Heinz-Juergen Oertel",hj.oertel@surfeu.de,surfeu.de,1,0,6,0,"2004-10-18 00:42:08","2004-10-18 00:42:08",2018-08-19
 8982,"held bernhard","Held Bernhard",berny156@gmx.de,gmx.de,1,0,28,7,"2011-04-24 15:07:32","2011-04-24 15:07:32",2018-08-19
-8983,"helen fornazier","Helen Fornazier",helen.fornazier@gmail.com,gmail.com,14,0,6,28,"2015-03-20 19:18:10","2015-03-26 10:09:20",2018-08-19
+8983,"helen mae koike fornazier","Helen Fornazier",helen.fornazier@gmail.com,gmail.com,14,0,6,28,"2015-03-20 19:18:10","2015-03-26 10:09:20",2018-08-19
 8984,"helen mae koike fornazier","Helen Fornazier",helen.koike@collabora.co.uk,collabora.co.uk,1,0,18,3,"2016-05-09 20:06:14","2016-05-09 20:06:14",2018-08-19
 8985,"helen mae koike fornazier","Helen Fornazier",helen.koike@collabora.com,collabora.com,13,0,9001,2173,"2017-04-06 12:25:15","2017-06-19 10:00:21",2018-08-19
 8986,"helen mae koike fornazier","Helen Koike",helen.koike@collabora.co.uk,collabora.co.uk,8,0,1368,273,"2016-06-20 10:12:29","2017-04-10 08:51:07",2018-08-19
@@ -9192,8 +9192,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 9192,"hiroaki shimoda","Hiroaki SHIMODA",shimoda.hiroaki@gmail.com,gmail.com,17,0,232,54,"2011-02-10 23:08:33","2015-06-18 04:40:54",2018-08-19
 9193,"hirofumi nakagawa","Hirofumi Nakagawa",hnakagawa@miraclelinux.com,miraclelinux.com,3,0,0,28,"2008-04-29 01:03:09","2008-08-21 07:16:40",2018-08-19
 9194,"hirofumi nakagawa","Hirofumi Nakagawa",nklabs@gmail.com,gmail.com,3,0,8,5,"2017-09-25 11:09:53","2017-09-25 11:21:27",2018-08-19
-9195,"hirofumi ogawa","Hirofumi Ogawa",hirofumi@mail.parknet.co.jp,mail.parknet.co.jp,158,0,16363,2890,"2002-02-07 20:48:11","2005-03-30 16:27:22",2018-08-19
-9196,"hirofumi ogawa","OGAWA Hirofumi",hirofumi@mail.parknet.co.jp,mail.parknet.co.jp,162,25,6779,1566,"2005-09-16 19:28:13","2018-08-21 21:59:44",2018-08-19
+9195,"ogawa hirofumi","Hirofumi Ogawa",hirofumi@mail.parknet.co.jp,mail.parknet.co.jp,158,0,16363,2890,"2002-02-07 20:48:11","2005-03-30 16:27:22",2018-08-19
+9196,"ogawa hirofumi","OGAWA Hirofumi",hirofumi@mail.parknet.co.jp,mail.parknet.co.jp,162,25,6779,1566,"2005-09-16 19:28:13","2018-08-21 21:59:44",2018-08-19
 9197,"hirokazu honda","Hirokazu Honda",hiroh@chromium.org,chromium.org,2,0,29,14,"2017-05-30 02:49:01","2017-05-30 02:53:58",2018-08-19
 9198,"hirokazu takahashi","Hirokazu Takahashi",taka@valinux.co.jp,valinux.co.jp,5,0,25,6,"2002-09-16 02:32:30","2013-04-23 18:42:44",2018-08-19
 9199,"hirokazu takata*","Hirokazu Takata",takata.hirokazu@renesas.com,renesas.com,5,0,0,0,"2004-09-16 22:06:30","2007-05-10 22:22:25",2018-08-19
@@ -10263,7 +10263,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 10263,"jan kara","Jan Kara",jack@ucw.cz,ucw.cz,5,0,152,30,"2003-08-01 00:55:50","2005-03-13 00:25:50",2018-08-19
 10264,"jan kara","Signed-off-by: Jan Kara",jack@suse.cz,suse.cz,1,0,10,0,"2010-09-16 11:36:36","2010-09-16 11:36:36",2018-08-19
 10265,"jan kardell","Jan Kardell",jan.kardell@telliq.com,telliq.com,8,0,193,44,"2014-11-06 14:18:00","2015-05-27 23:48:45",2018-08-19
-10266,"jan kasprzak","Jan Kasprzak",kas@informatics.muni.cz,informatics.muni.cz,1,0,0,0,"2004-02-11 03:44:47","2004-02-11 03:44:47",2018-08-19
+10266,"jan yenya kasprzak","Jan Kasprzak",kas@informatics.muni.cz,informatics.muni.cz,1,0,0,0,"2004-02-11 03:44:47","2004-02-11 03:44:47",2018-08-19
 10267,"jan kiszka","Jan Kiszka",jan.kiszka@siemens.com,siemens.com,347,8,11523,3175,"2007-10-24 07:24:22","2018-10-15 07:09:29",2018-08-19
 10268,"jan kiszka","Jan Kiszka",jan.kiszka@web.de,web.de,75,0,3883,1277,"2006-07-14 00:23:56","2013-12-28 07:31:52",2018-08-19
 10269,"jan kiszka",jan.kiszka@web.de,jan.kiszka@web.de,web.de,1,0,0,1,"2005-03-30 00:32:22","2005-03-30 00:32:22",2018-08-19
@@ -10498,8 +10498,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 10498,"jason uhlenkott","Jason Uhlenkott",jasonuhl@sgi.com,sgi.com,4,0,57,25,"2004-10-26 13:33:21","2006-01-11 13:45:51",2018-08-19
 10499,"jason uhlenkott","Jason Uhlenkott",juhlenko@akamai.com,akamai.com,9,0,3506,933,"2007-04-26 17:25:51","2009-09-23 15:57:27",2018-08-19
 10500,"jason uy","Jason Uy",jason.uy@broadcom.com,broadcom.com,2,0,8,2,"2017-01-11 11:48:20","2017-08-15 10:26:00",2018-08-19
-10501,"jason wang","Hui Wang",jason77.wang@gmail.com,gmail.com,17,0,907,181,"2011-08-24 02:41:47","2013-11-26 22:47:26",2018-08-19
-10502,"jason wang","Jason Wang",jason77.wang@gmail.com,gmail.com,23,0,2873,623,"2010-06-12 07:22:37","2012-06-17 15:52:09",2018-08-19
+10501,"hui wang","Hui Wang",jason77.wang@gmail.com,gmail.com,17,0,907,181,"2011-08-24 02:41:47","2013-11-26 22:47:26",2018-08-19
+10502,"hui wang","Jason Wang",jason77.wang@gmail.com,gmail.com,23,0,2873,623,"2010-06-12 07:22:37","2012-06-17 15:52:09",2018-08-19
 10503,"jason wang","Jason Wang",jasowang@redhat.com,redhat.com,303,0,21227,4564,"2010-01-27 03:13:40","2018-08-24 01:53:13",2018-08-19
 10504,"jason wessel","Jason Wessel",jason.wessel@windriver.com,windriver.com,200,210,54442,13403,"2005-12-20 06:21:24","2018-02-04 19:29:53",2018-08-19
 10505,"jason wever","Jason Wever",weeve@gentoo.org,gentoo.org,3,0,0,0,"2004-03-17 23:04:47","2004-04-09 02:30:19",2018-08-19
@@ -10514,7 +10514,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 10514,"jasper spaans","Jasper Spaans",jasper@vs19.net,vs19.net,3,0,8,1,"2003-07-16 22:10:40","2005-12-11 09:41:22",2018-08-19
 10515,"jasper spaans","Jasper Spaans",spaans@fox-it.com,fox-it.com,3,0,1,3,"2009-10-22 21:08:46","2009-11-20 05:20:05",2018-08-19
 10516,"jasper st. pierre","Jasper St. Pierre",jstpierre@mecheye.net,mecheye.net,1,0,0,0,"2014-11-20 19:59:15","2014-11-20 19:59:15",2018-08-19
-10517,"jassi brar* (compare to jaswinder singh rajput)","Jaswinder Singh",jaswinder.singh@linaro.org,linaro.org,1,0,7,7,"2012-02-25 02:54:36","2012-02-25 02:54:36",2018-08-19
+10517,"jaswinder singh rajput","Jaswinder Singh",jaswinder.singh@linaro.org,linaro.org,1,0,7,7,"2012-02-25 02:54:36","2012-02-25 02:54:36",2018-08-19
 10518,"jassi brar",Jassi,jassi.brar@samsung.com,samsung.com,6,0,76,20,"2009-09-15 03:01:18","2009-09-17 23:22:27",2018-08-19
 10519,"jassi brar","Jassi Brar",jassi.brar@samsung.com,samsung.com,162,0,11409,2900,"2009-11-04 20:44:20","2011-02-06 01:47:18",2018-08-19
 10520,"jassi brar","Jassi Brar",jassisinghbrar@gmail.com,gmail.com,6,0,4,2,"2010-05-14 07:18:54","2018-01-06 06:14:19",2018-08-19
@@ -10960,8 +10960,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 10960,"jerry huang","Jerry Huang",Chang-Ming.Huang@freescale.com,freescale.com,15,0,373,79,"2010-08-10 18:01:59","2012-11-23 01:25:03",2018-08-19
 10961,"jerry huang","Jerry Huang",r66093@freescale.com,freescale.com,1,0,42,15,"2011-10-17 22:09:48","2011-10-17 22:09:48",2018-08-19
 10962,"jerry lee","Jerry Lee",jerrylee@qnap.com,qnap.com,1,0,3,2,"2017-08-05 22:18:31","2017-08-05 22:18:31",2018-08-19
-10963,"jerry snitselaar","Jerry Snitselaar",jerry.snitselaar@oracle.com,oracle.com,3,0,26,13,"2013-01-17 00:04:14","2013-07-22 12:01:58",2018-08-19
-10964,"jerry snitselaar","Jerry Snitselaar",jsnitsel@redhat.com,redhat.com,9,0,293,92,"2015-04-30 08:10:24","2018-05-05 12:54:53",2018-08-19
+10963,"gerard snitselaar","Jerry Snitselaar",jerry.snitselaar@oracle.com,oracle.com,3,0,26,13,"2013-01-17 00:04:14","2013-07-22 12:01:58",2018-08-19
+10964,"gerard snitselaar","Jerry Snitselaar",jsnitsel@redhat.com,redhat.com,9,0,293,92,"2015-04-30 08:10:24","2018-05-05 12:54:53",2018-08-19
 10965,"jerry wong","Jerry Wong",jerry.wong@maximintegrated.com,maximintegrated.com,2,0,15126,3495,"2013-02-06 11:02:33","2013-02-06 11:06:37",2018-08-19
 10966,"jerry zhang","Jerry Zhang",zhangjerry@google.com,google.com,8,0,315,120,"2017-04-18 16:11:48","2018-07-02 12:48:08",2018-08-19
 10967,"jerry zhou","Jerry Zhou",jerry.zhou@intel.com,intel.com,1,0,0,0,"2010-09-20 23:44:51","2010-09-20 23:44:51",2018-08-19
@@ -11176,7 +11176,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 11176,"jim howard","Jim Howard",jiho@c-zone.net,c-zone.net,1,0,0,0,"2003-07-25 02:02:34","2003-07-25 02:02:34",2018-08-19
 11177,"jim keir","Jim Keir",jimkeir@oracledbadirect.com,oracledbadirect.com,2,0,56,11,"2015-01-23 09:21:12","2015-02-26 01:14:03",2018-08-19
 11178,"jim kukunas","Jim Kukunas",james.t.kukunas@linux.intel.com,linux.intel.com,9,0,3406,1006,"2012-05-21 20:54:03","2012-11-08 13:47:44",2018-08-19
-11179,"jim lewis","Jim Lewis",jim@jklewis.com,jklewis.com,1,0,51,10,"2006-08-14 23:00:23","2006-08-14 23:00:23",2018-08-19
+11179,"james k lewis","Jim Lewis",jim@jklewis.com,jklewis.com,1,0,51,10,"2006-08-14 23:00:23","2006-08-14 23:00:23",2018-08-19
 11180,"jim lieb","Jim Lieb",lieb@canonical.com,canonical.com,16,0,160,20,"2009-07-23 17:20:49","2009-08-12 14:54:16",2018-08-19
 11181,"jim lin","Jim Lin",jilin@nvidia.com,nvidia.com,9,0,404,124,"2011-04-17 01:58:25","2017-08-08 05:56:20",2018-08-19
 11182,"jim lodes","Jim Lodes",jim.lodes@garmin.com,garmin.com,4,0,6,5,"2016-04-21 10:27:49","2016-04-25 09:10:07",2018-08-19
@@ -11370,7 +11370,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 11370,"joe eykholt","Joe Eykholt",jeykholt@cisco.com,cisco.com,133,0,20942,5111,"2009-03-17 11:42:35","2011-01-28 16:04:34",2018-08-19
 11371,"joe eykholt","Joe Eykholt",jre@nuovasystems.com,nuovasystems.com,3,0,3,1,"2008-07-02 18:22:00","2008-07-02 18:22:02",2018-08-19
 11372,"joe gunn","Joe Gunn",armadefuego@yahoo.com,yahoo.com,2,0,33,6,"2011-02-25 02:08:49","2011-03-15 08:41:19",2018-08-19
-11373,"joe handzik","Joe Handzik",joseph.t.handzik@hp.com,hp.com,9,0,933,139,"2014-03-26 15:48:11","2015-07-18 09:12:43",2018-08-19
+11373,"joseph handzik","Joe Handzik",joseph.t.handzik@hp.com,hp.com,9,0,933,139,"2014-03-26 15:48:11","2015-07-18 09:12:43",2018-08-19
 11374,"joe howse","Joe Howse",josephhowse@nummist.com,nummist.com,1,0,40,8,"2014-12-29 07:00:03","2014-12-29 07:00:03",2018-08-19
 11375,"joe jin","Joe Jin",joe.jin@oracle.com,oracle.com,14,0,134,41,"2007-02-05 18:08:47","2018-08-28 07:56:08",2018-08-19
 11376,"joe jin","Joe Jin",lkmaillist@gmail.com,gmail.com,1,0,1,1,"2007-02-06 14:16:40","2007-02-06 14:16:40",2018-08-19
@@ -11421,8 +11421,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 11421,"joel buckley","Joel Buckley",joel.buckley@sun.com,sun.com,1,0,0,0,"2003-02-24 05:13:34","2003-02-24 05:13:34",2018-08-19
 11422,"joel cunningham","Joel Cunningham",joel.cunningham@garmin.com,garmin.com,1,0,1,2,"2018-03-19 07:15:38","2018-03-19 07:15:38",2018-08-19
 11423,"joel d. diaz","Joel D. Diaz",joeldiaz@us.ibm.com,us.ibm.com,1,0,32,8,"2012-10-10 01:36:11","2012-10-10 01:36:11",2018-08-19
-11424,"joel fernandes","Joel Fernandes",joelaf@google.com,google.com,39,0,2952,830,"2016-10-20 00:34:00","2018-05-20 21:42:18",2018-08-19
-11425,"joel fernandes","Joel Fernandes",joelf@ti.com,ti.com,48,0,6273,1624,"2013-06-26 20:42:03","2016-10-18 00:55:25",2018-08-19
+11424,"joel a fernandes","Joel Fernandes",joelaf@google.com,google.com,39,0,2952,830,"2016-10-20 00:34:00","2018-05-20 21:42:18",2018-08-19
+11425,"joel a fernandes","Joel Fernandes",joelf@ti.com,ti.com,48,0,6273,1624,"2013-06-26 20:42:03","2016-10-18 00:55:25",2018-08-19
 11426,"joel holdsworth","Joel Holdsworth",joel@airwebreathe.org.uk,airwebreathe.org.uk,3,0,816,203,"2017-02-27 14:14:25","2017-06-14 08:36:33",2018-08-19
 11427,"joel pelaez jorge","Joel Pelaez Jorge",joelpelaez@gmail.com,gmail.com,2,0,5,8,"2014-04-19 20:32:32","2014-05-23 12:27:43",2018-08-19
 11428,"joel pepper","Joel Pepper",joel.pepper@rwth-aachen.de,rwth-aachen.de,2,0,1,1,"2018-04-26 11:26:08","2018-04-26 11:26:08",2018-08-19
@@ -12470,8 +12470,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 12470,"kaj-michael lang","Kaj-Michael Lang",milang@tal.org,tal.org,1,0,24,3,"2006-02-24 13:04:15","2006-02-24 13:04:15",2018-08-19
 12471,"kaladhar musunuru","Kaladhar Musunuru",kmusunuru@juniper.net,juniper.net,2,0,2,2,"2010-05-07 15:18:52","2010-05-07 15:18:57",2018-08-19
 12472,"kalash nainwal","kalash nainwal",kalash.nainwal@gmail.com,gmail.com,1,0,0,0,"2007-05-08 00:28:31","2007-05-08 00:28:31",2018-08-19
-12473,"kalesh a p","Kalesh A P",kalesh-anakkur.purayil@broadcom.com,broadcom.com,1,0,1,1,"2016-12-20 07:14:30","2016-12-20 07:14:30",2018-08-19
-12474,"kalesh a p","Kalesh AP",kalesh-anakkur.purayil@broadcom.com,broadcom.com,1,0,713,124,"2017-06-29 12:28:10","2017-06-29 12:28:10",2018-08-19
+12473,"kalesh purayil","Kalesh A P",kalesh-anakkur.purayil@broadcom.com,broadcom.com,1,0,1,1,"2016-12-20 07:14:30","2016-12-20 07:14:30",2018-08-19
+12474,"kalesh purayil","Kalesh AP",kalesh-anakkur.purayil@broadcom.com,broadcom.com,1,0,713,124,"2017-06-29 12:28:10","2017-06-29 12:28:10",2018-08-19
 12475,"kalesh purayil","Kalesh AP",kalesh.purayil@avagotech.com,avagotech.com,5,0,369,101,"2015-08-05 00:27:48","2015-10-12 00:47:21",2018-08-19
 12476,"kalesh purayil","Kalesh AP",kalesh.purayil@emulex.com,emulex.com,48,0,1311,467,"2013-04-28 15:21:13","2015-05-06 02:30:38",2018-08-19
 12477,"kalesh purayil","Kalesh Purayil",kalesh.purayil@avagotech.com,avagotech.com,3,0,13,4,"2015-07-10 02:32:43","2015-07-10 02:32:45",2018-08-19
@@ -12737,7 +12737,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 12737,"ken brownfield","Ken Brownfield",brownfld@irridia.com,irridia.com,1,0,0,0,"2002-03-06 13:02:52","2002-03-06 13:02:52",2018-08-19
 12738,"ken brush","Ken Brush",ken@new.cgi101.com,new.cgi101.com,1,0,0,0,"2006-05-08 18:24:12","2006-05-08 18:24:12",2018-08-19
 12739,"ken chalmers","Ken Chalmers",ken.chalmers@amd.com,amd.com,12,0,170,62,"2017-02-13 08:07:33","2018-06-27 09:48:21",2018-08-19
-12740,"ken chen","Ken Chen",kenchen@google.com,google.com,30,0,737,163,"2007-02-03 01:13:45","2011-04-08 12:20:16",2018-08-19
+12740,"kenneth w. chen","Ken Chen",kenchen@google.com,google.com,30,0,737,163,"2007-02-03 01:13:45","2011-04-08 12:20:16",2018-08-19
 12741,"ken cox","Ken Cox",jkc@redhat.com,redhat.com,46,0,2959,468,"2012-07-18 20:19:10","2016-11-15 11:00:37",2018-08-19
 12742,"ken depro","Ken Depro",kenneth.depro@unisys.com,unisys.com,14,0,0,0,"2014-11-03 11:56:32","2015-01-20 07:01:18",2018-08-19
 12743,"ken helias","Ken Helias",kenhelias@firemail.de,firemail.de,3,0,40,19,"2014-08-06 16:09:14","2014-08-06 16:09:18",2018-08-19
@@ -13009,9 +13009,9 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 13009,"kirill smelkov","Kirill Smelkov",kirr@mns.spb.ru,mns.spb.ru,32,0,809,186,"2005-11-07 00:59:20","2013-05-02 21:22:04",2018-08-19
 13010,"kirill smelkov","Kirill Smelkov",kirr@navytux.spb.ru,navytux.spb.ru,1,0,0,0,"2012-12-26 07:23:26","2012-12-26 07:23:26",2018-08-19
 13011,"kirill smelkov","Kirill Smelkov",kirr@nexedi.com,nexedi.com,3,0,0,2,"2014-08-14 04:25:10","2014-12-08 03:07:59",2018-08-19
-13012,"kirill tkhai","Kirill Tkhai",ktkhai@odin.com,odin.com,2,0,0,0,"2015-08-31 05:12:56","2015-08-31 05:12:56",2018-08-19
-13013,"kirill tkhai","Kirill Tkhai",ktkhai@parallels.com,parallels.com,43,0,723,257,"2014-01-27 23:26:14","2015-04-16 12:48:01",2018-08-19
-13014,"kirill tkhai","Kirill Tkhai",ktkhai@virtuozzo.com,virtuozzo.com,212,0,4081,1179,"2016-02-15 21:20:19","2018-10-05 15:52:10",2018-08-19
+13012,"kirill v tkhai","Kirill Tkhai",ktkhai@odin.com,odin.com,2,0,0,0,"2015-08-31 05:12:56","2015-08-31 05:12:56",2018-08-19
+13013,"kirill v tkhai","Kirill Tkhai",ktkhai@parallels.com,parallels.com,43,0,723,257,"2014-01-27 23:26:14","2015-04-16 12:48:01",2018-08-19
+13014,"kirill v tkhai","Kirill Tkhai",ktkhai@virtuozzo.com,virtuozzo.com,212,0,4081,1179,"2016-02-15 21:20:19","2018-10-05 15:52:10",2018-08-19
 13015,"kirill v tkhai","Kirill Tkhai",tkhai@yandex.ru,yandex.ru,45,0,1118,366,"2011-09-03 16:18:37","2015-02-16 04:38:34",2018-08-19
 13016,"kirill v tkhai","Kirill V Tkhai",tkhai@yandex.ru,yandex.ru,1,0,4,0,"2014-03-12 03:18:33","2014-03-12 03:18:33",2018-08-19
 13017,"kirill v tkhai","Tkhai Kirill",tkhai@yandex.ru,yandex.ru,9,0,1426,382,"2011-03-14 06:27:46","2013-03-19 08:12:08",2018-08-19
@@ -13088,8 +13088,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 13088,"kolbeinn karlsson","Kolbeinn Karlsson",kolbeinnkarls@gmail.com,gmail.com,1,0,0,0,"2015-01-31 10:14:33","2015-01-31 10:14:33",2018-08-19
 13089,"kolmakov dmitriy","Kolmakov Dmitriy",kolmakov.dmitriy@huawei.com,huawei.com,1,0,49,0,"2015-09-07 02:05:48","2015-09-07 02:05:48",2018-08-19
 13090,"komal shah","Komal Shah",komal_shah802003@yahoo.com,yahoo.com,10,0,3859,844,"2006-04-01 03:13:30","2008-09-07 23:41:28",2018-08-19
-13091,"kong jianjun","Amos Kong",kongjianjun@gmail.com,gmail.com,3,0,49,7,"2012-05-22 20:58:40","2013-04-01 23:12:02",2018-08-19
-13092,"kong jianjun","Jianjun Kong",kongjianjun@gmail.com,gmail.com,1,0,1,1,"2013-01-18 08:52:09","2013-01-18 08:52:09",2018-08-19
+13091,"amos kong","Amos Kong",kongjianjun@gmail.com,gmail.com,3,0,49,7,"2012-05-22 20:58:40","2013-04-01 23:12:02",2018-08-19
+13092,"amos kong","Jianjun Kong",kongjianjun@gmail.com,gmail.com,1,0,1,1,"2013-01-18 08:52:09","2013-01-18 08:52:09",2018-08-19
 13093,"kong xinwei","Xinwei Kong",kong.kongxinwei@hisilicon.com,hisilicon.com,2,0,0,0,"2016-04-12 16:55:43","2016-04-12 16:55:51",2018-08-19
 13094,"kong xinwei",kongxinwei,kong.kongxinwei@hisilicon.com,hisilicon.com,2,0,766,170,"2015-05-20 04:16:36","2015-05-20 04:16:37",2018-08-19
 13095,"konrad eisele","Konrad Eisele",konrad@gaisler.com,gaisler.com,6,0,4879,1217,"2009-08-16 17:13:29","2009-08-31 15:08:13",2018-08-19
@@ -13247,8 +13247,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 13247,"krzysztof majzerowicz-jaszcz","Krzysztof Majzerowicz-Jaszcz",cristos@vipserv.org,vipserv.org,1,0,55,51,"2014-08-27 00:10:58","2014-08-27 00:10:58",2018-08-19
 13248,"krzysztof mazur","Krzysztof Mazur",krzysiek@podlesie.net,podlesie.net,21,0,285,62,"2012-10-08 09:18:22","2017-11-15 02:12:39",2018-08-19
 13249,"krzysztof nowicki","Krzysztof Nowicki",krzysztof.a.nowicki@gmail.com,gmail.com,1,0,0,0,"2017-01-27 09:58:27","2017-01-27 09:58:27",2018-08-19
-13250,"krzysztof oledzki","Krzysztof Oledzki",olel@ans.pl,ans.pl,2,0,11,4,"2007-10-16 23:31:08","2008-03-04 14:56:23",2018-08-19
-13251,"krzysztof oledzki","Krzysztof Oledzki",olenf@ans.pl,ans.pl,1,0,0,0,"2005-11-14 15:25:59","2005-11-14 15:25:59",2018-08-19
+13250,"krzysztof piotr oledzki","Krzysztof Oledzki",olel@ans.pl,ans.pl,2,0,11,4,"2007-10-16 23:31:08","2008-03-04 14:56:23",2018-08-19
+13251,"krzysztof piotr oledzki","Krzysztof Oledzki",olenf@ans.pl,ans.pl,1,0,0,0,"2005-11-14 15:25:59","2005-11-14 15:25:59",2018-08-19
 13252,"krzysztof opasiak","Krzysztof Opasiak",k.opasiak@samsung.com,samsung.com,43,0,3653,1155,"2014-05-21 05:05:35","2017-07-10 15:50:03",2018-08-19
 13253,"krzysztof opasiak","Krzysztof Opasiak",kopasiak90@gmail.com,gmail.com,5,0,579,150,"2015-03-27 01:35:44","2017-01-23 18:27:24",2018-08-19
 13254,"krzysztof piotr oledzki","Krzysztof Oledzki",ole@ans.pl,ans.pl,4,0,9,2,"2008-06-03 18:40:17","2010-09-29 23:19:04",2018-08-19
@@ -13510,9 +13510,9 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 13510,"laurent vivier","Laurent Vivier",lvivier@redhat.com,redhat.com,8,0,183,52,"2015-11-09 08:49:08","2018-03-02 02:51:56",2018-08-19
 13511,"laurentiu palcu","Laurentiu Palcu",laurentiu.palcu@intel.com,intel.com,15,0,13871,3174,"2014-01-09 02:20:00","2015-06-02 03:36:51",2018-08-19
 13512,"laurentiu palcu","Laurentiu Palcu",laurentiu.palcu@nxp.com,nxp.com,1,0,1,1,"2017-06-28 02:31:34","2017-06-28 02:31:34",2018-08-19
-13513,"laurentiu tudor","Laurentiu TUDOR",Laurentiu.Tudor@freescale.com,freescale.com,3,0,110,43,"2011-07-07 06:44:30","2014-06-11 08:13:19",2018-08-19
-13514,"laurentiu tudor","Laurentiu Tudor",Laurentiu.Tudor@freescale.com,freescale.com,1,0,0,0,"2014-05-30 07:59:15","2014-05-30 07:59:15",2018-08-19
-13515,"laurentiu tudor","Tudor Laurentiu",laurentiu.tudor@freescale.com,freescale.com,1,0,0,0,"2013-03-05 07:52:49","2013-03-05 07:52:49",2018-08-19
+13513,"tudor laurentiu","Laurentiu TUDOR",Laurentiu.Tudor@freescale.com,freescale.com,3,0,110,43,"2011-07-07 06:44:30","2014-06-11 08:13:19",2018-08-19
+13514,"tudor laurentiu","Laurentiu Tudor",Laurentiu.Tudor@freescale.com,freescale.com,1,0,0,0,"2014-05-30 07:59:15","2014-05-30 07:59:15",2018-08-19
+13515,"tudor laurentiu","Tudor Laurentiu",laurentiu.tudor@freescale.com,freescale.com,1,0,0,0,"2013-03-05 07:52:49","2013-03-05 07:52:49",2018-08-19
 13516,"lauri hintsala","Lauri Hintsala",lauri.hintsala@bluegiga.com,bluegiga.com,17,0,55,16,"2011-10-18 02:52:29","2014-08-13 05:02:53",2018-08-19
 13517,"lauri kasanen","Lauri Kasanen",cand@gmx.com,gmx.com,10,0,276,125,"2012-07-31 07:41:46","2016-04-16 07:18:56",2018-08-19
 13518,"lauri kentta","Lauri Kenttä",lauri.kentta@gmail.com,gmail.com,1,0,2,2,"2015-05-08 12:01:53","2015-05-08 12:01:53",2018-08-19
@@ -13711,13 +13711,13 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 13711,"li rongqing","RongQing Li",roy.qing.li@gmail.com,gmail.com,1,0,5,3,"2011-10-18 15:52:35","2011-10-18 15:52:35",2018-08-19
 13712,"li rongqing",RongQing.Li,roy.qing.li@gmail.com,gmail.com,17,0,94,27,"2011-11-14 11:37:24","2012-07-01 21:34:30",2018-08-19
 13713,"li rongqing",roy.qing.li@gmail.com,roy.qing.li@gmail.com,gmail.com,1,0,6,4,"2011-10-17 15:32:42","2011-10-17 15:32:42",2018-08-19
-13714,"li shaohua","Li, Shaohua",shaohua.li@intel.com,intel.com,2,0,219,42,"2008-08-13 02:26:01","2011-03-23 00:30:34",2018-08-19
-13715,"li shaohua","David Shaohua Li",shaohua.li@intel.com,intel.com,18,0,1056,233,"2005-03-18 13:27:13","2006-02-08 14:35:00",2018-08-19
-13716,"li shaohua","Li Shaohua",shaoh.li@gmail.com,gmail.com,1,0,1,3,"2004-10-09 00:51:19","2004-10-09 00:51:19",2018-08-19
-13717,"li shaohua","Li Shaohua",shaohua.li@intel.com,intel.com,17,0,17,11,"2004-09-22 04:19:07","2006-12-07 04:57:05",2018-08-19
-13718,"li shaohua","Shaohua Li",shaohua.li@intel.com,intel.com,250,0,18229,3489,"2005-05-27 12:53:03","2012-02-05 23:57:29",2018-08-19
-13719,"li shaohua","Shaohua Li writes",shaohua.li@intel.com,intel.com,1,0,14,3,"2010-12-13 05:32:22","2010-12-13 05:32:22",2018-08-19
-13720,"li shaohua",shaohua.li@intel.com,shaohua.li@intel.com,intel.com,3,0,76,26,"2011-05-06 10:34:32","2011-05-06 10:35:31",2018-08-19
+13714,"shaohua li","Li, Shaohua",shaohua.li@intel.com,intel.com,2,0,219,42,"2008-08-13 02:26:01","2011-03-23 00:30:34",2018-08-19
+13715,"shaohua li","David Shaohua Li",shaohua.li@intel.com,intel.com,18,0,1056,233,"2005-03-18 13:27:13","2006-02-08 14:35:00",2018-08-19
+13716,"shaohua li","Li Shaohua",shaoh.li@gmail.com,gmail.com,1,0,1,3,"2004-10-09 00:51:19","2004-10-09 00:51:19",2018-08-19
+13717,"shaohua li","Li Shaohua",shaohua.li@intel.com,intel.com,17,0,17,11,"2004-09-22 04:19:07","2006-12-07 04:57:05",2018-08-19
+13718,"shaohua li","Shaohua Li",shaohua.li@intel.com,intel.com,250,0,18229,3489,"2005-05-27 12:53:03","2012-02-05 23:57:29",2018-08-19
+13719,"shaohua li","Shaohua Li writes",shaohua.li@intel.com,intel.com,1,0,14,3,"2010-12-13 05:32:22","2010-12-13 05:32:22",2018-08-19
+13720,"shaohua li",shaohua.li@intel.com,shaohua.li@intel.com,intel.com,3,0,76,26,"2011-05-06 10:34:32","2011-05-06 10:35:31",2018-08-19
 13721,"li tan","Tan, Li",li.tan@intel.com,intel.com,1,0,0,0,"2008-05-22 23:54:09","2008-05-22 23:54:09",2018-08-19
 13722,"li wang","Li Wang",liwang@nudt.edu.cn,nudt.edu.cn,2,0,4,6,"2012-01-18 17:44:36","2012-01-24 23:40:31",2018-08-19
 13723,"li wang","Li Wang",liwang@redhat.com,redhat.com,2,0,16,9,"2016-11-15 01:19:01","2018-07-26 16:37:42",2018-08-19
@@ -13825,7 +13825,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 13825,"lin ma","Lin Ma",lma@suse.com,suse.com,2,0,0,0,"2017-07-25 04:05:53","2017-07-25 04:05:54",2018-08-19
 13826,"lin ming","Lin Ming",ming.m.lin@intel.com,intel.com,169,0,17969,6153,"2008-02-28 15:38:54","2013-03-22 20:42:28",2018-08-19
 13827,"lin ming","Lin Ming",mlin@ss.pku.edu.cn,ss.pku.edu.cn,7,0,83,22,"2012-04-20 09:11:05","2012-09-25 08:17:07",2018-08-19
-13828,"lin ming","Ming Lin",ming.l@samsung.com,samsung.com,3,0,83,14,"2016-05-18 14:05:01","2016-05-25 23:23:27",2018-08-19
+13828,"ming lin","Ming Lin",ming.l@samsung.com,samsung.com,3,0,83,14,"2016-05-18 14:05:01","2016-05-25 23:23:27",2018-08-19
 13829,"lin ming","Ming Lin",ming.m.lin@intel.com,intel.com,1,0,0,0,"2008-02-20 23:01:30","2008-02-20 23:01:30",2018-08-19
 13830,"lin ming","Ming Ling",ming.ling@spreadtrum.com,spreadtrum.com,1,0,35,10,"2016-12-12 16:42:26","2016-12-12 16:42:26",2018-08-19
 13831,"lin ming","Ming Ling",ming.m.lin@intel.com,intel.com,1,0,0,0,"2008-08-17 19:14:59","2008-08-17 19:14:59",2018-08-19
@@ -14303,9 +14303,9 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 14303,"m.baris demiray","M.Baris Demiray",baris@labristeknoloji.com,labristeknoloji.com,2,0,0,0,"2005-06-25 14:58:40","2005-09-10 00:26:09",2018-08-19
 14304,m4rkusxxl,M4rkusXXL,M4rkusXXL@web.de,web.de,1,0,0,0,"2007-08-10 14:53:32","2007-08-10 14:53:32",2018-08-19
 14305,"ma haijun","Ma Haijun",mahaijuns@gmail.com,gmail.com,2,0,8,3,"2013-08-13 18:15:38","2014-03-27 04:07:06",2018-08-19
-14306,"ma jianpeng","Jianpeng Ma",majianpeng@gmail.com,gmail.com,12,0,323,74,"2012-08-02 00:50:39","2014-06-06 14:38:16",2018-08-19
-14307,"ma jianpeng",majianpeng,majianpeng@gmail.com,gmail.com,62,0,1743,322,"2011-11-30 06:47:48","2013-11-14 22:55:02",2018-08-19
-14308,"ma jianpeng","马建朋",majianpeng@gmail.com,gmail.com,1,0,5,0,"2011-06-08 18:42:48","2011-06-08 18:42:48",2018-08-19
+14306,"jianpeng ma","Jianpeng Ma",majianpeng@gmail.com,gmail.com,12,0,323,74,"2012-08-02 00:50:39","2014-06-06 14:38:16",2018-08-19
+14307,"jianpeng ma",majianpeng,majianpeng@gmail.com,gmail.com,62,0,1743,322,"2011-11-30 06:47:48","2013-11-14 22:55:02",2018-08-19
+14308,"jianpeng ma","马建朋",majianpeng@gmail.com,gmail.com,1,0,5,0,"2011-06-08 18:42:48","2011-06-08 18:42:48",2018-08-19
 14309,"ma jieyue","Ma JieYue",jieyue.majy@alibaba-inc.com,alibaba-inc.com,1,0,0,0,"2013-11-14 20:26:13","2013-11-14 20:26:13",2018-08-19
 14310,"ma jun","Ma Jun",majun258@huawei.com,huawei.com,4,0,979,263,"2015-12-17 03:56:34","2015-12-17 03:56:37",2018-08-19
 14311,"ma jun",MaJun,majun258@huawei.com,huawei.com,7,0,72,28,"2015-12-21 18:47:22","2017-05-18 01:19:13",2018-08-19
@@ -14438,8 +14438,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 14438,"major hayden","Major Hayden",major@mhtx.net,mhtx.net,1,0,15,4,"2018-02-23 12:29:54","2018-02-23 12:29:54",2018-08-19
 14439,"major lee","Major Lee",major_lee@wistrom.com,wistrom.com,2,0,0,0,"2011-08-26 04:22:00","2011-11-15 15:31:23",2018-08-19
 14440,"major lee","Major Lee",major_lee@wistron.com,wistron.com,3,0,36,7,"2010-12-10 02:13:49","2011-06-29 04:23:46",2018-08-19
-14441,"majunath goudar","Majunath Goudar",csmanjuvijay@gmail.com,gmail.com,9,0,168,46,"2013-10-08 03:29:01","2013-11-13 04:10:21",2018-08-19
-14442,"majunath goudar","Manjunath Goudar",csmanjuvijay@gmail.com,gmail.com,8,0,81,46,"2016-11-24 13:42:44","2016-12-07 15:54:11",2018-08-19
+14441,"manjunath goudar","Majunath Goudar",csmanjuvijay@gmail.com,gmail.com,9,0,168,46,"2013-10-08 03:29:01","2013-11-13 04:10:21",2018-08-19
+14442,"manjunath goudar","Manjunath Goudar",csmanjuvijay@gmail.com,gmail.com,8,0,81,46,"2016-11-24 13:42:44","2016-12-07 15:54:11",2018-08-19
 14443,"makito shiokawa","Makito SHIOKAWA",lkhmkt@gmail.com,gmail.com,1,0,2,2,"2009-02-19 06:34:59","2009-02-19 06:34:59",2018-08-19
 14444,"makoto minoura","MINOURA Makoto / 箕浦 真",minoura@valinux.co.jp,valinux.co.jp,1,0,27,0,"2016-02-24 21:20:48","2016-02-24 21:20:48",2018-08-19
 14445,"maks naumov","Maks Naumov",maksqwe1@ukr.net,ukr.net,4,0,2,2,"2014-08-12 11:28:41","2014-08-16 00:41:07",2018-08-19
@@ -14527,7 +14527,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 14527,"manish rangankar",manish.rangankar@cavium.com,manish.rangankar@cavium.com,cavium.com,5,0,46,11,"2017-05-19 01:33:16","2017-05-19 01:33:21",2018-08-19
 14528,"manish sharma","Manish Sharma",manishrma@gmail.com,gmail.com,1,0,0,1,"2013-09-04 10:01:23","2013-09-04 10:01:23",2018-08-19
 14529,"manish vishwanathrao badarkhe*","Vishwanathrao Badarkhe, Manish",manishv.b@ti.com,ti.com,8,0,487,90,"2013-01-24 02:55:17","2013-11-19 04:32:42",2018-08-19
-14530,"manish vishwanathrao badarkhe*","Manish Badarkhe",manishvb@ti.com,ti.com,1,0,0,0,"2015-03-26 06:38:25","2015-03-26 06:38:25",2018-08-19
+14530,"manish badarkhe","Manish Badarkhe",manishvb@ti.com,ti.com,1,0,0,0,"2015-03-26 06:38:25","2015-03-26 06:38:25",2018-08-19
 14531,"manisha agrawal","Manisha Agrawal",manisha.agrawal@ti.com,ti.com,3,0,62,20,"2015-11-03 13:22:48","2015-11-03 13:22:50",2018-08-19
 14532,"manivannan sadhasivam","Manivannan Sadhasivam",manivannan.sadhasivam@linaro.org,linaro.org,32,0,33763,6967,"2017-06-13 08:52:22","2018-08-01 11:02:31",2018-08-19
 14533,"manivannan sadhasivam","Manivannan Sadhasivam",manivannanece23@gmail.com,gmail.com,4,0,4458,1081,"2017-01-08 18:55:26","2017-03-19 07:53:12",2018-08-19
@@ -14976,8 +14976,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 14976,"mark rankilor",Mark,reodge@gmail.com,gmail.com,7,0,5,26,"2010-05-10 02:56:05","2010-07-13 09:24:17",2018-08-19
 14977,"mark rankilor","Mark Rankilor",reodge@gmail.com,gmail.com,10,0,33,25,"2010-04-29 03:17:16","2010-05-27 02:39:15",2018-08-19
 14978,"mark rusk","Mark Rusk",Mark.Rusk@hp.com,hp.com,2,0,21,9,"2012-11-06 12:33:13","2013-08-14 13:30:01",2018-08-19
-14979,"mark rustad","Mark Rustad",MRustad@mac.com,mac.com,2,0,8,2,"2005-10-17 16:43:34","2006-01-05 22:47:29",2018-08-19
-14980,"mark rustad","Mark Rustad",Rustad@gmail.com,gmail.com,1,0,1,1,"2008-07-10 12:27:11","2008-07-10 12:27:11",2018-08-19
+14979,"mark d. rustad","Mark Rustad",MRustad@mac.com,mac.com,2,0,8,2,"2005-10-17 16:43:34","2006-01-05 22:47:29",2018-08-19
+14980,"mark d. rustad","Mark Rustad",Rustad@gmail.com,gmail.com,1,0,1,1,"2008-07-10 12:27:11","2008-07-10 12:27:11",2018-08-19
 14981,"mark rutland","Mark Rutland",Mark.Rutland@arm.com,arm.com,6,0,5,2,"2011-08-10 02:20:17","2013-01-18 08:10:06",2018-08-19
 14982,"mark rutland","Mark Rutland",mark.rutland@arm.com,arm.com,581,88,26578,8777,"2011-04-15 03:14:38","2018-09-05 09:38:57",2018-08-19
 14983,"mark ryden","Mark Ryden",markryde@gmail.com,gmail.com,1,0,0,1,"2007-12-19 23:38:11","2007-12-19 23:38:11",2018-08-19
@@ -15336,7 +15336,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 15336,"masood mehmood","Masood Mehmood",ody.guru@gmail.com,gmail.com,3,0,0,0,"2014-03-01 00:41:55","2014-03-18 13:40:14",2018-08-19
 15337,"masoud asgharifard sharbiani","Masoud Asgharifard Sharbiani",masouds@google.com,google.com,2,0,109,15,"2006-08-27 01:23:48","2007-07-22 02:12:28",2018-08-19
 15338,"masoud asgharifard sharbiani","Masoud Sharbiani",masouds@google.com,google.com,1,0,74,15,"2008-09-10 13:22:34","2008-09-10 13:22:34",2018-08-19
-15339,"masoud sharbiani","Masoud Sharbiani",msharbiani@twitter.com,twitter.com,2,0,54,6,"2013-09-20 15:59:07","2013-09-26 10:30:43",2018-08-19
+15339,"masoud asgharifard sharbiani","Masoud Sharbiani",msharbiani@twitter.com,twitter.com,2,0,54,6,"2013-09-20 15:59:07","2013-09-26 10:30:43",2018-08-19
 15340,"massimiliano ghilardi","Massimiliano Ghilardi",massimiliano.ghilardi@gmail.com,gmail.com,1,0,21,14,"2007-09-04 13:53:43","2007-09-04 13:53:43",2018-08-19
 15341,"massimo cirillo","Massimo Cirillo",maxcir@gmail.com,gmail.com,3,0,111,19,"2008-01-11 02:24:11","2009-09-03 07:34:39",2018-08-19
 15342,"massimo del fedele","Massimo Del Fedele",max@veneto.com,veneto.com,1,0,776,125,"2009-10-24 09:12:37","2009-10-24 09:12:37",2018-08-19
@@ -15561,8 +15561,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 15561,"matthew e tolentino","Tolentino, Matthew E",matthew.e.tolentino@intel.com,intel.com,1,0,5,0,"2006-03-26 01:37:09","2006-03-26 01:37:09",2018-08-19
 15562,"matthew finlay","Matthew Finlay",Matt@Mellanox.com,mellanox.com,1,0,58,2,"2015-05-19 00:11:48","2015-05-19 00:11:48",2018-08-19
 15563,"matthew finlay","Matthew Finlay",matt@mellanox.com,mellanox.com,11,0,834,205,"2016-02-22 08:17:30","2016-06-30 07:34:47",2018-08-19
-15564,"matthew fleming","Matt Fleming",matthew.fleming@imgtec.com,imgtec.com,2,0,0,0,"2008-11-07 05:26:25","2009-09-28 08:43:01",2018-08-19
-15565,"matthew fleming","Matthew Fleming",matthew.fleming@imgtec.com,imgtec.com,2,0,64,15,"2008-10-02 04:21:42","2008-10-02 04:24:05",2018-08-19
+15564,"matt fleming","Matt Fleming",matthew.fleming@imgtec.com,imgtec.com,2,0,0,0,"2008-11-07 05:26:25","2009-09-28 08:43:01",2018-08-19
+15565,"matt fleming","Matthew Fleming",matthew.fleming@imgtec.com,imgtec.com,2,0,64,15,"2008-10-02 04:21:42","2008-10-02 04:24:05",2018-08-19
 15566,"matthew garrett","Matthew Garrett",matthew.garrett@nebula.com,nebula.com,26,227,700,201,"2012-12-26 09:22:25","2015-11-16 12:38:40",2018-08-19
 15567,"matthew garrett","Matthew Garrett",mjg59@coreos.com,coreos.com,3,0,56,28,"2015-04-07 11:07:00","2015-04-08 16:36:01",2018-08-19
 15568,"matthew garrett","Matthew Garrett",mjg59@google.com,google.com,18,0,3392,898,"2017-08-25 08:50:15","2018-06-08 14:57:43",2018-08-19
@@ -16344,7 +16344,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 16344,"miguel gomez","Miguel Gómez",magomez@igalia.com,igalia.com,42,0,2598,709,"2012-06-06 07:22:04","2012-07-24 06:05:25",2018-08-19
 16345,"miguel ojeda sandonis","Miguel Ojeda",maxextreme@gmail.com,gmail.com,4,0,114,49,"2007-02-20 13:58:00","2007-08-22 14:01:56",2018-08-19
 16346,"miguel ojeda sandonis","Miguel Ojeda Sandonis",maxextreme@gmail.com,gmail.com,3,0,3200,961,"2006-09-13 06:34:05","2007-02-10 01:44:32",2018-08-19
-16347,"miguel ojeda","Miguel Ojeda",miguel.ojeda.sandonis@gmail.com,gmail.com,15,23,308,116,"2008-07-04 09:59:33","2018-09-30 04:50:05",2018-08-19
+16347,"miguel ojeda sandonis","Miguel Ojeda",miguel.ojeda.sandonis@gmail.com,gmail.com,15,23,308,116,"2008-07-04 09:59:33","2018-09-30 04:50:05",2018-08-19
 16348,"miguel oliveira","Miguel Oliveira",cmroliv@gmail.com,gmail.com,2,0,0,0,"2014-05-30 09:44:26","2014-08-01 09:54:39",2018-08-19
 16349,"miguel robles","Miguel Robles",miguel.robles@farole.net,farole.net,4,0,13,15,"2017-03-14 08:52:43","2017-03-16 16:35:45",2018-08-19
 16350,"miguel vadillo","Miguel Vadillo",vadillo@ti.com,ti.com,2,0,8,5,"2011-07-01 13:54:02","2012-10-29 21:02:13",2018-08-19
@@ -16404,8 +16404,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 16404,"mike auty","Mike Auty",ikelos@gentoo.org,gentoo.org,1,0,3,2,"2010-08-28 20:35:17","2010-08-28 20:35:17",2018-08-19
 16405,"mike chan","Mike Chan",mike@android.com,android.com,4,0,10,4,"2008-12-04 12:19:17","2010-05-03 16:04:07",2018-08-19
 16406,"mike chan","Mike Chan",mikechan@google.com,google.com,1,0,21,3,"2007-02-12 00:53:06","2007-02-12 00:53:06",2018-08-19
-16407,"mike christie","Mike Christie",michaelc@cs.wisc.edu,cs.wisc.edu,447,0,49112,12727,"2004-03-03 21:42:40","2015-04-20 20:42:24",2018-08-19
-16408,"mike christie","Mike Christie",mikenc@us.ibm.com,us.ibm.com,7,0,5,0,"2003-04-21 20:58:50","2004-01-05 08:08:51",2018-08-19
+16407,"michael christie","Mike Christie",michaelc@cs.wisc.edu,cs.wisc.edu,447,0,49112,12727,"2004-03-03 21:42:40","2015-04-20 20:42:24",2018-08-19
+16408,"michael christie","Mike Christie",mikenc@us.ibm.com,us.ibm.com,7,0,5,0,"2003-04-21 20:58:50","2004-01-05 08:08:51",2018-08-19
 16409,"mike crash","Mike Crash",mike@mikecrash.com,mikecrash.com,1,0,0,0,"2007-06-25 03:12:51","2007-06-25 03:12:51",2018-08-19
 16410,"mike crowe","Mike Crowe",mac@mcrowe.com,mcrowe.com,4,0,19,18,"2007-09-14 01:18:07","2008-10-27 05:52:49",2018-08-19
 16411,"mike crowe","Mike Crowe",mcrowe@zipitwireless.com,zipitwireless.com,1,0,0,0,"2011-01-11 21:53:52","2011-01-11 21:53:52",2018-08-19
@@ -16435,7 +16435,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 16435,"mike habeck","Mike Habeck",habeck@sgi.com,sgi.com,10,0,191,52,"2005-03-25 18:34:00","2011-05-28 11:15:07",2018-08-19
 16436,"mike hench","Mike Hench",mhench@elutions.com,elutions.com,1,0,0,2,"2011-07-05 16:14:48","2011-07-05 16:14:48",2018-08-19
 16437,"mike hench","Mike Hench",mhench@engagenet.com,engagenet.com,1,0,6,2,"2008-03-19 10:40:15","2008-03-19 10:40:15",2018-08-19
-16438,"mike hernandez","Mike Hernandez",mike.hernandez@qlogic.com,qlogic.com,1,0,3,1,"2008-08-13 21:36:59","2008-08-13 21:36:59",2018-08-19
+16438,"michael hernandez","Mike Hernandez",mike.hernandez@qlogic.com,qlogic.com,1,0,3,1,"2008-08-13 21:36:59","2008-08-13 21:36:59",2018-08-19
 16439,"mike hommey","Mike Hommey",mh@glandium.org,glandium.org,1,0,0,0,"2009-11-11 14:26:55","2009-11-11 14:26:55",2018-08-19
 16440,"mike isely","Mike Isely",isely@isely.net,isely.net,3,0,28710,6782,"2006-06-26 16:58:46","2008-03-13 13:30:35",2018-08-19
 16441,"mike isely","Mike Isely",isely@pobox.com,pobox.com,327,0,29819,6286,"2005-12-01 00:52:04","2012-02-19 21:40:56",2018-08-19
@@ -16508,12 +16508,12 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 16508,"mike travis","Mike Travis",travis@sgi.com,sgi.com,227,23,24450,5471,"2007-10-16 01:24:04","2017-01-13 07:21:12",2018-08-19
 16509,"mike travis",mike.travis@hpe.com,mike.travis@hpe.com,hpe.com,11,0,608,198,"2017-10-12 09:32:02","2018-05-24 13:17:14",2018-08-19
 16510,"mike travis",travis@sgi.com,travis@sgi.com,sgi.com,35,0,1769,516,"2008-01-30 04:32:51","2017-02-14 16:11:29",2018-08-19
-16511,"mike turquette","Mike Turquette",mturquette@gmail.com,gmail.com,1,0,0,0,"2009-11-11 11:00:38","2009-11-11 11:00:38",2018-08-19
+16511,"michael turquette","Mike Turquette",mturquette@gmail.com,gmail.com,1,0,0,0,"2009-11-11 11:00:38","2009-11-11 11:00:38",2018-08-19
 16512,"mike waychison","Mike Waychison",michael.waychison@sun.com,sun.com,4,0,10,2,"2004-09-14 08:06:01","2005-03-08 17:52:29",2018-08-19
 16513,"mike waychison","Mike Waychison",mikew@google.com,google.com,39,0,8749,2384,"2005-09-06 15:17:09","2012-01-04 04:52:32",2018-08-19
 16514,"mike westerhof","Mike Westerhof",mwester@dls.net,dls.net,1,0,0,0,"2007-10-10 19:18:14","2007-10-10 19:18:14",2018-08-19
 16515,"mike williams","Mike Williams",mike@mikebwilliams.com,mikebwilliams.com,5,0,1,1,"2011-06-21 23:09:43","2016-05-06 06:31:25",2018-08-19
-16516,"mike wolf","Mike Wolf",mjw@us.ibm.com,us.ibm.com,2,0,1,1,"2006-06-02 07:53:42","2006-11-21 12:41:54",2018-08-19
+16516,"michael wolf","Mike Wolf",mjw@us.ibm.com,us.ibm.com,2,0,1,1,"2006-06-02 07:53:42","2006-11-21 12:41:54",2018-08-19
 16517,"mike yoknis","Mike Yoknis",mike.yoknis@hp.com,hp.com,1,0,8,0,"2012-11-07 14:52:20","2012-11-07 14:52:20",2018-08-19
 16518,"mikel astiz","Mikel Astiz",mikel.astiz@bmw-carit.de,bmw-carit.de,12,0,190,79,"2012-04-10 23:48:47","2014-04-08 05:21:34",2018-08-19
 16519,"mikhail boiko","Mikhail Boiko",mm.boiko@yandex.ru,yandex.ru,1,0,0,1,"2014-03-18 14:59:46","2014-03-18 14:59:46",2018-08-19
@@ -16643,7 +16643,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 16643,"mingwei wang","Mingwei Wang",mwwang@marvell.com,marvell.com,1,0,32,12,"2009-05-20 01:49:57","2009-05-20 01:49:57",2018-08-19
 16644,"minh duc tran","Minh Duc Tran",MinhDuc.Tran@Emulex.Com,emulex.com,1,0,0,0,"2015-02-09 10:54:09","2015-02-09 10:54:09",2018-08-19
 16645,"minh duc tran","Minh Tran",minhduc.tran@emulex.com,emulex.com,2,0,108,21,"2012-10-19 16:11:24","2014-12-07 06:09:52",2018-08-19
-16646,"minh tran","Minh Tran",minhduc.tran@avagotech.com,avagotech.com,1,0,0,0,"2015-05-14 23:16:17","2015-05-14 23:16:17",2018-08-19
+16646,"minh duc tran","Minh Tran",minhduc.tran@avagotech.com,avagotech.com,1,0,0,0,"2015-05-14 23:16:17","2015-05-14 23:16:17",2018-08-19
 16647,"minho ban","Minho Ban",mhban@samsung.com,samsung.com,3,0,47,19,"2012-01-19 18:03:07","2012-05-14 12:45:31",2018-08-19
 16648,"minjian wu","Minjian Wu",minjianwu@micron.com,micron.com,1,0,8,1,"2013-08-24 20:25:12","2013-08-24 20:25:12",2018-08-19
 16649,"minjune kim","Minjune Kim",infinite.minjune.kim@gmail.com,gmail.com,1,0,1,1,"2015-08-26 21:21:52","2015-08-26 21:21:52",2018-08-19
@@ -16994,8 +16994,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 16994,"nathan holstein","Nathan Holstein",nathan@lampreynetworks.com,lampreynetworks.com,1,0,0,0,"2010-06-09 12:46:25","2010-06-09 12:46:25",2018-08-19
 16995,"nathan howard","Nathan Howard",adanhawthorn@gmail.com,gmail.com,6,0,10,13,"2017-02-09 15:36:36","2017-02-17 12:16:19",2018-08-19
 16996,"nathan laredo","Nathan Laredo",nlaredo@transmeta.com,transmeta.com,1,0,1,1,"2003-02-03 16:44:02","2003-02-03 16:44:02",2018-08-19
-16997,"nathan lynch","Nathan Lynch",nathan_lynch@mentor.com,mentor.com,26,0,3499,1063,"2014-02-03 11:48:52","2015-08-10 09:36:06",2018-08-19
-16998,"nathan lynch","Nathan Lynch",nathanl@austin.ibm.com,austin.ibm.com,19,0,106,44,"2004-07-28 08:56:54","2006-03-20 16:37:15",2018-08-19
+16997,"nathan t. lynch","Nathan Lynch",nathan_lynch@mentor.com,mentor.com,26,0,3499,1063,"2014-02-03 11:48:52","2015-08-10 09:36:06",2018-08-19
+16998,"nathan t. lynch","Nathan Lynch",nathanl@austin.ibm.com,austin.ibm.com,19,0,106,44,"2004-07-28 08:56:54","2006-03-20 16:37:15",2018-08-19
 16999,"nathan rossi","Nathan Rossi",nathan.rossi@xilinx.com,xilinx.com,2,0,16,4,"2015-01-16 04:49:25","2015-03-30 05:39:08",2018-08-19
 17000,"nathan rossi","Nathan Rossi",nathan@nathanrossi.com,nathanrossi.com,1,0,0,0,"2016-02-03 04:41:05","2016-02-03 04:41:05",2018-08-19
 17001,"nathan schulte","Nathan Schulte",nmschulte@gmail.com,gmail.com,1,0,19,4,"2016-03-15 08:14:05","2016-03-15 08:14:05",2018-08-19
@@ -17131,8 +17131,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 17131,"nguyen hong ky","Nguyen Hong Ky",nh-ky@jinso.co.jp,jinso.co.jp,1,0,0,0,"2013-10-06 23:29:25","2013-10-06 23:29:25",2018-08-19
 17132,"nguyen phan quang minh","Nguyen Phan Quang Minh",minhnpq16@gmail.com,gmail.com,2,0,501,133,"2017-12-08 02:43:19","2018-03-30 03:17:23",2018-08-19
 17133,"nguyen viet dung","Nguyen Viet Dung",nv-dung@jinso.co.jp,jinso.co.jp,1,0,47,13,"2013-09-02 17:09:25","2013-09-02 17:09:25",2018-08-19
-17134,"ni wade","Ni Wade",wni@nvidia.com,nvidia.com,3,0,2,1,"2013-11-05 22:30:13","2015-07-14 00:40:56",2018-08-19
-17135,"ni wade","Wei Ni",wni@nvidia.com,nvidia.com,50,0,10667,2529,"2008-09-25 22:45:46","2016-05-11 03:20:26",2018-08-19
+17134,"wei ni","Ni Wade",wni@nvidia.com,nvidia.com,3,0,2,1,"2013-11-05 22:30:13","2015-07-14 00:40:56",2018-08-19
+17135,"wei ni","Wei Ni",wni@nvidia.com,nvidia.com,50,0,10667,2529,"2008-09-25 22:45:46","2016-05-11 03:20:26",2018-08-19
 17136,"nibble max","Nibble Max",nibble.max@gmail.com,gmail.com,9,0,3934,543,"2014-11-08 03:35:08","2015-06-29 07:09:42",2018-08-19
 17137,"nibble max",nibble.max,nibble.max@gmail.com,gmail.com,17,0,15234,3078,"2014-08-05 21:38:48","2014-11-08 00:34:30",2018-08-19
 17138,"nic viljoen","Nic Viljoen",nick.viljoen@netronome.com,netronome.com,1,0,76,1,"2018-01-10 04:26:05","2018-01-10 04:26:05",2018-08-19
@@ -17665,9 +17665,9 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 17665,"oliver neukum",oliver@neukum.org,oliver@neukum.org,neukum.org,1,0,10,0,"2015-03-10 08:36:22","2015-03-10 08:36:22",2018-08-19
 17666,"oliver o'halloran","Oliver O'Halloran",oohall@gmail.com,gmail.com,49,0,3439,1053,"2016-02-15 22:31:53","2018-04-05 22:21:16",2018-08-19
 17667,"oliver pinter","Oliver Pinter",oliver.pntr@gmail.com,gmail.com,8,0,2,76,"2007-10-17 09:04:36","2008-02-23 19:33:21",2018-08-19
-17668,"oliver schinagl","Oliver Schinagl",oliver@schinagl.nl,schinagl.nl,8,0,695,99,"2012-09-20 10:57:17","2014-03-01 11:26:21",2018-08-19
-17669,"oliver schinagl","Olliver Schinagl",oliver@schinagl.nl,schinagl.nl,18,0,1123,268,"2014-02-22 07:53:36","2016-05-13 12:57:16",2018-08-19
-17670,"oliver schinagl",oliver@schinagl.nl,oliver@schinagl.nl,schinagl.nl,1,0,16,8,"2016-08-25 09:47:09","2016-08-25 09:47:09",2018-08-19
+17668,"olliver schinagl","Oliver Schinagl",oliver@schinagl.nl,schinagl.nl,8,0,695,99,"2012-09-20 10:57:17","2014-03-01 11:26:21",2018-08-19
+17669,"olliver schinagl","Olliver Schinagl",oliver@schinagl.nl,schinagl.nl,18,0,1123,268,"2014-02-22 07:53:36","2016-05-13 12:57:16",2018-08-19
+17670,"olliver schinagl",oliver@schinagl.nl,oliver@schinagl.nl,schinagl.nl,1,0,16,8,"2016-08-25 09:47:09","2016-08-25 09:47:09",2018-08-19
 17671,"oliver schmitt","Oliver Schmitt",voltumna@gmx.net,gmx.net,1,0,9,0,"2015-10-03 09:20:02","2015-10-03 09:20:02",2018-08-19
 17672,"oliver schuster","Oliver Schuster",oliver.s@inbox.com,inbox.com,1,0,5,2,"2008-04-01 08:06:21","2008-04-01 08:06:21",2018-08-19
 17673,"oliver schuster","Oliver Schuster",olivers137@aol.com,aol.com,1,0,652,194,"2008-03-05 07:48:45","2008-03-05 07:48:45",2018-08-19
@@ -18865,7 +18865,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 18865,"ping gao","Ping Gao",ping.a.gao@intel.com,intel.com,29,0,1879,477,"2016-09-05 21:04:11","2017-07-04 01:11:16",2018-08-19
 18866,"ping-ke shih","Ping-Ke Shih",pkshih@realtek.com,realtek.com,153,0,580098,126687,"2016-12-28 13:40:04","2018-07-05 22:44:35",2018-08-19
 18867,"pingchao yang","Pingchao Yang",pingchao.yang@intel.com,intel.com,9,0,4032,865,"2015-07-15 15:28:26","2016-03-02 23:46:45",2018-08-19
-18868,"pingfan liu","pingfan liu",qemulist@gmail.com,gmail.com,1,0,12,9,"2013-11-15 00:35:00","2013-11-15 00:35:00",2018-08-19
+18868,"liu ping fan","pingfan liu",qemulist@gmail.com,gmail.com,1,0,12,9,"2013-11-15 00:35:00","2013-11-15 00:35:00",2018-08-19
 18869,"pintu agarwal","Pintu Agarwal",pintu.ping@gmail.com,gmail.com,2,0,3370,937,"2017-11-01 10:00:39","2017-11-15 17:34:26",2018-08-19
 18870,"pintu kumar","Pintu Kumar",pintu.k@samsung.com,samsung.com,5,0,37,22,"2013-09-11 14:20:34","2014-12-18 16:17:18",2018-08-19
 18871,"piotr chmura","Piotr Chmura",chmooreck@poczta.onet.pl,poczta.onet.pl,4,0,26,10,"2011-10-31 08:24:50","2011-11-06 11:31:38",2018-08-19
@@ -19021,8 +19021,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 19021,"pravin bathija","Pravin M. Bathija",pbathija@amcc.com,amcc.com,1,0,20,4,"2008-03-14 02:52:28","2008-03-14 02:52:28",2018-08-19
 19022,"pravin bathija",pbathija@amcc.com,pbathija@amcc.com,amcc.com,1,0,0,0,"2009-11-23 05:06:13","2009-11-23 05:06:13",2018-08-19
 19023,"pravin shedge","Pravin Shedge",pravin.shedge4linux@gmail.com,gmail.com,28,0,19,7,"2017-12-04 17:57:22","2018-02-06 15:41:03",2018-08-19
-19024,"pravin shelar","Pravin B Shelar",pshelar@ovn.org,ovn.org,1,0,0,0,"2018-01-02 20:14:42","2018-01-02 20:14:42",2018-08-19
-19025,"pravin shelar","pravin shelar",pshelar@ovn.org,ovn.org,19,0,2366,448,"2016-08-05 17:45:36","2016-12-26 08:31:27",2018-08-19
+19024,"pravin b shelar","Pravin B Shelar",pshelar@ovn.org,ovn.org,1,0,0,0,"2018-01-02 20:14:42","2018-01-02 20:14:42",2018-08-19
+19025,"pravin b shelar","pravin shelar",pshelar@ovn.org,ovn.org,19,0,2366,448,"2016-08-05 17:45:36","2016-12-26 08:31:27",2018-08-19
 19026,pre-git,linus1,torvalds@linuxfoundation.org,linuxfoundation.org,1040,0,3869427,652365,"1991-09-17 12:00:00","2000-12-31 12:00:00",2018-08-19
 19027,pre-git,linus1,yoann.padioleau@facebook.com,facebook.com,1,0,5349,1486,"2001-01-04 12:00:00","2001-01-04 12:00:00",2018-08-19
 19028,pre-git,pad,yoann.padioleau@facebook.com,facebook.com,0,1,0,0,"2010-01-27 09:59:55","2010-01-27 09:59:55",2018-08-19
@@ -19502,7 +19502,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 19502,"ravi eluri","Ravi Eluri",venkataravi.e@techveda.org,techveda.org,2,0,7,5,"2017-12-22 00:25:44","2017-12-22 02:09:02",2018-08-19
 19503,"ravi k. nittala","Ravi K. Nittala",ravi.nittala@in.ibm.com,in.ibm.com,1,0,45,19,"2011-10-03 14:49:53","2011-10-03 14:49:53",2018-08-19
 19504,"ravi kumar v","Ravi Kumar V",kumarrav@codeaurora.org,codeaurora.org,1,0,353,92,"2012-02-27 20:51:40","2012-02-27 20:51:40",2018-08-19
-19505,"ravi shankar",Ravishankar,ravi.shankar@greenturtles.in,greenturtles.in,5,0,0,0,"2011-07-05 06:52:49","2011-07-08 04:08:31",2018-08-19
+19505,"ravishankar karkala mallikarjunayya",Ravishankar,ravi.shankar@greenturtles.in,greenturtles.in,5,0,0,0,"2011-07-05 06:52:49","2011-07-08 04:08:31",2018-08-19
 19506,"ravi teja darbha","Ravi Teja Darbha",ravi2j@gmail.com,gmail.com,8,0,41,38,"2015-06-29 13:48:56","2015-09-08 08:48:51",2018-08-19
 19507,"ravikant b sharma","Ravikant B Sharma",ravikant.s2@samsung.com,samsung.com,3,0,32,28,"2016-11-07 21:49:42","2016-11-08 04:00:31",2018-08-19
 19508,"ravikiran g thirumalai","Ravikiran G Thirumalai",kiran@scalemp.com,scalemp.com,1,0,0,0,"2006-03-25 07:30:04","2006-03-25 07:30:04",2018-08-19
@@ -19651,10 +19651,10 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 19651,"rex zhu","Rex Zhu",Rex.Zhu@amd.com,amd.com,730,0,207133,36736,"2015-08-25 00:57:43","2018-09-27 05:48:39",2018-08-19
 19652,"rex zhu",rezhu,Rex.Zhu@amd.com,amd.com,4,0,26767,1795,"2015-11-09 18:26:39","2015-11-15 18:33:31",2018-08-19
 19653,"reyad attiyat","Reyad Attiyat",reyad.attiyat@gmail.com,gmail.com,12,0,1358,259,"2014-01-28 07:17:57","2015-08-06 09:23:58",2018-08-19
-19654,"reynes philippe","Reynes Philippe",philippe.reynes@isismpp.fr,isismpp.fr,3,0,0,0,"2009-01-28 02:07:44","2009-02-02 07:59:01",2018-08-19
+19654,"philippe reynes","Reynes Philippe",philippe.reynes@isismpp.fr,isismpp.fr,3,0,0,0,"2009-01-28 02:07:44","2009-02-02 07:59:01",2018-08-19
 19655,"reza amini","Reza Amini",reza.amini@amd.com,amd.com,3,0,46,3,"2017-02-03 11:19:41","2017-03-29 09:05:15",2018-08-19
 19656,"reza arbab","Reza Arbab",arbab@linux.vnet.ibm.com,linux.vnet.ibm.com,20,0,1182,267,"2016-07-26 15:22:20","2017-10-03 16:15:35",2018-08-19
-19657,"rezhu at amd.com",rezhu,rezhu@amd.com,amd.com,1,0,3,1,"2015-08-06 22:37:56","2015-08-06 22:37:56",2018-08-19
+19657,"rex zhu",rezhu,rezhu@amd.com,amd.com,1,0,3,1,"2015-08-06 22:37:56","2015-08-06 22:37:56",2018-08-19
 19658,"rezwanul kabir","Rezwanul Kabir",Rezwanul_Kabir@dell.com,dell.com,2,0,202,28,"2009-11-02 09:00:42","2010-06-23 10:02:43",2018-08-19
 19659,"rfjak at eircom.net",rfjak@eircom.net,rfjak@eircom.net,eircom.net,1,0,0,0,"2002-07-31 22:24:40","2002-07-31 22:24:40",2018-08-19
 19660,"rhyland klein","Rhyland Klein",rklein@nvidia.com,nvidia.com,77,0,28603,5808,"2010-09-05 15:31:23","2016-06-28 14:28:24",2018-08-19
@@ -20323,8 +20323,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 20323,"roopa prabhu","Roopa Prabhu",roopa@cumulusnetworks.com,cumulusnetworks.com,115,0,20776,4771,"2014-05-01 11:40:30","2018-10-20 18:09:31",2018-08-19
 20324,"roopa prabhu","Roopa Prabhu",roprabhu@cisco.com,cisco.com,34,0,3814,954,"2010-08-10 11:54:55","2012-03-06 19:50:44",2018-08-19
 20325,"roopa prabhu",roopa,roopa@cumulusnetworks.com,cumulusnetworks.com,1,0,42,14,"2013-04-22 05:56:49","2013-04-22 05:56:49",2018-08-19
-20326,"roosen henri","Henri Roosen",henri.roosen@ginzinger.com,ginzinger.com,4,0,13,5,"2017-06-02 04:35:51","2017-06-02 04:36:42",2018-08-19
-20327,"roosen henri","Roosen Henri",Henri.Roosen@ginzinger.com,ginzinger.com,1,0,30,9,"2016-01-07 00:31:15","2016-01-07 00:31:15",2018-08-19
+20326,"henri roosen","Henri Roosen",henri.roosen@ginzinger.com,ginzinger.com,4,0,13,5,"2017-06-02 04:35:51","2017-06-02 04:36:42",2018-08-19
+20327,"henri roosen","Roosen Henri",Henri.Roosen@ginzinger.com,ginzinger.com,1,0,30,9,"2016-01-07 00:31:15","2016-01-07 00:31:15",2018-08-19
 20328,"root at <root@jk-desktop.jf.intel.com>",root,root@jk-desktop.jf.intel.com,jk-desktop.jf.intel.com,0,21,0,0,"2006-02-28 20:24:07","2006-03-08 17:24:12",2018-08-19
 20329,"root at alsa0.alsa-project.org",root,root@alsa0.alsa-project.org,alsa0.alsa-project.org,0,1,0,0,"2007-07-20 02:12:00","2007-07-20 02:12:00",2018-08-19
 20330,"root at disappointment.disaster",root,root@disappointment.disaster,disappointment.disaster,0,1,0,0,"2016-02-07 16:03:58","2016-02-07 16:03:58",2018-08-19
@@ -20635,8 +20635,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 20635,"sam leffler","Sam Leffler",sleffler@chromium.org,chromium.org,6,0,495,119,"2011-09-07 00:55:16","2012-10-11 21:03:35",2018-08-19
 20636,"sam liao","Sam Liao",phyomh@gmail.com,gmail.com,1,0,35,8,"2011-06-07 08:49:46","2011-06-07 08:49:46",2018-08-19
 20637,"sam liddicott","Sam Liddicott",sam@liddicott.com,liddicott.com,1,0,0,0,"2007-04-10 06:50:45","2007-04-10 06:50:45",2018-08-19
-20638,"sam mendoza-jonas","Sam Mendoza-Jonas",sam@mendozajonas.com,mendozajonas.com,2,0,42,18,"2016-07-10 20:38:57","2016-07-10 20:38:58",2018-08-19
-20639,"sam mendoza-jonas","Samuel Mendoza-Jonas",sam@mendozajonas.com,mendozajonas.com,16,0,6352,1185,"2017-04-30 17:39:01","2018-08-21 21:57:44",2018-08-19
+20638,"samuel mendoza-jonas","Sam Mendoza-Jonas",sam@mendozajonas.com,mendozajonas.com,2,0,42,18,"2016-07-10 20:38:57","2016-07-10 20:38:58",2018-08-19
+20639,"samuel mendoza-jonas","Samuel Mendoza-Jonas",sam@mendozajonas.com,mendozajonas.com,16,0,6352,1185,"2017-04-30 17:39:01","2018-08-21 21:57:44",2018-08-19
 20640,"sam nelson","Sam Nelson",sam.nelson@ti.com,ti.com,3,0,0,0,"2017-07-30 20:50:05","2017-07-30 20:50:06",2018-08-19
 20641,"sam povilus","Sam Povilus",kernel.development@povil.us,povil.us,2,0,86,16,"2017-03-15 19:43:24","2017-03-29 20:46:37",2018-08-19
 20642,"sam ravnborg","",sam@mars.ravnborg.org,mars.ravnborg.org,1,6,0,0,"2006-01-01 10:31:30","2006-01-03 02:35:26",2018-08-19
@@ -21081,12 +21081,12 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 21081,"sebastian riemer","Sebastian Riemer",sebastian.riemer@profitbricks.com,profitbricks.com,1,0,24,2,"2013-02-20 18:28:09","2013-02-20 18:28:09",2018-08-19
 21082,"sebastian sanchez","Sebastian Sanchez",sebastian.sanchez@intel.com,intel.com,70,0,8531,3682,"2015-11-06 17:06:56","2018-05-02 06:43:55",2018-08-19
 21083,"sebastian schmidt","Sebastian Schmidt",yath@yath.de,yath.de,2,0,0,1,"2014-10-19 11:05:15","2014-11-14 10:51:45",2018-08-19
-21084,"sebastian siewior","Sebastian Siewior",cbe-oss-dev@ml.breakpoint.cc,ml.breakpoint.cc,2,0,34,9,"2007-09-18 21:38:12","2007-09-18 21:38:12",2018-08-19
-21085,"sebastian siewior","Sebastian Siewior",frame+buffer@ml.breakpoint.cc,ml.breakpoint.cc,1,0,5,1,"2008-04-28 02:15:39","2008-04-28 02:15:39",2018-08-19
-21086,"sebastian siewior","Sebastian Siewior",linux+wireless@ml.breakpoint.cc,ml.breakpoint.cc,1,0,0,0,"2008-02-23 12:46:31","2008-02-23 12:46:31",2018-08-19
-21087,"sebastian siewior","Sebastian Siewior",linux-crypto@ml.breakpoint.cc,ml.breakpoint.cc,3,0,494,74,"2007-03-20 14:58:43","2007-06-22 04:47:35",2018-08-19
-21088,"sebastian siewior","Sebastian Siewior",lkml@ml.breakpoint.cc,ml.breakpoint.cc,1,0,0,0,"2008-07-01 15:18:08","2008-07-01 15:18:08",2018-08-19
-21089,"sebastian siewior","Sebastian Siewior",netdev@ml.breakpoint.cc,ml.breakpoint.cc,1,0,0,0,"2007-10-17 01:52:22","2007-10-17 01:52:22",2018-08-19
+21084,"sebastian andrzej siewior","Sebastian Siewior",cbe-oss-dev@ml.breakpoint.cc,ml.breakpoint.cc,2,0,34,9,"2007-09-18 21:38:12","2007-09-18 21:38:12",2018-08-19
+21085,"sebastian andrzej siewior","Sebastian Siewior",frame+buffer@ml.breakpoint.cc,ml.breakpoint.cc,1,0,5,1,"2008-04-28 02:15:39","2008-04-28 02:15:39",2018-08-19
+21086,"sebastian andrzej siewior","Sebastian Siewior",linux+wireless@ml.breakpoint.cc,ml.breakpoint.cc,1,0,0,0,"2008-02-23 12:46:31","2008-02-23 12:46:31",2018-08-19
+21087,"sebastian andrzej siewior","Sebastian Siewior",linux-crypto@ml.breakpoint.cc,ml.breakpoint.cc,3,0,494,74,"2007-03-20 14:58:43","2007-06-22 04:47:35",2018-08-19
+21088,"sebastian andrzej siewior","Sebastian Siewior",lkml@ml.breakpoint.cc,ml.breakpoint.cc,1,0,0,0,"2008-07-01 15:18:08","2008-07-01 15:18:08",2018-08-19
+21089,"sebastian andrzej siewior","Sebastian Siewior",netdev@ml.breakpoint.cc,ml.breakpoint.cc,1,0,0,0,"2007-10-17 01:52:22","2007-10-17 01:52:22",2018-08-19
 21090,"sebastian sjoholm","Sebastian Sjoholm",ssjoholm@mac.com,mac.com,3,0,40,3,"2017-11-20 10:05:17","2017-12-11 12:51:14",2018-08-19
 21091,"sebastian smolorz","Sebastian Smolorz",Sebastian.Smolorz@gmx.de,gmx.de,2,0,337,67,"2010-06-22 07:53:37","2010-06-22 07:55:17",2018-08-19
 21092,"sebastian wankerl","Sebastian Wankerl",sisewank@cip.cs.fau.de,cip.cs.fau.de,2,0,0,10,"2013-01-20 07:24:45","2013-01-20 07:30:54",2018-08-19
@@ -21537,7 +21537,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 21537,"shubham bansal","Shubham Bansal",illusionist.neo@gmail.com,gmail.com,2,0,6614,1079,"2017-08-21 23:32:33","2017-08-23 08:59:10",2018-08-19
 21538,"shubham kumaram","Shubham Kumaram",shubhamkumaram@gmail.com,gmail.com,1,0,1,0,"2018-01-07 13:11:33","2018-01-07 13:11:33",2018-08-19
 21539,"shubhangi shrivastava","Shubhangi Shrivastava",shubhangi.shrivastava@intel.com,intel.com,10,0,560,146,"2015-10-14 02:26:49","2016-04-11 23:53:54",2018-08-19
-21540,"shubhrajyoti d","Shubhrajyoti D",a0393217@india.ti.com,india.ti.com,1,0,0,0,"2011-04-06 15:31:22","2011-04-06 15:31:22",2018-08-19
+21540,"shubhrajyoti datta","Shubhrajyoti D",a0393217@india.ti.com,india.ti.com,1,0,0,0,"2011-04-06 15:31:22","2011-04-06 15:31:22",2018-08-19
 21541,"shubhrajyoti datta","Shubhrajyoti D",shubhrajyoti@ti.com,ti.com,90,3,2316,670,"2010-07-17 06:02:52","2012-11-26 01:55:11",2018-08-19
 21542,"shubhrajyoti datta","Shubhrajyoti Datta",omaplinuxkernel@gmail.com,gmail.com,4,0,75,41,"2011-12-19 22:15:08","2013-04-29 15:05:25",2018-08-19
 21543,"shubhrajyoti datta","Shubhrajyoti Datta",shubhraj@xilinx.com,xilinx.com,11,0,458,114,"2015-05-05 05:36:05","2016-03-07 01:28:39",2018-08-19
@@ -22597,7 +22597,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 22597,"sunil challa","Sunil Challa",sunilkumar.challa@broadcom.com,broadcom.com,2,0,2,3,"2017-12-01 00:13:03","2018-01-04 15:46:54",2018-08-19
 22598,"sunil dutt undekari","Sunil Dutt",usdutt@qti.qualcomm.com,qti.qualcomm.com,2,0,154,51,"2017-12-13 09:51:36","2018-01-25 07:13:37",2018-08-19
 22599,"sunil dutt undekari","Sunil Dutt Undekari",usdutt@qti.qualcomm.com,qti.qualcomm.com,1,0,66,37,"2014-02-20 02:52:09","2014-02-20 02:52:09",2018-08-19
-22600,"sunil dutt","Sunil Dutt",c_duttus@qti.qualcomm.com,qti.qualcomm.com,1,0,219,63,"2013-10-09 08:15:21","2013-10-09 08:15:21",2018-08-19
+22600,"sunil dutt undekari","Sunil Dutt",c_duttus@qti.qualcomm.com,qti.qualcomm.com,1,0,219,63,"2013-10-09 08:15:21","2013-10-09 08:15:21",2018-08-19
 22601,"sunil goutham","Sunil Goutham",sgoutham@cavium.com,cavium.com,90,0,44637,9545,"2015-05-26 19:20:14","2018-01-15 04:44:57",2018-08-19
 22602,"sunil kallur ramegowda","SUNIL KALLUR RAMEGOWDA",kallur.sunil@gmail.com,gmail.com,1,0,2,2,"2017-12-13 13:12:04","2017-12-13 13:12:04",2018-08-19
 22603,"sunil kamath","A.Sunil Kamath",sunil.kamath@intel.com,intel.com,4,0,204,51,"2014-11-24 00:07:44","2016-11-20 09:50:26",2018-08-19
@@ -22875,7 +22875,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 22875,"tamas lengyel","Tamas Lengyel",tamas.lengyel@zentific.com,zentific.com,1,0,0,0,"2012-12-31 12:44:30","2012-12-31 12:44:30",2018-08-19
 22876,"tamas vincze","Tamas Vincze",tom@vincze.org,vincze.org,1,0,3,7,"2010-01-15 17:01:10","2010-01-15 17:01:10",2018-08-19
 22877,"tamizh chelvam","Tamizh chelvam",c_traja@qti.qualcomm.com,qti.qualcomm.com,11,0,1463,340,"2015-10-06 22:10:04","2017-07-02 22:32:36",2018-08-19
-22878,"tamizhr at codeaurora",tamizhr@codeaurora.org,tamizhr@codeaurora.org,codeaurora.org,5,0,622,181,"2018-01-31 02:54:49","2018-03-27 06:46:17",2018-08-19
+22878,"tamizh chelvam",tamizhr@codeaurora.org,tamizhr@codeaurora.org,codeaurora.org,5,0,622,181,"2018-01-31 02:54:49","2018-03-27 06:46:17",2018-08-19
 22879,"tamuki shoichi","TAMUKI Shoichi",tamuki@linet.gr.jp,linet.gr.jp,1,0,135,37,"2010-08-10 18:03:28","2010-08-10 18:03:28",2018-08-19
 22880,"tamuki shoichi","Tamuki Shoichi",tamuki@linet.gr.jp,linet.gr.jp,1,0,127,26,"2006-02-26 19:08:04","2006-02-26 19:08:04",2018-08-19
 22881,"tan swee heng","Tan Swee Heng",thesweeheng@gmail.com,gmail.com,9,0,1024,75,"2007-11-23 03:45:00","2007-12-18 06:45:35",2018-08-19
@@ -23401,7 +23401,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 23401,"tim sell","Tim Sell",Timothy.Sell@unisys.com,unisys.com,78,0,3338,808,"2015-07-09 10:27:41","2018-01-31 08:41:12",2018-08-19
 23402,"tim sell","Tim Sell",timothy.sell@unisys.com,unisys.com,1,0,0,0,"2015-10-16 07:06:47","2015-10-16 07:06:47",2018-08-19
 23403,"tim shepard","Tim Shepard",shep@alum.mit.edu,alum.mit.edu,3,0,32,14,"2003-10-13 20:42:49","2003-11-04 20:28:33",2018-08-19
-23404,"tim shimmin","Tim Shimmin",tes@chook.melbourne.sgi.com,chook.melbourne.sgi.com,9,119,0,0,"2006-09-28 22:23:02","2007-10-19 01:02:55",2018-08-19
+23404,"timothy shimmin","Tim Shimmin",tes@chook.melbourne.sgi.com,chook.melbourne.sgi.com,9,119,0,0,"2006-09-28 22:23:02","2007-10-19 01:02:55",2018-08-19
 23405,"tim small","Tim Small",tim@buttersideup.com,buttersideup.com,4,0,1452,299,"2006-03-09 17:33:50","2014-07-22 06:28:00",2018-08-19
 23406,"tim smith","Tim Smith",tim@electronghost.co.uk,electronghost.co.uk,5,0,68,3,"2014-01-26 03:39:28","2014-03-03 15:04:45",2018-08-19
 23407,"tim t. murphy","Tim T. Murphy",tim_t_murphy@dell.com,dell.com,1,0,21,8,"2004-11-21 16:43:12","2004-11-21 16:43:12",2018-08-19
@@ -23910,8 +23910,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 23910,"tsutomu itoh","Tsutomu Itoh",t-itoh@jp.fujitsu.com,jp.fujitsu.com,56,0,1184,365,"2010-12-26 22:53:10","2017-10-03 19:05:17",2018-08-19
 23911,"tsutomu.owa@toshiba.co.jp at <tsutomu.owa@toshiba.co.jp>",tsutomu.owa@toshiba.co.jp,tsutomu.owa@toshiba.co.jp,toshiba.co.jp,15,0,633,146,"2017-09-12 01:55:32","2017-09-15 12:17:23",2018-08-19
 23912,"tuba yavuz","Yavuz, Tuba",tuba@ece.ufl.edu,ece.ufl.edu,1,0,23,4,"2018-03-23 10:00:38","2018-03-23 10:00:38",2018-08-19
-23913,"tudor ambarus","Tudor Ambarus",tudor-dan.ambarus@nxp.com,nxp.com,12,0,3586,879,"2016-03-23 08:06:39","2017-07-09 22:40:39",2018-08-19
-23914,"tudor ambarus","Tudor Ambarus",tudor.ambarus@freescale.com,freescale.com,5,0,483,161,"2014-10-23 06:11:23","2015-07-17 06:54:54",2018-08-19
+23913,"tudor-dan ambarus","Tudor Ambarus",tudor-dan.ambarus@nxp.com,nxp.com,12,0,3586,879,"2016-03-23 08:06:39","2017-07-09 22:40:39",2018-08-19
+23914,"tudor-dan ambarus","Tudor Ambarus",tudor.ambarus@freescale.com,freescale.com,5,0,483,161,"2014-10-23 06:11:23","2015-07-17 06:54:54",2018-08-19
 23915,"tudor laurentiu","Laurentiu Tudor",b10716@freescale.com,freescale.com,1,0,0,1,"2014-08-27 07:09:39","2014-08-27 07:09:39",2018-08-19
 23916,"tudor laurentiu","Laurentiu Tudor",laurentiu.tudor@nxp.com,nxp.com,77,0,2213,703,"2017-02-07 07:43:44","2018-09-26 06:22:31",2018-08-19
 23917,"tudor laurentiu","Tudor Laurentiu",b10716@freescale.com,freescale.com,11,0,357,84,"2014-08-13 06:55:13","2015-10-01 05:58:03",2018-08-19
@@ -24047,8 +24047,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 24047,"urs fleisch","Urs Fleisch",urs.fleisch@gmail.com,gmail.com,1,0,584,190,"2011-01-06 23:15:39","2011-01-06 23:15:39",2018-08-19
 24048,"urs thuermann","Urs Thuermann",urs.thuermann@volkswagen.de,volkswagen.de,3,0,57,17,"2008-02-07 18:04:21","2008-02-07 18:05:04",2018-08-19
 24049,"urs thuermann","Urs Thuermann",urs@isnogud.escape.de,isnogud.escape.de,3,0,5,5,"2006-07-10 04:44:06","2008-02-12 22:03:25",2018-08-19
-24050,"ursula braun","Ursula Braun",ubraun@linux.vnet.ibm.com,linux.vnet.ibm.com,97,0,27815,5853,"2009-04-23 06:37:16","2018-04-19 06:56:40",2018-08-19
-24051,"ursula braun","Ursula Braun",ursula.braun@de.ibm.com,de.ibm.com,114,0,14474,2508,"2008-07-18 06:24:58","2018-07-23 04:53:12",2018-08-19
+24050,"ursula braun-krahl","Ursula Braun",ubraun@linux.vnet.ibm.com,linux.vnet.ibm.com,97,0,27815,5853,"2009-04-23 06:37:16","2018-04-19 06:56:40",2018-08-19
+24051,"ursula braun-krahl","Ursula Braun",ursula.braun@de.ibm.com,de.ibm.com,114,0,14474,2508,"2008-07-18 06:24:58","2018-07-23 04:53:12",2018-08-19
 24052,"ursula braun-krahl","Ursula Braun",braunu@de.ibm.com,de.ibm.com,57,0,726,246,"1969-12-31 16:00:01","2008-12-25 04:39:47",2018-08-19
 24053,"ursula braun-krahl","Ursula Braun",ubraun@linux.ibm.com,linux.ibm.com,26,0,3408,672,"2018-04-25 03:48:58","2018-09-18 06:46:36",2018-08-19
 24054,"ursula braun-krahl","Ursula Braun-Krahl",braunu@de.ibm.com,de.ibm.com,4,0,0,0,"2005-01-14 23:32:44","2005-11-07 00:59:10",2018-08-19
@@ -24342,8 +24342,8 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 24342,"vijay kumar b*","Vijay Kumar",vijaykumar@zilogic.com,zilogic.com,2,0,0,0,"2010-03-10 07:47:56","2016-09-04 23:20:40",2018-08-19
 24343,"vijay kumar b*","Vijay Kumar B",vijaykumar@bravegnu.org,bravegnu.org,6,0,0,0,"2009-09-20 22:53:54","2009-09-20 22:54:00",2018-08-19
 24344,"vijay kumar","Vijay Kumar",vijay.ac.kumar@oracle.com,oracle.com,15,0,476,165,"2015-12-23 10:55:33","2017-10-11 11:50:06",2018-08-19
-24345,"vijay mohan guvva","Vijay Mohan Guvva",vmohan@Brocade.com,brocade.com,2,0,7,3,"2013-05-13 02:49:44","2013-05-13 02:56:48",2018-08-19
-24346,"vijay mohan guvva","Vijaya Mohan Guvva",vmohan@brocade.com,brocade.com,27,0,24700,2324,"2012-12-10 01:20:03","2013-12-04 05:43:58",2018-08-19
+24345,"vijaya mohan guvva","Vijay Mohan Guvva",vmohan@Brocade.com,brocade.com,2,0,7,3,"2013-05-13 02:49:44","2013-05-13 02:56:48",2018-08-19
+24346,"vijaya mohan guvva","Vijaya Mohan Guvva",vmohan@brocade.com,brocade.com,27,0,24700,2324,"2012-12-10 01:20:03","2013-12-04 05:43:58",2018-08-19
 24347,"vijay mohan pandarathil","Vijay Mohan Pandarathil",vijaymohan.pandarathil@hp.com,hp.com,3,0,404,83,"2012-11-17 03:47:18","2013-03-11 08:31:22",2018-08-19
 24348,"vijay pandurangan","Vijay Pandurangan",vijayp@vijayp.ca,vijayp.ca,1,0,0,0,"2015-12-18 11:34:59","2015-12-18 11:34:59",2018-08-19
 24349,"vijay purushothaman","Vijay Purushothaman",vijay.a.purushothaman@intel.com,intel.com,7,0,74,6,"2012-08-22 23:38:57","2012-09-27 06:43:09",2018-08-19
@@ -24630,7 +24630,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 24630,"vlad yasevich","Vlad Yasevich",vyasevich@gmail.com,gmail.com,65,0,3625,885,"2013-01-24 08:02:47","2017-06-21 04:59:19",2018-08-19
 24631,"vlad zakharov","Vlad Zakharov",Vladislav.Zakharov@synopsys.com,synopsys.com,3,0,46,12,"2017-03-03 03:30:00","2017-03-03 03:30:02",2018-08-19
 24632,"vlad zakharov","Zakharov Vlad",Vladislav.Zakharov@synopsys.com,synopsys.com,1,0,9,1,"2017-03-29 03:41:46","2017-03-29 03:41:46",2018-08-19
-24633,"vlad zolotarov","Vlad Zolotarov",vlad@scalemp.com,scalemp.com,2,0,20,19,"2012-02-05 07:24:39","2012-06-11 02:56:52",2018-08-19
+24633,"vladislav zolotarov","Vlad Zolotarov",vlad@scalemp.com,scalemp.com,2,0,20,19,"2012-02-05 07:24:39","2012-06-11 02:56:52",2018-08-19
 24634,"vlada peric","Vlada Peric",vlada.peric@gmail.com,gmail.com,2,0,3,2,"2008-11-19 15:36:45","2009-04-21 12:23:59",2018-08-19
 24635,"vladik aranov","Vladik Aranov",earnol@mail.ru,mail.ru,1,0,3756,333,"2013-09-20 17:09:44","2013-09-20 17:09:44",2018-08-19
 24636,"vladimir a. nazarenko","Vladimir A. Nazarenko",naszar@ya.ru,ya.ru,5,0,0,1,"2014-08-26 23:48:21","2014-10-09 18:27:01",2018-08-19
@@ -24692,10 +24692,10 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 24692,"vladislav bogdanov","Vladislav Bogdanov",slava_reg@nsys.by,nsys.by,1,0,201,54,"2008-10-15 22:04:26","2008-10-15 22:04:26",2018-08-19
 24693,"vladislav bolkhovitin","Vladislav Bolkhovitin",vst@vlnb.net,vlnb.net,2,0,6,2,"2006-08-01 13:48:15","2008-11-06 02:57:52",2018-08-19
 24694,"vladislav p","Vladislav P",vladisslav@inbox.ru,inbox.ru,1,0,1,0,"2011-02-14 09:21:50","2011-02-14 09:21:50",2018-08-19
-24695,"vladislav yasevich","Vlad Yasevich",vladislav.yasevich@hp.com,hp.com,236,137,22291,5486,"2005-06-28 13:24:23","2012-04-26 03:27:18",2018-08-19
-24696,"vladislav yasevich","Vladislav Yasevich",vladislav.yasevich@hp.com,hp.com,13,0,955,251,"2005-04-28 11:57:54","2006-08-22 13:29:17",2018-08-19
-24697,"vladislav yasevich","Vladislav Yasevich",vladsilav.yasevich@hp.com,hp.com,1,0,67,3,"2006-05-05 17:03:49","2006-05-05 17:03:49",2018-08-19
-24698,"vladislav yasevich","Vladislav Yasevich",vxy@hera.kernel.org,hera.kernel.org,0,6,0,0,"2007-06-13 13:44:41","2007-06-13 13:44:42",2018-08-19
+24695,"vlad yasevich","Vlad Yasevich",vladislav.yasevich@hp.com,hp.com,236,137,22291,5486,"2005-06-28 13:24:23","2012-04-26 03:27:18",2018-08-19
+24696,"vlad yasevich","Vladislav Yasevich",vladislav.yasevich@hp.com,hp.com,13,0,955,251,"2005-04-28 11:57:54","2006-08-22 13:29:17",2018-08-19
+24697,"vlad yasevich","Vladislav Yasevich",vladsilav.yasevich@hp.com,hp.com,1,0,67,3,"2006-05-05 17:03:49","2006-05-05 17:03:49",2018-08-19
+24698,"vlad yasevich","Vladislav Yasevich",vxy@hera.kernel.org,hera.kernel.org,0,6,0,0,"2007-06-13 13:44:41","2007-06-13 13:44:42",2018-08-19
 24699,"vladislav zolotarov","Vlad Zolotarov",vladz@broadcom.com,broadcom.com,1,0,62836,17785,"2011-06-14 04:33:44","2011-06-14 04:33:44",2018-08-19
 24700,"vladislav zolotarov","Vlad Zolotarov",vladz@cloudius-systems.com,cloudius-systems.com,9,0,1772,411,"2015-03-30 11:18:57","2015-04-01 01:24:54",2018-08-19
 24701,"vladislav zolotarov","Vladislav Zolotarov",vladz@broadcom.com,broadcom.com,91,0,27232,4880,"2008-06-23 20:34:36","2011-08-29 17:08:41",2018-08-19
@@ -24815,7 +24815,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 24815,"wang tinggong","Wang Tinggong",wangtinggong@gmail.com,gmail.com,2,0,0,0,"2009-05-14 02:00:20","2009-05-14 15:49:36",2018-08-19
 24816,"wang weidong","Wang Weidong",wangweidong1@huawei.com,huawei.com,2,0,1,0,"2013-11-15 07:34:30","2013-12-17 18:24:33",2018-08-19
 24817,"wang weidong",wangweidong,wangweidong1@huawei.com,huawei.com,57,0,1091,516,"2013-10-14 20:44:30","2016-04-14 00:43:52",2018-08-19
-24818,"wang weiwei","WeiWei Wang",wangww631@huawei.com,huawei.com,2,0,19,3,"2015-06-24 16:55:15","2015-09-04 15:44:23",2018-08-19
+24818,"weiwei wang","WeiWei Wang",wangww631@huawei.com,huawei.com,2,0,19,3,"2015-06-24 16:55:15","2015-09-04 15:44:23",2018-08-19
 24819,"wang wenbing","Wenbing Wang",wangwb@marvell.com,marvell.com,1,0,5,1,"2013-06-05 02:37:14","2013-06-05 02:37:14",2018-08-19
 24820,"wang xiang","Xiang Wang",wangx@marvell.com,marvell.com,3,0,143,30,"2013-06-17 23:55:58","2014-07-16 00:50:09",2018-08-19
 24821,"wang xiaochen","Xiaochen Wang",wangxiaochen0@gmail.com,gmail.com,10,0,94,21,"2011-02-28 00:13:07","2011-04-30 20:41:41",2018-08-19
@@ -25187,9 +25187,9 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 25187,"wu fei","Wu Fei",at.wufei@gmail.com,gmail.com,1,0,1,1,"2009-09-03 07:29:53","2009-09-03 07:29:53",2018-08-19
 25188,"wu fei",Wufei,fei.wu@windriver.com,windriver.com,1,0,0,0,"2010-04-28 14:42:32","2010-04-28 14:42:32",2018-08-19
 25189,"wu guoxing","wu guoxing",b39297@freescale.com,freescale.com,2,0,894,222,"2012-01-29 22:31:20","2012-03-13 19:10:54",2018-08-19
-25190,"wu liang feng","William Wu",wulf@rock-chips.com,rock-chips.com,4,0,2916,517,"2016-11-07 04:08:48","2016-11-14 19:54:07",2018-08-19
-25191,"wu liang feng","William wu",wulf@rock-chips.com,rock-chips.com,3,0,64,10,"2016-12-21 02:41:05","2018-02-16 04:09:53",2018-08-19
-25192,"wu liang feng","Wu Liang feng",wulf@rock-chips.com,rock-chips.com,2,0,29,10,"2014-12-24 02:22:18","2014-12-24 02:22:19",2018-08-19
+25190,"william wu","William Wu",wulf@rock-chips.com,rock-chips.com,4,0,2916,517,"2016-11-07 04:08:48","2016-11-14 19:54:07",2018-08-19
+25191,"william wu","William wu",wulf@rock-chips.com,rock-chips.com,3,0,64,10,"2016-12-21 02:41:05","2018-02-16 04:09:53",2018-08-19
+25192,"william wu","Wu Liang feng",wulf@rock-chips.com,rock-chips.com,2,0,29,10,"2014-12-24 02:22:18","2014-12-24 02:22:19",2018-08-19
 25193,"wu libin","Wu Libin",lwu@ddn.com,ddn.com,1,0,0,0,"2016-10-02 19:28:11","2016-10-02 19:28:11",2018-08-19
 25194,"wu zhangjin","Wu Zhangjin",wuzhangjin@gmail.com,gmail.com,140,0,16915,4586,"2009-05-20 14:50:01","2011-07-23 05:41:24",2018-08-19
 25195,"wu zhangjin","Wu Zhangjin",wuzj@lemote.com,lemote.com,12,0,1300,347,"2009-06-04 05:27:10","2009-07-02 08:25:46",2018-08-19
@@ -25340,9 +25340,9 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 25340,"xu lei","Xu lei",B33228@freescale.com,freescale.com,2,0,51,4,"2011-09-09 05:05:46","2011-10-14 13:35:10",2018-08-19
 25341,"xu lei",Xulei,B33228@freescale.com,freescale.com,2,0,54,17,"2011-01-19 01:07:29","2011-01-19 01:07:30",2018-08-19
 25342,"xu wang","Xu Wang",gesaint@linux.vnet.ibm.com,linux.vnet.ibm.com,2,0,7,5,"2015-03-06 00:26:29","2015-03-06 00:26:30",2018-08-19
-25343,"xu ying","Xu YiPing",xuyiping@hisilicon.com,hisilicon.com,4,0,7,1,"2017-09-05 10:21:52","2017-11-14 23:39:26",2018-08-19
-25344,"xu ying",XuYing,xuyiping@hisilicon.com,hisilicon.com,1,0,0,0,"2017-01-07 03:04:27","2017-01-07 03:04:27",2018-08-19
-25345,"xu ying","YiPing Xu",xuyiping@hisilicon.com,hisilicon.com,1,0,0,0,"2017-08-14 02:50:42","2017-08-14 02:50:42",2018-08-19
+25343,"yiping xu","Xu YiPing",xuyiping@hisilicon.com,hisilicon.com,4,0,7,1,"2017-09-05 10:21:52","2017-11-14 23:39:26",2018-08-19
+25344,"yiping xu",XuYing,xuyiping@hisilicon.com,hisilicon.com,1,0,0,0,"2017-01-07 03:04:27","2017-01-07 03:04:27",2018-08-19
+25345,"yiping xu","YiPing Xu",xuyiping@hisilicon.com,hisilicon.com,1,0,0,0,"2017-08-14 02:50:42","2017-08-14 02:50:42",2018-08-19
 25346,"xu yu","Xu Yu",yu.a.xu@intel.com,intel.com,1,0,192,44,"2017-05-24 01:39:55","2017-05-24 01:39:55",2018-08-19
 25347,"xudong chen","Xudong Chen",xudong.chen@mediatek.com,mediatek.com,1,0,3006,617,"2015-05-21 01:53:28","2015-05-21 01:53:28",2018-08-19
 25348,"xudong hao","Hao, Xudong",xudong.hao@intel.com,intel.com,1,0,88,19,"2011-12-17 05:24:40","2011-12-17 05:24:40",2018-08-19
@@ -25565,7 +25565,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 25565,"yi zhang","Yi Zhang",yizhan@redhat.com,redhat.com,1,0,5,2,"2015-08-12 04:22:43","2015-08-12 04:22:43",2018-08-19
 25566,"yi zhang","Yi Zhang",yizhang@marvell.com,marvell.com,7,0,153,40,"2013-01-21 18:43:45","2015-07-09 05:41:31",2018-08-19
 25567,"yi zhang","Yi Zhang",yizhang_hust@163.com,163.com,1,0,0,0,"2016-03-08 07:15:22","2016-03-08 07:15:22",2018-08-19
-25568,"yi zhang","Zhang Yi",zhang.yi20@zte.com.cn,zte.com.cn,1,0,2,2,"2014-01-23 15:55:57","2014-01-23 15:55:57",2018-08-19
+25568,"zhang yi","Zhang Yi",zhang.yi20@zte.com.cn,zte.com.cn,1,0,2,2,"2014-01-23 15:55:57","2014-01-23 15:55:57",2018-08-19
 25569,"yi zhao","Yi Zhao",yi.zhao@windriver.com,windriver.com,1,0,1,1,"2016-11-29 02:09:01","2016-11-29 02:09:01",2018-08-19
 25570,"yi zhu","Zhu, Yi",yi.zhu@intel.com,intel.com,11,0,14,3,"2008-10-29 14:05:45","2009-01-23 13:45:22",2018-08-19
 25571,"yi zhu","Yi Zhu",yi.zhu@intel.com,intel.com,3,0,0,0,"2004-10-27 18:21:34","2008-06-18 07:53:43",2018-08-19
@@ -25680,9 +25680,9 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 25680,"yoni divinsky","Yoni Divinsky",yoni.divinsky@ti.com,ti.com,12,0,584,173,"2012-01-16 05:18:59","2013-05-12 02:35:28",2018-08-19
 25681,"york sun","York Sun",york.sun@nxp.com,nxp.com,10,0,3682,808,"2016-08-09 14:55:38","2016-08-23 15:16:10",2018-08-19
 25682,"york sun","York Sun",yorksun@freescale.com,freescale.com,12,0,7775,1446,"2007-06-04 09:56:42","2015-09-02 09:40:46",2018-08-19
-25683,"yoshifuji hideaki","YOSHIFUJI Hideaki",hideaki.yoshifuji@miraclelinux.com,miraclelinux.com,1,0,0,2,"2015-07-16 00:51:30","2015-07-16 00:51:30",2018-08-19
-25684,"yoshifuji hideaki","YOSHIFUJI Hideaki",yosufuji@linux-ipv6.org,linux-ipv6.org,1,0,74,4,"2006-02-24 13:18:33","2006-02-24 13:18:33",2018-08-19
-25685,"yoshifuji hideaki","YOSHIFUJI Hideaki/吉藤英明",hideaki.yoshifuji@miraclelinux.com,miraclelinux.com,5,0,350,117,"2015-03-19 06:41:46","2015-07-13 07:28:10",2018-08-19
+25683,"hideaki yoshifuji","YOSHIFUJI Hideaki",hideaki.yoshifuji@miraclelinux.com,miraclelinux.com,1,0,0,2,"2015-07-16 00:51:30","2015-07-16 00:51:30",2018-08-19
+25684,"hideaki yoshifuji","YOSHIFUJI Hideaki",yosufuji@linux-ipv6.org,linux-ipv6.org,1,0,74,4,"2006-02-24 13:18:33","2006-02-24 13:18:33",2018-08-19
+25685,"hideaki yoshifuji","YOSHIFUJI Hideaki/吉藤英明",hideaki.yoshifuji@miraclelinux.com,miraclelinux.com,5,0,350,117,"2015-03-19 06:41:46","2015-07-13 07:28:10",2018-08-19
 25686,"yoshifumi hosoya","Yoshifumi Hosoya",yoshifumi.hosoya.wj@renesas.com,renesas.com,4,0,84,23,"2014-10-14 00:01:42","2015-12-04 05:38:53",2018-08-19
 25687,"yoshifumi nishida","Yoshifumi Nishida",nishida@csl.sony.co.jp,csl.sony.co.jp,1,0,4,0,"2005-08-09 20:15:35","2005-08-09 20:15:35",2018-08-19
 25688,"yoshifumi uemura","Yoshifumi Uemura",kogexe@gmail.com,gmail.com,1,0,0,0,"2016-09-18 13:38:21","2016-09-18 13:38:21",2018-08-19
@@ -25997,7 +25997,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 25997,"zhen han","Zhen Han",zhen.han@intel.com,intel.com,1,0,414,97,"2018-01-09 16:38:23","2018-01-09 16:38:23",2018-08-19
 25998,"zhen lei","Zhen Lei",thunder.leizhen@huawei.com,huawei.com,32,0,607,185,"2014-11-13 18:10:40","2018-07-12 02:28:43",2018-08-19
 25999,"zhen wei","Zhen Wei",zwei@novell.com,novell.com,2,0,91,14,"2006-12-07 23:48:17","2007-01-23 17:19:59",2018-08-19
-26000,"zhen yan","Yan, Zheng",zyan@redhat.com,redhat.com,285,0,31654,6876,"2014-09-10 01:56:23","2018-08-03 01:24:49",2018-08-19
+26000,"yan zheng","Yan, Zheng",zyan@redhat.com,redhat.com,285,0,31654,6876,"2014-09-10 01:56:23","2018-08-03 01:24:49",2018-08-19
 26001,"zhen-hua li","Li, Zhen-Hua",zhen-hual@hp.com,hp.com,8,0,98,25,"2013-03-05 18:43:17","2014-11-04 23:30:19",2018-08-19
 26002,"zheng di","Zheng Di",zhengdi05@gmail.com,gmail.com,2,0,0,0,"2014-07-06 06:37:06","2014-09-01 10:51:28",2018-08-19
 26003,"zheng li","Zheng Li",james.z.li@ericsson.com,ericsson.com,2,0,17,2,"2016-12-28 07:23:46","2017-07-06 00:00:09",2018-08-19
@@ -26007,14 +26007,14 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 26007,"zheng liu","Zheng Liu",wenqing.lz@taobao.com,taobao.com,59,0,5951,1570,"2011-12-04 23:55:11","2015-11-29 17:21:57",2018-08-19
 26008,"zheng liu","Zheng Liu",zhliu@nvidia.com,nvidia.com,1,0,38,10,"2015-07-07 13:54:12","2015-07-07 13:54:12",2018-08-19
 26009,"zheng lv","Zheng Lv",lv.zheng.2015@gmail.com,gmail.com,2,0,2,2,"2016-06-20 20:51:29","2016-06-23 22:31:00",2018-08-19
-26010,"zheng yan","Yan, Zheng",ukernel@gmail.com,gmail.com,2,0,22,4,"2014-09-10 23:25:18","2014-09-10 23:28:56",2018-08-19
+26010,"yan zheng","Yan, Zheng",ukernel@gmail.com,gmail.com,2,0,22,4,"2014-09-10 23:25:18","2014-09-10 23:28:56",2018-08-19
 26011,"zheng yan","Yan, Zheng",zheng.yan@oracle.com,oracle.com,41,0,24095,3467,"2009-09-21 12:55:59","2010-05-31 02:04:46",2018-08-19
-26012,"zheng yan","Yan, Zheng",zheng.z.yan@intel.com,intel.com,202,56,34538,7043,"2011-08-23 15:54:33","2015-05-06 12:33:52",2018-08-19
-26013,"zheng yan","Yan, Zheng",zheng.z.yan@linux.intel.com,linux.intel.com,3,0,6,1,"2010-12-05 23:02:36","2011-02-14 13:00:03",2018-08-19
+26012,"yan zheng","Yan, Zheng",zheng.z.yan@intel.com,intel.com,202,56,34538,7043,"2011-08-23 15:54:33","2015-05-06 12:33:52",2018-08-19
+26013,"yan zheng","Yan, Zheng",zheng.z.yan@linux.intel.com,linux.intel.com,3,0,6,1,"2010-12-05 23:02:36","2011-02-14 13:00:03",2018-08-19
 26014,"zheng yan",Yan,zheng.yan@oracle.com,oracle.com,1,0,20,3,"2008-07-30 13:29:20","2008-07-30 13:29:20",2018-08-19
 26015,"zheng yan","Yan Zheng",zheng.yan@oracle.com,oracle.com,60,0,32075,6233,"2008-07-28 12:32:19","2009-09-24 06:24:43",2018-08-19
 26016,"zheng yan","Zheng Yan",zheng.yan@oracle.com,oracle.com,7,0,2181,258,"2008-09-05 13:43:53","2008-09-26 07:09:34",2018-08-19
-26017,"zheng yan","Zheng Yan",zheng.z.yan@intel.com,intel.com,5,0,883,154,"2011-09-18 19:37:34","2012-06-22 19:23:49",2018-08-19
+26017,"yan zheng","Zheng Yan",zheng.z.yan@intel.com,intel.com,5,0,883,154,"2011-09-18 19:37:34","2012-06-22 19:23:49",2018-08-19
 26018,"zheng yang","Zheng Yang",zhengyang@rock-chips.com,rock-chips.com,1,0,3,1,"2017-05-25 03:00:24","2017-05-25 03:00:24",2018-08-19
 26019,"zheng zhijian",zheng.zhijian@zte.com.cn,zheng.zhijian@zte.com.cn,zte.com.cn,1,0,24,1,"2011-11-17 03:23:25","2011-11-17 03:23:25",2018-08-19
 26020,"zhengjun xing","Zhengjun Xing",zhengjun.xing@linux.intel.com,linux.intel.com,8,0,165,96,"2017-04-07 07:56:59","2018-06-21 06:19:42",2018-08-19
@@ -26093,7 +26093,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 26093,"zhu yanhai","Zhu Yanhai",zhu.yanhai@gmail.com,gmail.com,4,0,20,6,"2009-08-11 23:17:59","2012-01-12 17:18:24",2018-08-19
 26094,"zhu yanhai","yanhai zhu",zhu.yanhai@gmail.com,gmail.com,3,0,6,0,"2008-11-12 11:36:58","2009-01-05 12:49:11",2018-08-19
 26095,"zhu yi","ZHU Yi (ST-FIR/ENG1-Zhu)",Yi.Zhu5@cn.bosch.com,cn.bosch.com,6,0,227,71,"2017-09-14 23:59:15","2017-09-15 00:09:37",2018-08-19
-26096,"zhu yi","Zhu Yi",chuyee@debian.sh.intel.com,debian.sh.intel.com,2,0,1,7,"2005-07-03 23:06:00","2005-08-05 02:17:35",2018-08-19
+26096,"yi zhu","Zhu Yi",chuyee@debian.sh.intel.com,debian.sh.intel.com,2,0,1,7,"2005-07-03 23:06:00","2005-08-05 02:17:35",2018-08-19
 26097,"zhuang jin can","Zhuang Jin Can",jin.can.zhuang@intel.com,intel.com,6,0,63,28,"2014-05-15 14:57:57","2015-07-21 07:20:31",2018-08-19
 26098,"zhuang yuyao","Zhuang Yuyao",mlistz@gmail.com,gmail.com,1,0,2,2,"2016-04-17 17:21:42","2016-04-17 17:21:42",2018-08-19
 26099,zhuo-hao,"Zhuo-hao Lee",zhuo-hao.lee@intel.com,intel.com,1,0,12,0,"2016-08-27 00:39:30","2016-08-27 00:39:30",2018-08-19
@@ -26414,7 +26414,7 @@ recordid,personid,emailname,emailaddr,domain,ncommitsaut,ncommitscom,ntokens,nli
 26414,"szymon lukasz","Szymon Lukasz",noh4hss@gmail.com,gmail.com,1,0,88,28,"2017-11-09 12:23:35","2017-11-09 12:23:35",2018-08-19
 26415,"taketo kabe","Taketo Kabe",kabe@sra-tohoku.co.jp,sra-tohoku.co.jp,1,0,6,5,"2018-05-13 02:16:40","2018-05-13 02:16:40",2018-08-19
 26416,"tali perry","Tali Perry",tali.perry1@gmail.com,gmail.com,2,0,3667,697,"2018-03-20 06:40:48","2018-03-26 03:16:26",2018-08-19
-26417,"tamizhr at codeaurora","Tamizh Chelvam",tamizhr@codeaurora.org,codeaurora.org,1,0,76,14,"2018-04-25 01:36:44","2018-04-25 01:36:44",2018-08-19
+26417,"tamizh chelvam","Tamizh Chelvam",tamizhr@codeaurora.org,codeaurora.org,1,0,76,14,"2018-04-25 01:36:44","2018-04-25 01:36:44",2018-08-19
 26418,"tangpengpeng at <tangpengpeng@higon.com>",tangpengpeng,tangpengpeng@higon.com,higon.com,1,0,18,2,"2018-07-25 23:45:16","2018-07-25 23:45:16",2018-08-19
 26419,"taniya das","Taniya Das",tdas@codeaurora.org,codeaurora.org,7,0,21444,4555,"2018-04-24 05:23:18","2018-07-23 03:54:35",2018-08-19
 26420,"tao wang","Tao Wang",jean.wangtao@linaro.org,linaro.org,1,0,0,0,"2018-05-14 19:53:14","2018-05-14 19:53:14",2018-08-19
