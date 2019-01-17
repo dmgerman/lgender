@@ -7,16 +7,16 @@
 #+TITLE: 
 #+CATEGORY: 
 #+PROPERTY: header-args:sql             :engine postgresql  :exports both :cmdline csc370
-#+PROPERTY: header-args:sqlite          :db data/data-4.19.db  :colnames yes
+#+PROPERTY: header-args:sqlite          :db data/data.db  :colnames yes
 #+PROPERTY: header-args:C++             :results output :flags -std=c++14 -Wall --pedantic -Werror :exports both
 #+PROPERTY: header-args:R               :results output  :colnames yes
 #+OPTIONS: ^:nil
 
 * Intro
 
-These are the persons up to 4.19. 
+These are the persons up to 4.20
 
-There are two files: emails and persons. 
+There are main tables/files: emails and persons. 
 
 This is an example of the data (top 10 developers by commits authored)
 
@@ -25,18 +25,18 @@ select * from persons order by ncommitsaut desc limit 10 ;
 #+END_SRC
 
 #+RESULTS:
-| personid           | personname         | ncommitsaut | ncommitscom | ntokens | nlines | firstused           | lastused            | dateadded | gender |
-|--------------------+--------------------+-------------+-------------+---------+--------+---------------------+---------------------+-----------+--------|
-| linus torvalds     | Linus Torvalds     |       30234 |      100154 |  995338 | 224980 | 2002-02-04 17:40:40 | 2018-10-22 17:54:44 |           | male   |
-| david s. miller    | David S. Miller    |       14018 |       82430 |  538146 | 115927 | 2002-02-05 00:36:40 | 2018-10-20 22:25:01 |           | male   |
-| al viro            | Al Viro            |        8167 |        6354 |  287990 |  81892 | 2002-02-05 18:46:24 | 2018-10-17 07:23:26 |           | male   |
-| andrew morton      | Andrew Morton      |        7930 |           0 |  664892 | 123024 | 2002-02-17 16:44:37 | 2018-09-04 15:45:55 |           | male   |
-| mark brown         | Mark Brown         |        7212 |       23194 |  634591 | 150276 | 2006-02-01 16:00:01 | 2018-10-21 09:00:17 |           | male   |
-| greg kroah-hartman | Greg Kroah-Hartman |        7078 |       78350 |  318269 |  77716 | 2002-02-05 01:16:58 | 2018-10-21 23:37:37 |           | male   |
-| takashi iwai       | Takashi Iwai       |        6620 |       10286 |  388630 | 101765 | 2002-06-13 19:45:04 | 2018-10-03 22:50:48 |           | male   |
-| russell king       | Russell King       |        6215 |       11535 |  364218 |  90095 | 2002-02-20 03:25:45 | 2018-09-20 09:13:23 |           | male   |
-| arnd bergmann      | Arnd Bergmann      |        6105 |        4012 |  120065 |  34409 | 2002-06-19 23:41:41 | 2018-10-11 04:06:17 |           | male   |
-| h hartley sweeten  | H Hartley Sweeten  |        6045 |           0 |  225375 |  58377 | 2008-09-05 09:14:35 | 2017-09-03 10:43:47 |           | male   |
+| personid              | personname            | gender | notes | dateadded | ncommitsaut | ncommitscom | ntokens | nlines | nfilesaut | nfilescom | firstused           | lastused            |
+|-----------------------+-----------------------+--------+-------+-----------+-------------+-------------+---------+--------+-----------+-----------+---------------------+---------------------|
+| al viro               | Al Viro               | male   |       |           |        5143 |        4362 |  290120 |  82214 |      3944 |      2333 | 2002-02-05 18:46:24 | 2018-12-13 17:59:44 |
+| h hartley sweeten     | H Hartley Sweeten     | male   |       |           |        3838 |           0 |  224189 |  58094 |       492 |         0 | 2008-09-05 09:14:35 | 2017-09-03 10:43:47 |
+| takashi iwai          | Takashi Iwai          | male   |       |           |        3514 |        6232 |  390568 | 102309 |      1010 |       994 | 2002-06-13 19:45:04 | 2018-12-10 02:25:22 |
+| andrew morton         | Andrew Morton         | male   |       |           |        3410 |           0 |  655943 | 121656 |      2963 |         0 | 2002-02-17 16:44:37 | 2018-11-15 16:15:20 |
+| christoph hellwig     | Christoph Hellwig     | male   |       |           |        3369 |        1836 |  510702 | 124814 |      2520 |      1522 | 2002-03-07 00:47:49 | 2018-12-22 00:21:08 |
+| david s. miller       | David S. Miller       | male   |       |           |        3352 |       53877 |  540411 | 116344 |      1740 |      6893 | 2002-02-05 00:36:40 | 2018-12-21 11:24:38 |
+| russell king          | Russell King          | male   |       |           |        3085 |        5329 |  362446 |  89334 |      1584 |      1892 | 2002-02-20 03:25:45 | 2018-12-11 06:41:31 |
+| tejun heo             | Tejun Heo             | male   |       |           |        2904 |        2384 |  253851 |  73242 |      3781 |      3591 | 2004-11-03 18:28:20 | 2018-10-23 12:58:17 |
+| mauro carvalho chehab | Mauro Carvalho Chehab | male   |       |           |        2894 |       19367 |  427219 | 136588 |      1365 |      2508 | 2005-06-23 22:02:43 | 2018-12-05 10:07:43 |
+| johannes berg         | Johannes Berg         | male   |       |           |        2830 |        2949 |  420124 | 115304 |      1227 |       477 | 2005-12-10 18:41:50 | 2018-12-19 00:40:17 |
 
 
 The names of the fields are straightforward:
@@ -55,7 +55,6 @@ The names of the fields are straightforward:
 
 The counts are a summary from the email counts.
 
-
 Here is an example of reading the data using R from the database (it is easier than using CSV):
 
 data$emailname = as.factor(data$emailname)
@@ -66,10 +65,11 @@ data$domain = as.factor(data$domain)
 library("RSQLite")
 # connect to the sqlite file
 
-con = dbConnect(SQLite(), dbname='data/data-4.19.db')
+con = dbConnect(SQLite(), dbname='data/data.db')
 # get a list of all tables
 # Run query to get results as dataframe
 data = dbGetQuery(con, "select * from persons;")
+data$gender = as.factor(data$gender)
 data$personid = as.factor(data$personid)
 data$personname = as.factor(data$personname)
 data$firstused = as.Date(data$firstused)
@@ -80,22 +80,22 @@ summary(data)
 
 #+RESULTS:
 #+begin_example
-                  personid                  personname     ncommitsaut     ncommitscom        ntokens            nlines          firstused         
-                      :    1    CV Dong          :    1   Min.   :    0   Min.   :     0   Min.   :      0   Min.   :      0   Min.   :1969-12-31  
- ?                    :    1    Yoshihito Takada :    1   1st Qu.:    1   1st Qu.:     0   1st Qu.:      4   1st Qu.:      1   1st Qu.:2008-04-22  
- 050035w at acadiau.ca:    1   ?                 :    1   Median :    3   Median :     0   Median :     58   Median :     18   Median :2012-03-14  
- a e lawrence         :    1   “Cosmin           :    1   Mean   :   48   Mean   :    48   Mean   :   5570   Mean   :   1313   Mean   :2011-10-01  
- a fong               :    1   050035w@acadiau.ca:    1   3rd Qu.:   12   3rd Qu.:     0   3rd Qu.:   1029   3rd Qu.:    266   3rd Qu.:2015-07-14  
- a gilmore            :    1   A E Lawrence      :    1   Max.   :30234   Max.   :100154   Max.   :4578656   Max.   :1178457   Max.   :2018-10-17  
- (Other)              :17562   (Other)           :17562   NA's   :6       NA's   :6        NA's   :6         NA's   :6         NA's   :7           
-    lastused            dateadded             gender         
- Min.   :2002-02-12   Min.   :2018-10-23   Length:17568      
- 1st Qu.:2010-07-15   1st Qu.:2018-10-23   Class :character  
- Median :2014-09-29   Median :2018-10-23   Mode  :character  
- Mean   :2013-09-17   Mean   :2018-10-23                     
- 3rd Qu.:2017-07-13   3rd Qu.:2018-10-23                     
- Max.   :2037-04-25   Max.   :2018-10-23                     
- NA's   :7            NA's   :17306                          
+                  personid                  personname        gender         notes             dateadded           ncommitsaut    ncommitscom   
+                      :    1    CV Dong          :    1   female : 1015   Length:17830       Min.   :2018-10-23   Min.   :   0   Min.   :    0  
+ ?                    :    1    Yoshihito Takada :    1   male   :16808   Class :character   1st Qu.:2018-10-23   1st Qu.:   1   1st Qu.:    0  
+ 050035w at acadiau.ca:    1   ?                 :    1   other  :    1   Mode  :character   Median :2018-12-26   Median :   2   Median :    0  
+ a e lawrence         :    1   “Cosmin           :    1   unknown:    6                      Mean   :2018-11-24   Mean   :  27   Mean   :   27  
+ a fong               :    1   050035w@acadiau.ca:    1                                      3rd Qu.:2018-12-26   3rd Qu.:   7   3rd Qu.:    0  
+ a gilmore            :    1   A E Lawrence      :    1                                      Max.   :2018-12-26   Max.   :5143   Max.   :53877  
+ (Other)              :17824   (Other)           :17824                                      NA's   :17305        NA's   :82     NA's   :82     
+    ntokens            nlines          nfilesaut      nfilescom       firstused             lastused         
+ Min.   :      0   Min.   :      0   Min.   :   0   Min.   :    0   Min.   :1969-12-31   Min.   :2002-02-12  
+ 1st Qu.:      4   1st Qu.:      1   1st Qu.:   1   1st Qu.:    0   1st Qu.:2008-05-12   1st Qu.:2010-08-10  
+ Median :     58   Median :     18   Median :   2   Median :    0   Median :2012-04-18   Median :2014-11-17  
+ Mean   :   5595   Mean   :   1318   Mean   :  19   Mean   :    7   Mean   :2011-11-08   Mean   :2013-10-30  
+ 3rd Qu.:   1041   3rd Qu.:    268   3rd Qu.:   7   3rd Qu.:    0   3rd Qu.:2015-08-26   3rd Qu.:2017-09-08  
+ Max.   :4574497   Max.   :1177745   Max.   :4068   Max.   :12724   Max.   :2018-12-18   Max.   :2037-04-25  
+ NA's   :82        NA's   :82                                       NA's   :83           NA's   :83          
 #+end_example
 
 *  Emails
@@ -107,18 +107,18 @@ select * from emails order by ncommitsaut desc limit 10 ;
 #+END_SRC
 
 #+RESULTS:
-| recordid | personid          | emailname         | emailaddr                           | domain                      | ncommitsaut | ncommitscom | ntokens | nlines | firstused           | lastused            |  dateadded |
-|----------+-------------------+-------------------+-------------------------------------+-----------------------------+-------------+-------------+---------+--------+---------------------+---------------------+------------|
-|    13877 | linus torvalds    | Linus Torvalds    | torvalds@linux-foundation.org       | linux-foundation.org        |       22390 |       49843 |   28400 |   9853 | 2007-06-18 09:34:40 | 2018-10-22 17:54:44 | 2018-08-19 |
-|     5785 | david s. miller   | David S. Miller   | davem@davemloft.net                 | davemloft.net               |        9570 |       71491 |  249991 |  54820 | 2004-09-16 09:13:40 | 2018-10-20 22:25:01 | 2018-08-19 |
-|    22827 | takashi iwai      | Takashi Iwai      | tiwai@suse.de                       | suse.de                     |        6608 |       10286 |  387296 | 101411 | 2002-06-13 19:45:04 | 2018-10-03 22:50:48 | 2018-08-19 |
-|     2370 | arnd bergmann     | Arnd Bergmann     | arnd@arndb.de                       | arndb.de                    |        6045 |        3895 |  115338 |  33314 | 2003-03-05 06:07:18 | 2018-10-11 04:06:17 | 2018-08-19 |
-|     1691 | andrew morton     | Andrew Morton     | akpm@osdl.org                       | osdl.org                    |        5103 |           0 |  601008 | 107075 | 2003-07-02 08:47:23 | 2008-01-30 14:27:57 | 2018-08-19 |
-|      419 | al viro           | Al Viro           | viro@zeniv.linux.org.uk             | zeniv.linux.org.uk          |        5016 |        6354 |  190073 |  51772 | 2005-09-02 12:18:03 | 2018-10-17 07:23:26 | 2018-08-19 |
-|    23131 | thomas gleixner   | Thomas Gleixner   | tglx@linutronix.de                  | linutronix.de               |        4200 |        6614 |  137536 |  44225 | 2004-10-20 16:55:08 | 2018-10-14 02:11:23 | 2018-08-19 |
-|     8600 | h hartley sweeten | H Hartley Sweeten | hsweeten@visionengravers.com        | visionengravers.com         |        4196 |           0 |  156494 |  45869 | 2009-03-31 15:23:48 | 2017-09-03 10:43:47 | 2018-08-19 |
-|     4312 | chris wilson      | Chris Wilson      | chris@chris-wilson.co.uk            | chris-wilson.co.uk          |        4010 |        3249 |  227031 |  58563 | 2009-01-30 13:10:22 | 2018-10-03 01:24:22 | 2018-08-19 |
-|    14878 | mark brown        | Mark Brown        | broonie@opensource.wolfsonmicro.com | opensource.wolfsonmicro.com |        3948 |        7462 |  574381 | 134975 | 2008-01-10 05:33:07 | 2013-11-19 08:04:01 | 2018-08-19 |
+| recordid | personid          | emailname         | emailaddr                           | domain                      | notes |  dateadded | ncommitsaut | ncommitscom | ntokens | nlines | nfilesaut | nfilescom | firstused           | lastused            |
+|----------+-------------------+-------------------+-------------------------------------+-----------------------------+-------+------------+-------------+-------------+---------+--------+-----------+-----------+---------------------+---------------------|
+|    22827 | takashi iwai      | Takashi Iwai      | tiwai@suse.de                       | suse.de                     |       | 2018-08-19 |        3504 |        6232 |  389234 | 101956 |      1009 |       994 | 2002-06-13 19:45:04 | 2018-12-10 02:25:22 |
+|      419 | al viro           | Al Viro           | viro@zeniv.linux.org.uk             | zeniv.linux.org.uk          |       | 2018-08-19 |        3394 |        4362 |  192881 |  52344 |      2508 |      2333 | 2005-09-02 12:18:03 | 2018-12-13 17:59:44 |
+|     8600 | h hartley sweeten | H Hartley Sweeten | hsweeten@visionengravers.com        | visionengravers.com         |       | 2018-08-19 |        2863 |           0 |  155792 |  45672 |       228 |         0 | 2009-03-31 15:23:48 | 2017-09-03 10:43:47 |
+|     4312 | chris wilson      | Chris Wilson      | chris@chris-wilson.co.uk            | chris-wilson.co.uk          |       | 2018-08-19 |        2652 |        2420 |  231557 |  59774 |       432 |       266 | 2009-01-30 13:10:22 | 2018-12-07 05:40:37 |
+|     4458 | christoph hellwig | Christoph Hellwig | hch@lst.de                          | lst.de                      |       | 2018-08-19 |        2602 |        1623 |  337811 |  84401 |      2350 |      1254 | 2002-07-29 01:19:18 | 2018-12-22 00:21:08 |
+|    23131 | thomas gleixner   | Thomas Gleixner   | tglx@linutronix.de                  | linutronix.de               |       | 2018-08-19 |        2431 |        4321 |  140477 |  45155 |      1885 |      1855 | 2004-10-20 16:55:08 | 2018-12-18 15:00:16 |
+|    14878 | mark brown        | Mark Brown        | broonie@opensource.wolfsonmicro.com | opensource.wolfsonmicro.com |       | 2018-08-19 |        2256 |        4450 |  573966 | 134856 |       576 |       770 | 2008-01-10 05:33:07 | 2013-11-19 08:04:01 |
+|    22966 | tejun heo         | Tejun Heo         | tj@kernel.org                       | kernel.org                  |       | 2018-08-19 |        2188 |        2290 |  172494 |  53176 |      3741 |      3589 | 2008-06-16 20:36:26 | 2018-10-23 12:58:17 |
+|     2370 | arnd bergmann     | Arnd Bergmann     | arnd@arndb.de                       | arndb.de                    |       | 2018-08-19 |        2112 |         553 |  115364 |  33471 |      3330 |      1199 | 2003-03-05 06:07:18 | 2018-12-10 12:53:45 |
+|     1691 | andrew morton     | Andrew Morton     | akpm@osdl.org                       | osdl.org                    |       | 2018-08-19 |        2109 |           0 |  595188 | 106146 |      2299 |         0 | 2003-07-02 08:47:23 | 2008-01-30 14:27:57 |
 
 The schema of the data is:
 
@@ -143,7 +143,7 @@ here is how to extract the data with R:
 library("RSQLite")
 # connect to the sqlite file
 
-con = dbConnect(SQLite(), dbname='data/data-4.19.db')
+con = dbConnect(SQLite(), dbname='data/data.db')
 # get a list of all tables
 # Run query to get results as dataframe
 data = dbGetQuery(con, "select * from emails;")
@@ -159,22 +159,30 @@ summary(data)
 
 #+RESULTS:
 #+begin_example
-    recordid                   personid               emailname                          emailaddr                    domain       ncommitsaut   
- Min.   :    2   james bottomley   :   34   David S. Miller:   29   fernando@oss.ntt.co.jp    :    9   gmail.com         : 4784   Min.   :    0  
- 1st Qu.: 6722   david s. miller   :   32   Steve French   :   28   daniel.marjamaki@comhem.se:    8   intel.com         : 1351   1st Qu.:    1  
- Median :13441   steve french      :   30   James Bottomley:   27   juha.yrjola@solidboot.com :    7   redhat.com        :  514   Median :    2  
- Mean   :13441   linus torvalds    :   22                  :   22   lorenzo@gnu.org           :    7   ti.com            :  376   Mean   :   32  
- 3rd Qu.:20160   christoph hellwig :   20   Linus Torvalds :   22   rafalbilski@interia.pl    :    7   google.com        :  351   3rd Qu.:    9  
- Max.   :26880   greg kroah-hartman:   20   Kyle McMartin  :   18   dmonakhov@openvz.org      :    6   linux.vnet.ibm.com:  317   Max.   :22390  
-                 (Other)           :26721   (Other)        :26733   (Other)                   :26835   (Other)           :19186                  
-  ncommitscom       ntokens            nlines          firstused             lastused            dateadded         
- Min.   :    0   Min.   :      0   Min.   :      0   Min.   :1969-12-31   Min.   :2000-12-31   Min.   :2018-08-19  
- 1st Qu.:    0   1st Qu.:      2   1st Qu.:      1   1st Qu.:2008-03-21   1st Qu.:2009-06-09   1st Qu.:2018-08-19  
- Median :    0   Median :     41   Median :     13   Median :2012-02-02   Median :2013-08-14   Median :2018-08-19  
- Mean   :   32   Mean   :   3640   Mean   :    858   Mean   :2011-09-17   Mean   :2012-11-21   Mean   :2018-08-19  
- 3rd Qu.:    0   3rd Qu.:    665   3rd Qu.:    174   3rd Qu.:2015-07-08   3rd Qu.:2016-11-30   3rd Qu.:2018-08-19  
- Max.   :71491   Max.   :4473927   Max.   :1152332   Max.   :2018-10-18   Max.   :2037-04-25   Max.   :2018-10-23  
-                                                     NA's   :105          NA's   :105                              
+    recordid                   personid               emailname                          emailaddr                    domain         notes          
+ Min.   :    2   james bottomley   :   34   David S. Miller:   29   fernando@oss.ntt.co.jp    :    9   gmail.com         : 4855   Length:27272      
+ 1st Qu.: 6820   david s. miller   :   33   Steve French   :   28   daniel.marjamaki@comhem.se:    8   intel.com         : 1374   Class :character  
+ Median :13638   steve french      :   30   James Bottomley:   27   juha.yrjola@solidboot.com :    7   redhat.com        :  520   Mode  :character  
+ Mean   :13638   linus torvalds    :   22                  :   22   lorenzo@gnu.org           :    7   ti.com            :  376                     
+ 3rd Qu.:20455   christoph hellwig :   20   Linus Torvalds :   22   rafalbilski@interia.pl    :    7   google.com        :  356                     
+ Max.   :27273   greg kroah-hartman:   20   Kyle McMartin  :   18   dmonakhov@openvz.org      :    6   linux.vnet.ibm.com:  318                     
+                 (Other)           :27113   (Other)        :27126   (Other)                   :27228   (Other)           :19473                     
+   dateadded           ncommitsaut    ncommitscom       ntokens            nlines          nfilesaut      nfilescom      firstused         
+ Min.   :2018-08-19   Min.   :   0   Min.   :    0   Min.   :      0   Min.   :      0   Min.   :   0   Min.   :   0   Min.   :1969-12-31  
+ 1st Qu.:2018-08-19   1st Qu.:   1   1st Qu.:    0   1st Qu.:      2   1st Qu.:      1   1st Qu.:   1   1st Qu.:   0   1st Qu.:2008-04-19  
+ Median :2018-08-19   Median :   1   Median :    0   Median :     41   Median :     13   Median :   2   Median :   0   Median :2012-03-09  
+ Mean   :2018-08-21   Mean   :  18   Mean   :   18   Mean   :   3641   Mean   :    858   Mean   :  13   Mean   :   6   Mean   :2011-10-24  
+ 3rd Qu.:2018-08-19   3rd Qu.:   5   3rd Qu.:    0   3rd Qu.:    664   3rd Qu.:    174   3rd Qu.:   6   3rd Qu.:   0   3rd Qu.:2015-08-20  
+ Max.   :2018-12-26   Max.   :3504   Max.   :48566   Max.   :4469807   Max.   :1151644   Max.   :3741   Max.   :7741   Max.   :2018-12-21  
+                                                                                                                       NA's   :105         
+    lastused         
+ Min.   :2000-12-31  
+ 1st Qu.:2009-06-24  
+ Median :2013-09-23  
+ Mean   :2012-12-31  
+ 3rd Qu.:2017-01-26  
+ Max.   :2037-04-25  
+ NA's   :105         
 #+end_example
 
 
@@ -189,67 +197,146 @@ select gender, count(*) as npersons, sum(ncommitsaut) as ncommitsaut, sum(ntoken
 #+END_SRC
 
 #+RESULTS:
-| gender | npersons | ncommitsaut |  ntokens |   nlines |
-|--------+----------+-------------+----------+----------|
-| female |     1011 |       27891 |  2992186 |   731596 |
-| male   |    16557 |      820926 | 94835521 | 22327928 |
+| gender  | npersons | ncommitsaut |  ntokens |   nlines |
+|---------+----------+-------------+----------+----------|
+| female  |     1015 |       14517 |  2855251 |   706004 |
+| male    |    16808 |      469465 | 96405277 | 22673823 |
+| other   |        1 |         284 |    41062 |    10011 |
+| unknown |        6 |           4 |       32 |        9 |
 
-top 20 committers who are female (you might know Julia). MMm, some names might be male :(
+top 20 committers who are female 
 
 #+BEGIN_SRC sqlite
 select * from persons where gender = 'female' order by ncommitsaut desc limit 20;
 #+END_SRC
 
 #+RESULTS:
-| personid        | personname         | ncommitsaut | ncommitscom | ntokens | nlines | firstused           | lastused            | dateadded | gender |
-|-----------------+--------------------+-------------+-------------+---------+--------+---------------------+---------------------+-----------+--------|
-| julia lawall    | Julia Lawall       |        2137 |           0 |    9795 |   5117 | 2007-11-14 00:15:16 | 2018-08-03 09:32:11 |           | female |
-| aneesh kumar    | Aneesh Kumar K.V   |         806 |           0 |   74155 |  18545 | 2004-07-10 19:34:53 | 2018-09-04 15:45:59 |           | female |
-| li zefan        | Li Zefan           |         786 |          44 |   23846 |   6538 | 2007-10-18 05:12:21 | 2017-04-18 19:15:59 |           | female |
-| sage weil       | Sage Weil          |         719 |        1271 |   97236 |  19407 | 2008-05-02 11:43:14 | 2015-07-09 08:47:37 |           | female |
-| vivien didelot  | Vivien Didelot     |         573 |           0 |   44020 |  11279 | 2011-03-21 09:59:35 | 2018-05-11 14:16:36 |           | female |
-| bhumika goyal   | Bhumika Goyal      |         513 |           0 |    2535 |   1665 | 2015-12-21 10:41:11 | 2017-11-06 05:15:40 |           | female |
-| lucien xin      | Xin Long           |         436 |           0 |   39406 |  10034 | 2014-03-03 04:18:36 | 2018-10-17 06:11:27 |           | female |
-| shuah khan      | Shuah Khan         |         427 |         505 |   13425 |   3792 | 2012-01-27 10:40:10 | 2018-10-05 15:17:44 |           | female |
-| liu bo          | Liu Bo             |         419 |           0 |   19746 |   5336 | 2011-01-06 03:30:25 | 2018-08-20 14:21:15 |           | female |
-| sarah sharp     | Sarah Sharp        |         388 |         512 |   41084 |  10021 | 2006-11-18 22:30:16 | 2014-05-08 09:25:59 |           | female |
-| lai jiangshan   | Lai Jiangshan      |         384 |           0 |    7181 |   2150 | 2008-03-26 04:01:28 | 2018-03-20 02:24:32 |           | female |
-| ming lei        | Ming Lei           |         363 |           0 |   16923 |   4640 | 2011-03-01 23:00:08 | 2018-10-12 00:53:10 |           | female |
-| miao xie        | Miao Xie           |         344 |          10 |   33662 |   7722 | 2007-08-10 13:01:09 | 2017-08-05 22:00:49 |           | female |
-| cornelia huck   | Cornelia Huck      |         334 |          64 |   29582 |   7151 | 2004-08-07 00:55:13 | 2018-10-02 00:45:05 |           | female |
-| mika kuoppala   | Mika Kuoppala      |         310 |         183 |   14553 |   3735 | 2009-12-06 08:06:22 | 2018-07-30 05:06:36 |           | female |
-| hante meuleman  | Hante Meuleman     |         303 |           0 |   59307 |  12640 | 2012-08-30 01:05:35 | 2016-09-19 04:09:59 |           | female |
-| sara sharon     | Sara Sharon        |         290 |           0 |   35569 |   9245 | 2015-03-31 02:24:05 | 2018-08-28 23:57:02 |           | female |
-| yi zhu          | Yi Zhu             |         282 |           0 |   25362 |   5654 | 2004-10-27 18:21:34 | 2010-06-09 18:44:29 |           | female |
-| kim milo        | Kim (Woogyom) Milo |         255 |           0 |   43873 |  10997 | 2011-09-07 01:56:14 | 2017-02-27 23:50:41 |           | female |
-| himangi saraogi | Himangi Saraogi    |         242 |           0 |    2125 |    919 | 2013-10-23 13:40:11 | 2014-10-13 15:53:18 |           | female |
+| personid            | personname          | gender | notes               | dateadded | ncommitsaut | ncommitscom | ntokens | nlines | nfilesaut | nfilescom | firstused           | lastused            |
+|---------------------+---------------------+--------+---------------------+-----------+-------------+-------------+---------+--------+-----------+-----------+---------------------+---------------------|
+| julia lawall        | Julia Lawall        | female |                     |           |        1274 |           0 |    9746 |   5092 |      1710 |         0 | 2007-11-14 00:15:16 | 2018-10-30 08:15:00 |
+| bhumika goyal       | Bhumika Goyal       | female |                     |           |         427 |           0 |    2507 |   1635 |       961 |         0 | 2015-12-21 10:41:11 | 2018-10-27 23:07:00 |
+| vivien didelot      | Vivien Didelot      | female |                     |           |         406 |           0 |   43921 |  11230 |        86 |         0 | 2011-03-21 09:59:35 | 2018-12-17 13:29:01 |
+| liu bo              | Liu Bo              | female |                     |           |         306 |           0 |   19958 |   5456 |        60 |         0 | 2011-01-06 03:30:25 | 2018-09-13 10:46:08 |
+| sara sharon         | Sara Sharon         | female |                     |           |         290 |           0 |   38146 |   9847 |       123 |         0 | 2015-03-31 02:24:05 | 2018-12-15 01:03:10 |
+| ming lei            | Ming Lei            | female |                     |           |         278 |           0 |   16804 |   4591 |       167 |         0 | 2011-03-01 23:00:08 | 2018-11-30 08:38:18 |
+| miao xie            | Miao Xie            | female |                     |           |         275 |           8 |   33558 |   7672 |        65 |         7 | 2007-08-10 13:01:09 | 2017-08-05 22:00:49 |
+| anna schumaker      | Anna Schumaker      | female | was bryan schumaker |           |         246 |         660 |   35721 |   6243 |        90 |       112 | 2010-08-03 10:04:00 | 2018-10-03 11:35:17 |
+| cornelia huck       | Cornelia Huck       | female |                     |           |         210 |          53 |   29563 |   7147 |       107 |        29 | 2004-08-07 00:55:13 | 2018-11-13 02:45:17 |
+| shuah khan          | Shuah Khan          | female |                     |           |         210 |         187 |   13460 |   3805 |       158 |       117 | 2012-01-27 10:40:10 | 2018-12-11 16:57:30 |
+| ursula braun-krahl  | Ursula Braun-Krahl  | female |                     |           |         208 |           0 |   46638 |   9294 |        73 |         0 | 1969-12-31 16:00:01 | 2018-11-20 07:46:43 |
+| kim milo            | Kim (Woogyom) Milo  | female |                     |           |         185 |           0 |   43658 |  10943 |        64 |         0 | 2011-09-07 01:56:14 | 2017-02-27 23:50:41 |
+| elena reshetova     | Elena Reshetova     | female |                     |           |         167 |           0 |    1722 |   1350 |       364 |         0 | 2017-02-20 02:19:00 | 2017-12-20 11:10:56 |
+| mimi zohar          | Mimi Zohar          | female |                     |           |         167 |         319 |   29724 |   6675 |        85 |        85 | 2008-10-07 11:00:12 | 2018-12-17 16:14:49 |
+| sathya perla        | Sathya Perla        | female |                     |           |         164 |           0 |   40357 |   9114 |        17 |         0 | 2008-11-10 21:27:37 | 2018-01-17 00:21:16 |
+| ying xue            | Ying Xue            | female |                     |           |         153 |           0 |    7482 |   2012 |        67 |         0 | 2011-07-06 02:53:15 | 2018-10-11 04:57:56 |
+| laura abbott        | Laura Abbott        | female |                     |           |         151 |           0 |   12284 |   3281 |       210 |         0 | 2011-05-27 09:23:16 | 2018-09-19 18:59:01 |
+| anjali singhai jain | Anjali Singhai Jain | female |                     |           |         144 |           0 |   32266 |   7481 |        31 |         0 | 2010-04-27 04:31:25 | 2017-09-01 13:42:49 |
+| lin ming            | Lin Ming            | female |                     |           |         142 |           0 |   17332 |   5947 |       185 |         0 | 2008-02-20 23:01:30 | 2016-12-12 16:42:26 |
+| ping cheng          | Ping Cheng          | female |                     |           |         131 |           0 |   11122 |   1638 |        10 |         0 | 2005-02-06 13:19:36 | 2018-06-25 13:24:36 |
 
-top 10 contributors to tokens who are female:
+top 10 contributors of tokens who are female:
 
 #+BEGIN_SRC sqlite
 select * from persons where gender = 'female' order by ntokens desc limit 20;
 #+END_SRC
 
 #+RESULTS:
-| personid            | personname          | ncommitsaut | ncommitscom | ntokens | nlines | firstused           | lastused            | dateadded | gender |
-|---------------------+---------------------+-------------+-------------+---------+--------+---------------------+---------------------+-----------+--------|
-| feifei xu           | Feifei Xu           |          77 |           0 |  201247 |  64796 | 2016-06-01 04:18:23 | 2018-07-16 23:54:23 |           | female |
-| sage weil           | Sage Weil           |         719 |        1271 |   97236 |  19407 | 2008-05-02 11:43:14 | 2015-07-09 08:47:37 |           | female |
-| moni shoua          | Moni Shoua          |         107 |           0 |   76484 |  15525 | 2007-07-23 00:07:42 | 2018-02-25 03:39:54 |           | female |
-| aneesh kumar        | Aneesh Kumar K.V    |         806 |           0 |   74155 |  18545 | 2004-07-10 19:34:53 | 2018-09-04 15:45:59 |           | female |
-| li yang             | Li Yang             |         122 |          32 |   70127 |  15420 | 2006-07-14 04:58:14 | 2018-10-01 15:47:43 |           | female |
-| hante meuleman      | Hante Meuleman      |         303 |           0 |   59307 |  12640 | 2012-08-30 01:05:35 | 2016-09-19 04:09:59 |           | female |
-| jing huang          | Jing Huang          |          54 |           0 |   51347 |  12315 | 2009-09-23 17:46:15 | 2012-04-03 22:44:31 |           | female |
-| sri deevi           | Sri Deevi           |           9 |           0 |   44298 |   8033 | 2008-06-21 07:06:44 | 2009-03-21 18:00:20 |           | female |
-| vivien didelot      | Vivien Didelot      |         573 |           0 |   44020 |  11279 | 2011-03-21 09:59:35 | 2018-05-11 14:16:36 |           | female |
-| kim milo            | Kim (Woogyom) Milo  |         255 |           0 |   43873 |  10997 | 2011-09-07 01:56:14 | 2017-02-27 23:50:41 |           | female |
-| lijun ou            | Lijun Ou            |         117 |           0 |   43592 |  10137 | 2016-07-21 04:06:37 | 2018-07-30 05:20:30 |           | female |
-| ursula braun        | Ursula Braun        |         211 |           0 |   42289 |   8361 | 2008-07-18 06:24:58 | 2018-07-23 04:53:12 |           | female |
-| sarah sharp         | Sarah Sharp         |         388 |         512 |   41084 |  10021 | 2006-11-18 22:30:16 | 2014-05-08 09:25:59 |           | female |
-| sathya perla        | Sathya Perla        |         229 |           0 |   40437 |   9133 | 2008-11-10 21:27:37 | 2018-01-17 00:21:16 |           | female |
-| lucien xin          | Xin Long            |         436 |           0 |   39406 |  10034 | 2014-03-03 04:18:36 | 2018-10-17 06:11:27 |           | female |
-| tiffany lin         | Tiffany Lin         |          33 |           0 |   39402 |   9596 | 2015-09-24 02:02:36 | 2017-07-19 02:22:52 |           | female |
-| elaine zhang        | Elaine Zhang        |          95 |           0 |   38081 |   5835 | 2016-01-11 02:36:38 | 2018-06-14 19:16:51 |           | female |
-| sara sharon         | Sara Sharon         |         290 |           0 |   35569 |   9245 | 2015-03-31 02:24:05 | 2018-08-28 23:57:02 |           | female |
-| anjali singhai jain | Anjali Singhai Jain |         180 |           0 |   34421 |   7975 | 2010-04-27 04:31:25 | 2017-09-01 13:42:49 |           | female |
-| miao xie            | Miao Xie            |         344 |          10 |   33662 |   7722 | 2007-08-10 13:01:09 | 2017-08-05 22:00:49 |           | female |
+| personid            | personname          | gender | notes               | dateadded | ncommitsaut | ncommitscom | ntokens | nlines | nfilesaut | nfilescom | firstused           | lastused            |
+|---------------------+---------------------+--------+---------------------+-----------+-------------+-------------+---------+--------+-----------+-----------+---------------------+---------------------|
+| feifei xu           | Feifei Xu           | female |                     |           |          83 |           0 |  427540 | 127710 |        77 |         0 | 2016-06-01 04:18:23 | 2018-10-15 23:54:46 |
+| moni shoua          | Moni Shoua          | female |                     |           |          92 |           0 |   76001 |  15377 |       116 |         0 | 2007-07-23 00:07:42 | 2018-09-11 23:33:55 |
+| li yang             | Li Yang             | female |                     |           |          61 |          26 |   70108 |  15414 |        55 |        25 | 2006-07-14 04:58:14 | 2018-10-05 12:06:56 |
+| jing huang          | Jing Huang          | female |                     |           |          38 |           0 |   50701 |  12212 |        36 |         0 | 2009-09-23 17:46:15 | 2012-04-03 22:44:31 |
+| ursula braun-krahl  | Ursula Braun-Krahl  | female |                     |           |         208 |           0 |   46638 |   9294 |        73 |         0 | 1969-12-31 16:00:01 | 2018-11-20 07:46:43 |
+| lijun ou            | Lijun Ou            | female |                     |           |         115 |           0 |   44460 |  10318 |        23 |         0 | 2016-07-21 04:06:37 | 2018-09-30 02:00:38 |
+| sri deevi           | Sri Deevi           | female |                     |           |           8 |           0 |   44288 |   8024 |        23 |         0 | 2008-06-21 07:06:44 | 2009-03-21 18:00:20 |
+| vivien didelot      | Vivien Didelot      | female |                     |           |         406 |           0 |   43921 |  11230 |        86 |         0 | 2011-03-21 09:59:35 | 2018-12-17 13:29:01 |
+| kim milo            | Kim (Woogyom) Milo  | female |                     |           |         185 |           0 |   43658 |  10943 |        64 |         0 | 2011-09-07 01:56:14 | 2017-02-27 23:50:41 |
+| sathya perla        | Sathya Perla        | female |                     |           |         164 |           0 |   40357 |   9114 |        17 |         0 | 2008-11-10 21:27:37 | 2018-01-17 00:21:16 |
+| tiffany lin         | Tiffany Lin         | female |                     |           |          23 |           0 |   39384 |   9586 |        37 |         0 | 2015-09-24 02:02:36 | 2017-07-19 02:22:52 |
+| sara sharon         | Sara Sharon         | female |                     |           |         290 |           0 |   38146 |   9847 |       123 |         0 | 2015-03-31 02:24:05 | 2018-12-15 01:03:10 |
+| elaine zhang        | Elaine Zhang        | female |                     |           |          74 |           0 |   38065 |   5823 |        35 |         0 | 2016-01-11 02:36:38 | 2018-06-14 19:16:51 |
+| anna schumaker      | Anna Schumaker      | female | was bryan schumaker |           |         246 |         660 |   35721 |   6243 |        90 |       112 | 2010-08-03 10:04:00 | 2018-10-03 11:35:17 |
+| taniya das          | Taniya Das          | female |                     |           |           9 |           0 |   35486 |   7435 |         9 |         0 | 2018-04-24 05:23:18 | 2018-09-25 10:35:58 |
+| miao xie            | Miao Xie            | female |                     |           |         275 |           8 |   33558 |   7672 |        65 |         7 | 2007-08-10 13:01:09 | 2017-08-05 22:00:49 |
+| jing min zhao       | Jing Min Zhao       | female |                     |           |           8 |           0 |   32673 |   3480 |         6 |         0 | 2006-03-20 23:41:17 | 2007-07-07 22:13:17 |
+| anjali singhai jain | Anjali Singhai Jain | female |                     |           |         144 |           0 |   32266 |   7481 |        31 |         0 | 2010-04-27 04:31:25 | 2017-09-01 13:42:49 |
+| chunyan zhang       | Chunyan Zhang       | female |                     |           |          45 |           0 |   30925 |   5638 |        47 |         0 | 2014-12-03 22:29:35 | 2018-08-30 01:21:45 |
+| stephane grosjean   | Stephane Grosjean   | female |                     |           |          43 |           0 |   30332 |   7655 |        14 |         0 | 2012-02-01 02:05:48 | 2018-06-21 06:23:31 |
+
+
+Plot women by year in which they joined. 
+
+The problem with this histogram is that the bins are not for each year
+
+#+begin_src R  :results graphics :file gender.png :width 16 :height 8 :res 200 :units cm  
+library(ggplot2)
+library(scales)
+library("RSQLite")
+# connect to the sqlite file
+
+con = dbConnect(SQLite(), dbname='data/data.db')
+# get a list of all tables
+# Run query to get results as dataframe
+data = dbGetQuery(con, "select * from persons;")
+data$gender = as.factor(data$gender)
+data$personid = as.factor(data$personid)
+data$personname = as.factor(data$personname)
+data$firstused = as.Date(data$firstused)
+data$lastused = as.Date(data$lastused)
+data$dateadded = as.Date(data$dateadded)
+data<-data[data$firstused > '2000-01-01',]
+theme_set(theme_gray(base_size = 12))
+gg <- ggplot(data, aes(data$firstused, fill=data$gender))
+gg <- gg + geom_histogram()
+#gg <- gg + scale_x_discrete("X title")
+#gg <- gg + scale_y_continuous("Y title")
+gg 
+#+end_src
+
+#+RESULTS:
+[[file:gender.png]]
+
+scatter plot of newcomers per year
+
+#+begin_src R  :results graphics :file genderProp.png :width 16 :height 8 :res 200 :units cm  
+library(ggplot2)
+library(scales)
+library("RSQLite")
+# connect to the sqlite file
+
+con = dbConnect(SQLite(), dbname='data/data.db')
+# get a list of all tables
+# Run query to get results as dataframe
+data = dbGetQuery(con, "select substr(firstused, 1, 4) as year, gender, count(*) as freq from persons where firstused is not null group by gender, year ;")
+data$gender = as.factor(data$gender)
+theme_set(theme_gray(base_size = 14))
+gg <- ggplot(data, aes(x=data$y, y=data$freq, color=data$gender))
+gg <- gg + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+gg <- gg + geom_point()
+#gg <- gg + scale_x_discrete("X title")
+#gg <- gg + scale_y_continuous("Y title")
+gg 
+#+end_src
+
+#+RESULTS:
+[[file:genderProp.png]]
+
+
+#+BEGIN_SRC sqlite
+
+#+END_SRC
+
+#+RESULTS:
+|    y | gender  |
+|------+---------|
+| 2005 | unknown |
+| 2005 | unknown |
+| 2005 | unknown |
+| 2010 | unknown |
+| 2005 | unknown |
+| 2007 | unknown |
+| 2014 | male    |
+| 2005 | male    |
+| 2006 | male    |
+| 2012 | male    |
