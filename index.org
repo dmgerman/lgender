@@ -299,7 +299,7 @@ gg
 
 scatter plot of newcomers per year
 
-#+begin_src R  :results graphics :file genderProp.png :width 16 :height 8 :res 200 :units cm  
+#+begin_src R  :results graphics :file genderYear.png :width 16 :height 8 :res 200 :units cm  
 library(ggplot2)
 library(scales)
 library("RSQLite")
@@ -320,23 +320,5 @@ gg
 #+end_src
 
 #+RESULTS:
+[[file:genderYear.png]]
 [[file:genderProp.png]]
-
-
-#+BEGIN_SRC sqlite
-
-#+END_SRC
-
-#+RESULTS:
-|    y | gender  |
-|------+---------|
-| 2005 | unknown |
-| 2005 | unknown |
-| 2005 | unknown |
-| 2010 | unknown |
-| 2005 | unknown |
-| 2007 | unknown |
-| 2014 | male    |
-| 2005 | male    |
-| 2006 | male    |
-| 2012 | male    |
