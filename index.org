@@ -1,11 +1,11 @@
 #+STARTUP: showall
 #+STARTUP: lognotestate
 #+TAGS: research(r) uvic(u) today(y) todo(t) cooking(c)
-#+SEQ_TODO: TODO(t) STARTED(s) DEFERRED(r) CANCELLED(c) | WAITING(w) DELEGATED(d) APPT(a) DONE(d) 
+#+SEQ_TODO: TODO(t) STARTED(s) DEFERRED(r) CANCELLED(c) | WAITING(w) DELEGATED(d) APPT(a) DONE(d)
 #+DRAWERS: HIDDEN STATE
 #+ARCHIVE: %s_done::
-#+TITLE: 
-#+CATEGORY: 
+#+TITLE:
+#+CATEGORY:
 #+PROPERTY: header-args:sql             :engine postgresql  :exports both :cmdline csc370
 #+PROPERTY: header-args:sqlite          :db data/data.db  :colnames yes
 #+PROPERTY: header-args:C++             :results output :flags -std=c++14 -Wall --pedantic -Werror :exports both
@@ -14,9 +14,9 @@
 
 * Intro
 
-These are the persons up to 4.20
+This database contains the information about persons and their activity. It is mostly to be used to link emails to persons, and to maintain the demographics of each person.
 
-There are main tables/files: emails and persons. 
+There are main tables/files: emails and persons.
 
 This is an example of the data (top 10 developers by commits authored)
 
@@ -61,7 +61,7 @@ data$emailname = as.factor(data$emailname)
 data$emailaddr = as.factor(data$emailaddr)
 data$domain = as.factor(data$domain)
 
-#+BEGIN_SRC R R  
+#+BEGIN_SRC R R
 library("RSQLite")
 # connect to the sqlite file
 
@@ -80,22 +80,22 @@ summary(data)
 
 #+RESULTS:
 #+begin_example
-                  personid                  personname        gender         notes             dateadded           ncommitsaut    ncommitscom   
-                      :    1    CV Dong          :    1   female : 1015   Length:17830       Min.   :2018-10-23   Min.   :   0   Min.   :    0  
- ?                    :    1    Yoshihito Takada :    1   male   :16808   Class :character   1st Qu.:2018-10-23   1st Qu.:   1   1st Qu.:    0  
- 050035w at acadiau.ca:    1   ?                 :    1   other  :    1   Mode  :character   Median :2018-12-26   Median :   2   Median :    0  
- a e lawrence         :    1   “Cosmin           :    1   unknown:    6                      Mean   :2018-11-24   Mean   :  27   Mean   :   27  
- a fong               :    1   050035w@acadiau.ca:    1                                      3rd Qu.:2018-12-26   3rd Qu.:   7   3rd Qu.:    0  
- a gilmore            :    1   A E Lawrence      :    1                                      Max.   :2018-12-26   Max.   :5143   Max.   :53877  
- (Other)              :17824   (Other)           :17824                                      NA's   :17305        NA's   :82     NA's   :82     
-    ntokens            nlines          nfilesaut      nfilescom       firstused             lastused         
- Min.   :      0   Min.   :      0   Min.   :   0   Min.   :    0   Min.   :1969-12-31   Min.   :2002-02-12  
- 1st Qu.:      4   1st Qu.:      1   1st Qu.:   1   1st Qu.:    0   1st Qu.:2008-05-12   1st Qu.:2010-08-10  
- Median :     58   Median :     18   Median :   2   Median :    0   Median :2012-04-18   Median :2014-11-17  
- Mean   :   5595   Mean   :   1318   Mean   :  19   Mean   :    7   Mean   :2011-11-08   Mean   :2013-10-30  
- 3rd Qu.:   1041   3rd Qu.:    268   3rd Qu.:   7   3rd Qu.:    0   3rd Qu.:2015-08-26   3rd Qu.:2017-09-08  
- Max.   :4574497   Max.   :1177745   Max.   :4068   Max.   :12724   Max.   :2018-12-18   Max.   :2037-04-25  
- NA's   :82        NA's   :82                                       NA's   :83           NA's   :83          
+                  personid                  personname        gender         notes             dateadded           ncommitsaut    ncommitscom
+                      :    1    CV Dong          :    1   female : 1015   Length:17830       Min.   :2018-10-23   Min.   :   0   Min.   :    0
+ ?                    :    1    Yoshihito Takada :    1   male   :16808   Class :character   1st Qu.:2018-10-23   1st Qu.:   1   1st Qu.:    0
+ 050035w at acadiau.ca:    1   ?                 :    1   other  :    1   Mode  :character   Median :2018-12-26   Median :   2   Median :    0
+ a e lawrence         :    1   “Cosmin           :    1   unknown:    6                      Mean   :2018-11-24   Mean   :  27   Mean   :   27
+ a fong               :    1   050035w@acadiau.ca:    1                                      3rd Qu.:2018-12-26   3rd Qu.:   7   3rd Qu.:    0
+ a gilmore            :    1   A E Lawrence      :    1                                      Max.   :2018-12-26   Max.   :5143   Max.   :53877
+ (Other)              :17824   (Other)           :17824                                      NA's   :17305        NA's   :82     NA's   :82
+    ntokens            nlines          nfilesaut      nfilescom       firstused             lastused
+ Min.   :      0   Min.   :      0   Min.   :   0   Min.   :    0   Min.   :1969-12-31   Min.   :2002-02-12
+ 1st Qu.:      4   1st Qu.:      1   1st Qu.:   1   1st Qu.:    0   1st Qu.:2008-05-12   1st Qu.:2010-08-10
+ Median :     58   Median :     18   Median :   2   Median :    0   Median :2012-04-18   Median :2014-11-17
+ Mean   :   5595   Mean   :   1318   Mean   :  19   Mean   :    7   Mean   :2011-11-08   Mean   :2013-10-30
+ 3rd Qu.:   1041   3rd Qu.:    268   3rd Qu.:   7   3rd Qu.:    0   3rd Qu.:2015-08-26   3rd Qu.:2017-09-08
+ Max.   :4574497   Max.   :1177745   Max.   :4068   Max.   :12724   Max.   :2018-12-18   Max.   :2037-04-25
+ NA's   :82        NA's   :82                                       NA's   :83           NA's   :83
 #+end_example
 
 *  Emails
@@ -159,30 +159,30 @@ summary(data)
 
 #+RESULTS:
 #+begin_example
-    recordid                   personid               emailname                          emailaddr                    domain         notes          
- Min.   :    2   james bottomley   :   34   David S. Miller:   29   fernando@oss.ntt.co.jp    :    9   gmail.com         : 4855   Length:27272      
- 1st Qu.: 6820   david s. miller   :   33   Steve French   :   28   daniel.marjamaki@comhem.se:    8   intel.com         : 1374   Class :character  
- Median :13638   steve french      :   30   James Bottomley:   27   juha.yrjola@solidboot.com :    7   redhat.com        :  520   Mode  :character  
- Mean   :13638   linus torvalds    :   22                  :   22   lorenzo@gnu.org           :    7   ti.com            :  376                     
- 3rd Qu.:20455   christoph hellwig :   20   Linus Torvalds :   22   rafalbilski@interia.pl    :    7   google.com        :  356                     
- Max.   :27273   greg kroah-hartman:   20   Kyle McMartin  :   18   dmonakhov@openvz.org      :    6   linux.vnet.ibm.com:  318                     
-                 (Other)           :27113   (Other)        :27126   (Other)                   :27228   (Other)           :19473                     
-   dateadded           ncommitsaut    ncommitscom       ntokens            nlines          nfilesaut      nfilescom      firstused         
- Min.   :2018-08-19   Min.   :   0   Min.   :    0   Min.   :      0   Min.   :      0   Min.   :   0   Min.   :   0   Min.   :1969-12-31  
- 1st Qu.:2018-08-19   1st Qu.:   1   1st Qu.:    0   1st Qu.:      2   1st Qu.:      1   1st Qu.:   1   1st Qu.:   0   1st Qu.:2008-04-19  
- Median :2018-08-19   Median :   1   Median :    0   Median :     41   Median :     13   Median :   2   Median :   0   Median :2012-03-09  
- Mean   :2018-08-21   Mean   :  18   Mean   :   18   Mean   :   3641   Mean   :    858   Mean   :  13   Mean   :   6   Mean   :2011-10-24  
- 3rd Qu.:2018-08-19   3rd Qu.:   5   3rd Qu.:    0   3rd Qu.:    664   3rd Qu.:    174   3rd Qu.:   6   3rd Qu.:   0   3rd Qu.:2015-08-20  
- Max.   :2018-12-26   Max.   :3504   Max.   :48566   Max.   :4469807   Max.   :1151644   Max.   :3741   Max.   :7741   Max.   :2018-12-21  
-                                                                                                                       NA's   :105         
-    lastused         
- Min.   :2000-12-31  
- 1st Qu.:2009-06-24  
- Median :2013-09-23  
- Mean   :2012-12-31  
- 3rd Qu.:2017-01-26  
- Max.   :2037-04-25  
- NA's   :105         
+    recordid                   personid               emailname                          emailaddr                    domain         notes
+ Min.   :    2   james bottomley   :   34   David S. Miller:   29   fernando@oss.ntt.co.jp    :    9   gmail.com         : 4855   Length:27272
+ 1st Qu.: 6820   david s. miller   :   33   Steve French   :   28   daniel.marjamaki@comhem.se:    8   intel.com         : 1374   Class :character
+ Median :13638   steve french      :   30   James Bottomley:   27   juha.yrjola@solidboot.com :    7   redhat.com        :  520   Mode  :character
+ Mean   :13638   linus torvalds    :   22                  :   22   lorenzo@gnu.org           :    7   ti.com            :  376
+ 3rd Qu.:20455   christoph hellwig :   20   Linus Torvalds :   22   rafalbilski@interia.pl    :    7   google.com        :  356
+ Max.   :27273   greg kroah-hartman:   20   Kyle McMartin  :   18   dmonakhov@openvz.org      :    6   linux.vnet.ibm.com:  318
+                 (Other)           :27113   (Other)        :27126   (Other)                   :27228   (Other)           :19473
+   dateadded           ncommitsaut    ncommitscom       ntokens            nlines          nfilesaut      nfilescom      firstused
+ Min.   :2018-08-19   Min.   :   0   Min.   :    0   Min.   :      0   Min.   :      0   Min.   :   0   Min.   :   0   Min.   :1969-12-31
+ 1st Qu.:2018-08-19   1st Qu.:   1   1st Qu.:    0   1st Qu.:      2   1st Qu.:      1   1st Qu.:   1   1st Qu.:   0   1st Qu.:2008-04-19
+ Median :2018-08-19   Median :   1   Median :    0   Median :     41   Median :     13   Median :   2   Median :   0   Median :2012-03-09
+ Mean   :2018-08-21   Mean   :  18   Mean   :   18   Mean   :   3641   Mean   :    858   Mean   :  13   Mean   :   6   Mean   :2011-10-24
+ 3rd Qu.:2018-08-19   3rd Qu.:   5   3rd Qu.:    0   3rd Qu.:    664   3rd Qu.:    174   3rd Qu.:   6   3rd Qu.:   0   3rd Qu.:2015-08-20
+ Max.   :2018-12-26   Max.   :3504   Max.   :48566   Max.   :4469807   Max.   :1151644   Max.   :3741   Max.   :7741   Max.   :2018-12-21
+                                                                                                                       NA's   :105
+    lastused
+ Min.   :2000-12-31
+ 1st Qu.:2009-06-24
+ Median :2013-09-23
+ Mean   :2012-12-31
+ 3rd Qu.:2017-01-26
+ Max.   :2037-04-25
+ NA's   :105
 #+end_example
 
 
@@ -204,7 +204,7 @@ select gender, count(*) as npersons, sum(ncommitsaut) as ncommitsaut, sum(ntoken
 | other   |        1 |         284 |    41062 |    10011 |
 | unknown |        6 |           4 |       32 |        9 |
 
-top 20 committers who are female 
+top 20 committers who are female
 
 #+BEGIN_SRC sqlite
 select * from persons where gender = 'female' order by ncommitsaut desc limit 20;
@@ -265,11 +265,11 @@ select * from persons where gender = 'female' order by ntokens desc limit 20;
 | stephane grosjean   | Stephane Grosjean   | female |                     |           |          43 |           0 |   30332 |   7655 |        14 |         0 | 2012-02-01 02:05:48 | 2018-06-21 06:23:31 |
 
 
-Plot women by year in which they joined. 
+Plot women by year in which they joined.
 
 The problem with this histogram is that the bins are not for each year
 
-#+begin_src R  :results graphics :file gender.png :width 16 :height 8 :res 200 :units cm  
+#+begin_src R  :results graphics :file gender.png :width 16 :height 8 :res 200 :units cm
 library(ggplot2)
 library(scales)
 library("RSQLite")
@@ -291,7 +291,7 @@ gg <- ggplot(data, aes(data$firstused, fill=data$gender))
 gg <- gg + geom_histogram()
 #gg <- gg + scale_x_discrete("X title")
 #gg <- gg + scale_y_continuous("Y title")
-gg 
+gg
 #+end_src
 
 #+RESULTS:
@@ -299,7 +299,7 @@ gg
 
 scatter plot of newcomers per year
 
-#+begin_src R  :results graphics :file genderYear.png :width 16 :height 8 :res 200 :units cm  
+#+begin_src R  :results graphics :file genderYear.png :width 16 :height 8 :res 200 :units cm
 library(ggplot2)
 library(scales)
 library("RSQLite")
@@ -316,7 +316,7 @@ gg <- gg + theme(axis.text.x = element_text(angle = 90, hjust = 1))
 gg <- gg + geom_point()
 #gg <- gg + scale_x_discrete("X title")
 #gg <- gg + scale_y_continuous("Y title")
-gg 
+gg
 #+end_src
 
 #+RESULTS:
